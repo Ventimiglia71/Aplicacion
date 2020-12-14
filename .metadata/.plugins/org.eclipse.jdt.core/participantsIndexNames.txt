@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+D:\aaaPracticas\Aplicación\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2419208689.index
+\aulas\src\main\java
+D:\aaaPracticas\Aplicacion\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2419208689.index
+\aulas\src\main\java
