@@ -26,6 +26,10 @@
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
+.btpurp:hover {
+	background-color: #e4e4e4;
+}
+
 .nav-purp {
     color: white;
 }
@@ -71,4 +75,8 @@
 .logo {
     max-width: 330px;
     max-height: 39px;
+}
+
+.borrar {
+	height: 2000px;
 }

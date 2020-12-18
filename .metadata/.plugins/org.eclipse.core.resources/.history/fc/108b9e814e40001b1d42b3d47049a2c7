@@ -1,0 +1,19 @@
+package com.cice.aulas.serviceimpl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.cice.aulas.repositories.IReservaRepository;
+import com.cice.aulas.service.IReservaService;
+
+@Service
+public class ReservaSeviceImpl implements IReservaService{
+	@Autowired
+	IReservaRepository reservaRepo;
+	
+	@Override
+	public List<Reserva> existeAnyo(int anoSelec) {
+		return reservaRepo.existeAnyo(anoSelec);
+	}
+
+}

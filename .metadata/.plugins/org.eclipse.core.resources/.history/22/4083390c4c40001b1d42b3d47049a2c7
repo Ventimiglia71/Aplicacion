@@ -1,0 +1,5 @@
+package com.cice.aulas.repositories;
+
+public class IReservaRepository {
+
+}

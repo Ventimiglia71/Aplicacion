@@ -1,0 +1,64 @@
+<nav class="navbar navbar-expand-lg navbar-dark purpura-navbar">
+    <a class="navbar-brand" href="/mantenimiento/MenuPrincipal">
+        <img class="logo" src="./imagenes/CICE.PNG" alt="Mantenimiento">
+    </a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+                <a class="top nav-link">Mantenimiento</a>
+            </li>
+            <li class="nav-item dropdown"><a
+                class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false"> Equipamientos </a>
+                <div class="dropdown-menu darkBG" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="/hoteleclipse/admin/findAllHabitaciones">Alta</a>
+                    <a class="dropdown-item" href="/hoteleclipse/admin/inicioCrearHabitacion">Listado</a>
+                    <a class="dropdown-item" href="/hoteleclipse/admin/inicioCrearHabitacion">Modificación</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown"><a
+                class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false"> Ordenadores </a>
+                <div class="dropdown-menu darkBG" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="/hoteleclipse/admin/findAllHabitaciones">Alta</a>
+                    <a class="dropdown-item" href="/hoteleclipse/admin/inicioCrearHabitacion">Listado</a>
+                    <a class="dropdown-item" href="/hoteleclipse/admin/inicioCrearHabitacion">Modificación</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown"><a
+                class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false"> Sedes </a>
+                <div class="dropdown-menu darkBG" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="/hoteleclipse/admin/findAllHabitaciones">Alta</a>
+                    <a class="dropdown-item" href="/hoteleclipse/admin/inicioCrearHabitacion">Listado</a>
+                    <a class="dropdown-item" href="/hoteleclipse/admin/inicioCrearHabitacion">Modificación</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown"><a
+                class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false"> Aulas </a>
+                <div class="dropdown-menu darkBG" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="/hoteleclipse/admin/findAllHabitaciones">Alta</a>
+                    <a class="dropdown-item" href="/hoteleclipse/admin/inicioCrearHabitacion">Listado</a>
+                    <a class="dropdown-item" href="/hoteleclipse/admin/inicioCrearHabitacion">Modificación</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown"><a
+                class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false"> Reservas </a>
+                <div class="dropdown-menu darkBG" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item-mio" href="/hoteleclipse/admin/findAllHabitaciones">Consulta</a>
+                    <a class="dropdown-item-mio" href="/hoteleclipse/admin/inicioCrearHabitacion">Reserva</a>
+                </div>
+            </li>
+        </ul>
+        <form action="/mantenimiento/" method="GET" class="form-inline my-2 my-lg-0">
+            <button class="btpurp btn-purpura my-2 my-sm-0" type="submit">Salir</button>
+        </form>
+    </div>
+</nav>
