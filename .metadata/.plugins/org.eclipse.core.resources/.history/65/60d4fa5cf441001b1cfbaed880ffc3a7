@@ -1,0 +1,23 @@
+package com.cice.aulas.controllers;
+
+import java.util.Calendar;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+@Controller
+public class reservasController {
+
+	@GetMapping("/preConsulta")
+	public ModelAndView preConsulta() {
+		Calendar c1 = Calendar.getInstance();
+		int anyoNum = c1.get(Calendar.YEAR);
+		String anyoIni = Integer.toString(anyoNum);
+		
+		
+		ModelAndView mav = new ModelAndView();
+		mav.setViewName("preConsulta");
+		return mav;
+	}
+}

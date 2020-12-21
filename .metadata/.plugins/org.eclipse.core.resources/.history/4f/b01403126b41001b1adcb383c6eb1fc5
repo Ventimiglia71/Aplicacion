@@ -1,0 +1,91 @@
+::-webkit-input-placeholder { color: #fed0d3; } 
+:-moz-placeholder { /* Firefox 18- */ color: #fed0d3; } 
+::-moz-placeholder { /* Firefox 19+ */ color: #fed0d3; } 
+:-ms-input-placeholder { color: #fed0d3; }
+:focus::-webkit-input-placeholder{color:transparent;}
+
+html, body {
+    overflow: hidden;
+  }
+  
+div {
+    font-family: Vegur, 'PT Sans', Verdana, sans-serif;
+}
+
+h7 {
+  font-size: 11px;
+}
+
+.colorCabecera {
+  background-color: white;
+  color: #d50478;
+}
+
+.partirEn4 {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+
+.partirEn2 {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+.partir35 {
+  float: left;
+  width: 35%;
+  text-align: center;
+}
+
+.partir65 {
+  margin-left: 1vh;
+  float: left;
+  width: 65%;
+  text-align: center;
+}
+
+.leerAnyo {
+  background-color: #d50478;
+  color: white;
+  border-color: white;
+  margin-top: 0.65vh;
+  width: 10vh;
+  height: auto;
+  font-size: 11px;
+  text-align: center;
+}
+
+.listas {
+  background-color: #d50478;
+  color: white;
+  border-color: white;
+  margin-top: 0.65vh;
+  width: 25vh;
+  height: auto;
+  font-size: 11px;
+  text-align: center;
+  border-width: 2px;
+  border-style: inset;
+}
+
+.margenSup {
+  margin-top: 0.85vh!important;
+}
+
+.botonCons {
+  color: white;
+  background-color: #d50478;
+  border-color: white;
+  font-size: 11px;
+  width: 60%;
+  border-radius: 50rem;
+}
+
+.botonCons:hover {
+  color: #d50478;
+  background-color: white;
+
+}
+

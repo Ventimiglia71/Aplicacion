@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mantenimiento</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="./bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" 	href="./bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/estilo.css"></head>
+    <link rel="stylesheet" href="./css/navbarmio.css"></head>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark purpura-navbar">
+        <a class="navbar-brand" href="/mantenimiento/MenuPrincipal">
+            <img class="logo" src="./imagenes/CICE.PNG" alt="Mantenimiento">
+        </a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="top nav-link">Mantenimiento</a>
+                </li>
+                <li class="nav-item dropdown"><a
+                    class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                    role="button" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false"> Equipamientos </a>
+                    <div class="dropdown-menu darkBG" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/hoteleclipse/admin/findAllHabitaciones">Alta</a>
+                        <a class="dropdown-item" href="/hoteleclipse/admin/inicioCrearHabitacion">Listado</a>
+                        <a class="dropdown-item" href="/hoteleclipse/admin/inicioCrearHabitacion">Modificación</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown"><a
+                    class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                    role="button" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false"> Ordenadores </a>
+                    <div class="dropdown-menu darkBG" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/hoteleclipse/admin/findAllHabitaciones">Alta</a>
+                        <a class="dropdown-item" href="/hoteleclipse/admin/inicioCrearHabitacion">Listado</a>
+                        <a class="dropdown-item" href="/hoteleclipse/admin/inicioCrearHabitacion">Modificación</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown"><a
+                    class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                    role="button" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false"> Sedes </a>
+                    <div class="dropdown-menu darkBG" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/hoteleclipse/admin/findAllHabitaciones">Alta</a>
+                        <a class="dropdown-item" href="/hoteleclipse/admin/inicioCrearHabitacion">Listado</a>
+                        <a class="dropdown-item" href="/hoteleclipse/admin/inicioCrearHabitacion">Modificación</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown"><a
+                    class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                    role="button" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false"> Aulas </a>
+                    <div class="dropdown-menu darkBG" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/hoteleclipse/admin/findAllHabitaciones">Alta</a>
+                        <a class="dropdown-item" href="/hoteleclipse/admin/inicioCrearHabitacion">Listado</a>
+                        <a class="dropdown-item" href="/hoteleclipse/admin/inicioCrearHabitacion">Modificación</a>
+                    </div>
+                </li>
+                </ul>
+            <form action="/mantenimiento/" method="GET" class="form-inline my-2 my-lg-0">
+                <button class="btpurp btn-purpura my-2 my-sm-0" type="submit">Salir</button>
+            </form>
+        </div>
+    </nav>
+    <form action="/aulas/consulta">
+        <div class="colorCabecera partirEn4">
+            <h7 class="margenSup" id="usuario">Usuario: <span> albertorpon@gmail</span></h7>
+        </div>
+        <div class="colorCabecera partirEn4">
+            <h7 class="margenSup partirEn2">Seleccione Año: </h7>
+            <input class="leerAnyo partirEn2" type="text" name="anoSelec" placeholder="Año">
+        </div>
+        <div class="colorCabecera partirEn4">
+            <h7 class="margenSup partir35">Seleccione Sede: </h7>
+            <select class="listas partir65" name="jornada">
+                <option value="1">Maldonado</option> 
+                <option value="2">Povedilla</option> 
+            </select>
+        </div>
+        <div class="colorCabecera partirEn4">
+            <h7 class="margenSup partir35">Seleccione Aula: </h7>
+            <select class="listas partir65" name="jornada">
+                <option value="1">Uno</option> 
+                <option value="2">Dos</option> 
+                <option value="3">Tres</option> 
+                <option value="4">Cuatro</option> 
+                <option value="5">Cinco</option> 
+            </select>
+        </div>
+        <div class="colorCabecera partirEn4">
+            <button class="botonCons" type="submit">Consultar</button>    </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+package com.cice.aulas.serviceimpl;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.cice.aulas.entities.Aula;
+import com.cice.aulas.service.IAulasService;
+
+@Service
+public class AulasServiceImpl implements IAulasService {
+
+	@Override
+	public List<Aula> aulasPorSede(Integer codSede) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

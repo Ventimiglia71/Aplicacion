@@ -1,0 +1,34 @@
+package com.cice.aulas.controllers;
+
+import java.util.Calendar;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.cice.aulas.entities.Sede;
+import com.cice.aulas.service.ISedesService;
+
+@Controller
+public class reservasController {
+	@Autowired
+	ISedesService sedesService;
+	
+	@GetMapping("/preReserva")
+	public ModelAndView preReserva() {
+		Calendar c1 = Calendar.getInstance();
+		int anyoNum = c1.get(Calendar.YEAR);
+		String anyo = Integer.toString(anyoNum);
+		List<Sede> sedes = sedesService.allSedes();
+		
+		ModelAndView mav = new ModelAndView();
+
+		mav.addObject("anyo", anyo);
+		mav.addObject("sedes", sedes);
+
+		mav.setViewName("preReserva");
+		return mav;
+	}
+}

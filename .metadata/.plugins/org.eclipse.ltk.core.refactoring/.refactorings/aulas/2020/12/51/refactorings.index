@@ -4,3 +4,9 @@
 1608198508018	Delete element
 1608198854952	Delete element
 1608199149143	Rename compilation unit 'reservaSeviceImpl.java'
+1608294706526	Rename type 'Mantenimiento'
+1608379487122	Rename type 'IReservaRepository'
+1608379498723	Rename type 'IReservaService'
+1608379505822	Rename type 'ReservaSeviceImpl'
+1608379522289	Rename type 'MantenimientoController'
+1608380099592	Rename type 'ISedesSevice'
