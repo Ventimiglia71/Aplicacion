@@ -39,7 +39,7 @@
 					<tr>
 						<th scope="row">${ordenador.cod_ordenador}</th>
 						
-						<td class="derecha">${ordenador.cod_tipord}</td>
+						<td class="derecha">${ordenador.tipo_ordenador}</td>
 						<td class="derecha">${ordenador.tamano_pant}</td>
 						<td class="derecha">${ordenador.cpu}</td>
 						<td class="derecha">${ordenador.ram}</td>					

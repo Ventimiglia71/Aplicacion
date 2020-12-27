@@ -14,8 +14,8 @@
 <script src="/bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
 <link rel="stylesheet"
 	href="/bootstrap-4.5.0-dist/css/bootstrap.min.css">
-<link rel="stylesheet" href="/css/hoteleclipse.css">
-<title>Alta Ordenador</title>
+<link rel="stylesheet" href="/css/estiloan.css">
+<title>Moficiar Ordenador</title>
 </head>
 
 <body>
@@ -24,34 +24,35 @@
 
 	<div class="container-md w-75">
 		<h2 class="paddingTop20">
-			ALTA <span class="badge badge-secondary">ORDENADOR</span>
+			MODIFICAR <span class="badge badge-secondary">ORDENADOR</span>
 		</h2>
 
-		<form action="/aulas/altaordenador" method="POST">
+		<form action="/aulas/modificarOrdenador" method="GET">
 		
+			<div>
+				<input class="invisible" name="cod_ordenador" value="${cod_ordenador}">
+			</div>
 			<div class="form-group">
-				<label for="cod_tipord">Tipo Ordenador</label> 
-	            <select class="form-control" id="cod_tipord" name="cod_tipord">
-	           		<option value="1" selected>Windows</option>
-					<option value="2">MAC</option>
-	            </select>
+				<label for="cod_tipord">Tipo Ordenador</label> <input
+					type="text" class="form-control" name="cod_tipord"
+					id="cod_tipord" value="${cod_tipord}" required>
 			</div>
 			<div class="form-group">
 				<label for="tamano_pant">Tamaño pantalla</label> <input type="text"
 					class="form-control" name="tamano_pant" id="tamano_pant"
-					placeholder="Tamaño pantalla" required>
+					value="${tamano_pant}" required>
 			</div>
 			<div class="form-group">
 				<label for="cpu">CPU</label> <input type="text" class="form-control"
-					name="cpu" id="cpu" placeholder="Tipo de CPU" required>
+					name="cpu" id="cpu" value="${cpu}" required>
 			</div>
 			<div class="form-group">
 				<label for="ram">RAM</label> <input type="text" class="form-control"
-					name="ram" id="email" placeholder="Numero de RAM" required>
+					name="ram" id="email" value="${ram}" required>
 			</div>
 
 			<div class="botonEnviar">
-				<button type="submit" class="btn btn-secondary">Crear</button>
+				<button type="submit" class="btn btn-secondary">Modificar</button>
 			</div>
 		</form>
 	</div>

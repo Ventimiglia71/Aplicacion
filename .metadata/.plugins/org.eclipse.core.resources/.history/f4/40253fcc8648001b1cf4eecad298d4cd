@@ -72,7 +72,7 @@ public class OrdenadorController {
 	@GetMapping("/modificarOrdenador")
 	public String modificarOrdenador(
 			@RequestParam("cod_ordenador") int cod_ordenador,
-			@RequestParam("cod_tipord") int cod_tipord,
+			@RequestParam("cod_tipord") String cod_tipord,
 			@RequestParam("tamano_pant") String tamano_pant, 
 			@RequestParam("cpu") String cpu,
 			@RequestParam("ram") String ram) {

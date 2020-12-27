@@ -33,9 +33,11 @@
 				<input class="invisible" name="cod_ordenador" value="${cod_ordenador}">
 			</div>
 			<div class="form-group">
-				<label for="tipo_ordenador">Tipo Ordenador</label> <input
-					type="text" class="form-control" name="tipo_ordenador"
-					id="tipo_ordenador" value="${tipo_ordenador}" required>
+				<label for="cod_tipord">Tipo Ordenador</label> 
+	            <select class="form-control" id="cod_tipord" name="cod_tipord">
+	           		<option value="1" selected>Windows</option>
+					<option value="2">MAC</option>
+	            </select>
 			</div>
 			<div class="form-group">
 				<label for="tamano_pant">Tamaño pantalla</label> <input type="text"

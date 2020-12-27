@@ -39,14 +39,14 @@
 					<tr>
 						<th scope="row">${ordenador.cod_ordenador}</th>
 						
-						<td class="derecha">${ordenador.tipo_ordenador}</td>
+						<td class="derecha">${ordenador.cod_tipord}</td>
 						<td class="derecha">${ordenador.tamano_pant}</td>
 						<td class="derecha">${ordenador.cpu}</td>
 						<td class="derecha">${ordenador.ram}</td>					
 						<td><img src=""></td>
 						<td class="derecha"><a href="/aulas/borrarordenador?cod_ordenador=${ordenador.cod_ordenador}">Borrar</a></td>
 						<td class="derecha"><a href="/aulas/preModificar?cod_ordenador=${ordenador.cod_ordenador}&
-							tipo_ordenador=${ordenador.tipo_ordenador}&
+							cod_tipord=${ordenador.cod_tipord}&
 							tamano_pant=${ordenador.tamano_pant}&
 							cpu=${ordenador.cpu}&
 							ram=${ordenador.ram}">Modificar</a></td>
