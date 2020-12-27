@@ -19,4 +19,9 @@ public class SedesServiceImpl implements ISedesService{
 		return sedesRepo.allSedes();
 	}
 
+	@Override
+	public String nombreSedePorCodSede(Integer sedeSelec) {
+		return sedesRepo.nombreSedePorCodSede(sedeSelec);
+	}
+
 }

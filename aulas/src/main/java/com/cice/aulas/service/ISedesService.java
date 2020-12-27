@@ -6,4 +6,5 @@ import com.cice.aulas.entities.Sede;
 
 public interface ISedesService {
 	public List<Sede> allSedes();
+	public String nombreSedePorCodSede(Integer sedeSelec);
 }

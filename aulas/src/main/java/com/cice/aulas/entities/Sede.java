@@ -1,6 +1,8 @@
 package com.cice.aulas.entities;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
@@ -8,6 +10,7 @@ import javax.persistence.Table;
 @Table(name="sedes")
 public class Sede {
 	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int cod_sede;
 	private String nombre_sede;
 	private String direccion;

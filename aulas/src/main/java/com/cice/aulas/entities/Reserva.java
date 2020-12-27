@@ -1,6 +1,8 @@
 package com.cice.aulas.entities;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
@@ -8,16 +10,17 @@ import javax.persistence.Table;
 @Table(name="reservas")
 public class Reserva {
 	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int cod_reserva;
 	private int anyo;
 	private int mes;
 	private int dia;
 	private int cod_aula;
 	private String usuario;
-	private int horaIni;
-	private int horaFin;
-	public Reserva(int cod_reserva, int anyo, int mes, int dia, int cod_aula, String usuario, int horaIni,
-			int horaFin) {
+	private int hora_ini;
+	private int hora_fin;
+	public Reserva(int cod_reserva, int anyo, int mes, int dia, int cod_aula, String usuario, int hora_ini,
+			int hora_fin) {
 		super();
 		this.cod_reserva = cod_reserva;
 		this.anyo = anyo;
@@ -25,8 +28,8 @@ public class Reserva {
 		this.dia = dia;
 		this.cod_aula = cod_aula;
 		this.usuario = usuario;
-		this.horaIni = horaIni;
-		this.horaFin = horaFin;
+		this.hora_ini = hora_ini;
+		this.hora_fin = hora_fin;
 	}
 	public Reserva() {
 		super();
@@ -67,24 +70,22 @@ public class Reserva {
 	public void setUsuario(String usuario) {
 		this.usuario = usuario;
 	}
-	public int getHoraIni() {
-		return horaIni;
+	public int getHora_ini() {
+		return hora_ini;
 	}
-	public void setHoraIni(int horaIni) {
-		this.horaIni = horaIni;
+	public void setHora_ini(int hora_ini) {
+		this.hora_ini = hora_ini;
 	}
-	public int getHoraFin() {
-		return horaFin;
+	public int getHora_fin() {
+		return hora_fin;
 	}
-	public void setHoraFin(int horaFin) {
-		this.horaFin = horaFin;
+	public void setHora_fin(int hora_fin) {
+		this.hora_fin = hora_fin;
 	}
 	@Override
 	public String toString() {
 		return "Reserva [cod_reserva=" + cod_reserva + ", anyo=" + anyo + ", mes=" + mes + ", dia=" + dia
-				+ ", cod_aula=" + cod_aula + ", usuario=" + usuario + ", horaIni=" + horaIni + ", horaFin=" + horaFin
-				+ "]";
+				+ ", cod_aula=" + cod_aula + ", usuario=" + usuario + ", hora_ini=" + hora_ini + ", hora_fin="
+				+ hora_fin + "]";
 	}
-	
-	
 }

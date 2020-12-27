@@ -2,6 +2,8 @@ package com.cice.aulas.entities;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
@@ -9,6 +11,7 @@ import javax.persistence.Table;
 @Table(name="aulas")
 public class Aula {
 	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int cod_aula;
 	private String nombre_aula;
 	private int num_aula;

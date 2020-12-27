@@ -19,4 +19,9 @@ public class AulasServiceImpl implements IAulasService {
 		return aulasRepo.aulasPorSede(codSede);
 	}
 
+	@Override
+	public String nombreAulaPorCodAula(Integer aulaSelec) {
+		return aulasRepo.nombreAulaPorCodAula(aulaSelec);
+	}
+
 }

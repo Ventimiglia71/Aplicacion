@@ -15,8 +15,13 @@ public class ReservasSeviceImpl implements IReservasService{
 	IReservasRepository reservaRepo;
 	
 	@Override
-	public List<Reserva> existeAnyo(Integer anoSelec) {
-		return reservaRepo.existeAnyo(anoSelec);
+	public List<Reserva> existeAnyoAula(Integer anoSelec, Integer aulaSelec) {
+		return reservaRepo.existeAnyoAula(anoSelec, aulaSelec);
+	}
+
+	@Override
+	public void grabarReserva(Reserva reserva) {
+		reservaRepo.save(reserva);
 	}
 
 }

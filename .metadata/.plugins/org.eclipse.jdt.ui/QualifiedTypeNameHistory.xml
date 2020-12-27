@@ -9,9 +9,14 @@
 <fullyQualifiedTypeName name="javax.persistence.Id"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
-<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="com.cice.aulas.repositories.IAulasRepository"/>
 <fullyQualifiedTypeName name="com.cice.aulas.service.IAulasService"/>
 <fullyQualifiedTypeName name="com.cice.aulas.entities.Aula"/>
 <fullyQualifiedTypeName name="javax.persistence.Column"/>
+<fullyQualifiedTypeName name="com.cice.aulas.service.IReservasService"/>
+<fullyQualifiedTypeName name="com.cice.aulas.entities.Reserva"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="com.cice.aulas.repositories.IReservasRepository"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="org.hibernate.annotations.Parameter"/>
 </qualifiedTypeNameHistroy>

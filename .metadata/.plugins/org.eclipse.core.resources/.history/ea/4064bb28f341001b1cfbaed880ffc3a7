@@ -1,5 +1,0 @@
-package com.cice.aulas.repositories;
-
-public interface ISedesRepository {
-
-}

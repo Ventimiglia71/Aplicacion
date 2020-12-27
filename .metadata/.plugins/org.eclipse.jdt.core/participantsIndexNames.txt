@@ -3,7 +3,15 @@ D:\aaaPracticas\Aplicación\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch
 \aulas\src\main\java
 D:\aaaPracticas\Aplicacion\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2419208689.index
 \aulas\src\main\java
+D:\aaaPracticas\Aplicacion\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3535228506.index
+\ruiz\src\main\java
+D:\aaaPracticas\Aplicacion\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1976450905.index
+\ruiz\src\main\java
 D:\aaaPracticas\Aplicacion\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3324267852.index
 \laliga\src\main\java
+D:\aaaPracticas\Aplicacion\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2337688873.index
+\ruiz\src\main\java
 D:\aaaPracticas\Aplicacion\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\773909511.index
 \hoteleclipse\src\main\java
+D:\aaaPracticas\Aplicacion\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2636736421.index
+\ruiz\src\main\java

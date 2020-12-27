@@ -6,4 +6,5 @@ import com.cice.aulas.entities.Aula;
 
 public interface IAulasService {
 	public List<Aula> aulasPorSede(Integer codSede);
+	public String nombreAulaPorCodAula(Integer aulaSelec);
 }

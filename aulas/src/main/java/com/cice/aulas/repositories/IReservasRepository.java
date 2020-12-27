@@ -9,7 +9,8 @@ import org.springframework.data.repository.query.Param;
 import com.cice.aulas.entities.Reserva;
 
 public interface IReservasRepository extends JpaRepository<Reserva, Integer> {
-	@Query(nativeQuery = true, value = "SELECT * FROM reservas WHERE ano = :anoSelec")
-	List<Reserva> existeAnyo(@Param("anoSelec") Integer anoSelec);
+	@Query(nativeQuery = true, value = "SELECT * FROM reservas WHERE anyo = :anoSelec and cod_aula = :aulaSelec")
+	List<Reserva> existeAnyoAula(	@Param("anoSelec") Integer anoSelec,
+									@Param("aulaSelec") Integer aulaSelec);
 	
 }
