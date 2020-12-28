@@ -32,9 +32,9 @@
                 role="button" data-toggle="dropdown" aria-haspopup="true"
                 aria-expanded="false"> Sedes </a>
                 <div class="dropdown-menu darkBG" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="/hoteleclipse/admin/findAllHabitaciones">Alta</a>
-                    <a class="dropdown-item" href="/hoteleclipse/admin/inicioCrearHabitacion">Listado</a>
-                    <a class="dropdown-item" href="/hoteleclipse/admin/inicioCrearHabitacion">Modificación</a>
+                    <a class="dropdown-item" href="/aulas/sedes/prepararAddSede">Alta</a>
+                    <a class="dropdown-item" href="/aulas/sedes/findAllSedes">Listado</a>
+                    <a class="dropdown-item" href="/aulas/sedes/prepararFindSede">Modificación</a>
                 </div>
             </li>
             <li class="nav-item dropdown"><a

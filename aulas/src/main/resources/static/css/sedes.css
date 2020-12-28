@@ -1,0 +1,177 @@
+#tit-listado {
+   color: #d50478;
+   text-align: center;
+   text-transform: uppercase;
+   font-size: 28px; 
+   font-weight: 800;
+   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+   line-height: 1;
+   margin-top: 1.5em;
+   margin-bottom: 0.9em;
+}
+
+#tabla-sedes {
+   width: 100%;
+   height: 435px;
+   margin: auto;
+   border: 2px solid;
+   border-color:#d50478;
+   overflow-wrap: break-word;
+   overflow: auto;
+   display: block;
+}
+
+tbody {
+   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+tbody tr:hover{
+   background: black !important;
+   color: white;
+}
+
+.estilo-col1 {
+   width: 5%;
+}
+
+.estilo-col2 {
+   width: 30%;
+   padding-top: 3em;
+}
+
+.estilo-col3 {
+   width: 40%;
+}
+.estilo-col4 {
+   width: 15%;
+}
+
+.texto-centrado {
+   text-align: center;
+}
+
+table td{
+   vertical-align: middle !important;
+}
+
+#btn-borrar:hover {
+   background-color: #d50478 !important;
+}
+
+.colores-base {
+   background-color: #d50478;
+   color: white;
+}
+
+.btn-modal-ok:hover{
+   background-color: #d50478;
+   color: white;
+}
+
+/************************************************/
+
+.borde-fucsia-1{
+   border: 1px solid #d50478;
+}
+
+.disabled-fondo{
+   background-color: #ededed !important;
+}
+.disabled-obj {
+   background-color: #ededed !important;
+   color: #d50478;
+}
+
+.margen-botton03{
+   margin-bottom: 0.3em;
+}
+
+.font-blkchcry{
+   font-family: "blkchcry";
+}
+
+fieldset.fieldset-border {
+   border: 1px groove #d50478;
+   padding: 0em 0.5em;
+}
+
+legend.fieldset-border {
+   width: auto;
+   margin: 0em;
+   margin-bottom: 0.5em;
+   padding:0 .1em .1em;       /* top, derecha e izquierda, bajo */
+   border-bottom: none;
+   font-weight: 700;
+   color: #d50478;
+   font-size: 20px;
+}
+
+.etiqueta{
+   margin-bottom: 0.em;
+   margin: 0.2em;
+   padding-left: 1em;
+   font-size: 1.15em;
+   font-weight: bold;
+}
+
+.input-field{
+   padding: 0.2em 0.5em;
+   border: 1px solid black;
+   border-radius: 0.25em;
+   color: black;
+   background-color: white;
+}
+
+#fcodigo{
+   margin-left: 1.2em;
+   width: 7.5%;
+}
+
+#fnombre{
+   margin-left: 0.68em;
+   width: 45%;
+}
+
+#fdireccion{
+   width: 80%;
+}
+
+#ftelefono{
+   margin-left: 0.45em;
+   width: 20%;
+}
+
+#fnumaulas{
+   margin-left: 1.75em;
+   width: 7.5%;
+}
+
+input[type=number] {      /* Elimina los botones en campos numéricos.*/
+   -moz-appearance:textfield;
+}
+
+.btn-operacion{
+   margin-top: 0.6em;
+   margin-bottom: 0.6em;
+   margin-right: 0.09em;
+   float: right;
+}
+
+.btn-operacion:hover{
+   background-color: #d50478;
+   color: white;
+}
+
+.btn-modal-1button{
+   margin: auto;
+}
+
+.div-mensaje{
+   margin-top: 0.7em;
+   width: 75%;
+   float: left;
+   padding-left: 1.4em;
+   color: #008000;
+   font-size: 20px;
+   font-weight: 700;
+}
