@@ -8,10 +8,10 @@ import org.springframework.stereotype.Service;
 
 import com.cice.aulas.entities.Sede;
 import com.cice.aulas.repositories.ISedeRepository;
-import com.cice.aulas.service.ISedeServices;
+import com.cice.aulas.service.ISedesService;
 
 @Service
-public class SedeServicesImpl implements ISedeServices {
+public class SedesServiceImpl implements ISedesService {
 	@Autowired
 	ISedeRepository sedeRepository ;
 
@@ -42,7 +42,17 @@ public class SedeServicesImpl implements ISedeServices {
 	}
 
 	@Override
-	public List<Sede> listarSedes() {
+	public List<Sede> allSedes() {
 		return sedeRepository.findAll();
+	}
+
+	@Override
+	public String nombreSedePorCodSede(int idSede) {
+		Sede sede = consultarSede(idSede);
+		if(sede != null) {
+			return sede.getNombre_sede();
+		} else {
+			return null;
+		}
 	}
 }

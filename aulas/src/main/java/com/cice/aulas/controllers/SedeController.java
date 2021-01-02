@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.cice.aulas.entities.Sede;
-import com.cice.aulas.service.ISedeServices;
+import com.cice.aulas.service.ISedesService;
 
 @Controller
 public class SedeController {
@@ -17,7 +17,7 @@ public class SedeController {
 	private static final String OPERACION_OK = "Operación realizada correctamente.";
 	
 	@Autowired
-	private ISedeServices servicio;
+	private ISedesService servicio;
 	
 	// Captura los datos de la sede para el alta.
 	@GetMapping("/sedes/prepararAddSede")
@@ -93,7 +93,7 @@ public class SedeController {
 	@GetMapping("/sedes/findAllSedes")
 	public ModelAndView findAllSedes(){
 		ModelAndView mav = new ModelAndView();
-		List<Sede> sedes = servicio.listarSedes();
+		List<Sede> sedes = servicio.allSedes();
 		mav.setViewName("mostrarSedes");
 		mav.addObject("sedes", sedes);
 		return mav;
