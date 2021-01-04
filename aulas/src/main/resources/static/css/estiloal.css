@@ -46,14 +46,31 @@ div {
   text-align: center;
 }
 
+.partir2 {
+  float: left;
+  width: 2%;
+  text-align: center;
+}
+
 .partir3 {
   float: left;
   width: 3%;
   text-align: center;
 }
 
+.partir4 {
+  float: left;
+  width: 4%;
+  text-align: center;
+}
+
+.partir5 {
+  float: left;
+  width: 5%;
+  text-align: center;
+}
+
 .partir10 {
-  margin-left: 1vh;
   float: left;
   width: 10%;
   text-align: center;
@@ -84,7 +101,6 @@ div {
   text-align: center;
   border-color: #d50478;
   border-style: solid;
-  border-width: 2px;
 }
 
 .partir50 {
@@ -187,4 +203,31 @@ div {
 .espacio {
 	float: left;
 	height: 1vh;
+}
+
+.botonCal {
+  background-color: #e7e7e7;
+  border-color: #d50478;
+  border-style: inset;
+  border-width: 2px;
+}
+
+.numCal {
+	color: #d50478!important;
+}
+
+.botonInvisible {
+  background-color: white;
+  border-color: white;
+  color: white;
+}
+
+.numInvisible {
+	color: white!important;
+}
+
+.dias {
+	color: #d50478;
+	font-size: 18px;
+	text-align: center;
 }

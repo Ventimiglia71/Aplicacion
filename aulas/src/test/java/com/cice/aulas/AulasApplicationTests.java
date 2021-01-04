@@ -1,17 +1,12 @@
 package com.cice.aulas;
 
-import java.util.List;
-import java.util.Optional;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import com.cice.aulas.entities.Reserva;
-import com.cice.aulas.entities.Sede;
 import com.cice.aulas.repositories.IReservasRepository;
-import com.cice.aulas.repositories.ISedeRepository;
-import com.cice.aulas.service.ISedesService;
 
 @SpringBootTest
 class AulasApplicationTests {

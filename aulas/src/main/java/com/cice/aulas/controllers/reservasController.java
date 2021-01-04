@@ -1,5 +1,6 @@
 package com.cice.aulas.controllers;
 
+import java.util.Calendar;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -99,12 +100,18 @@ public class reservasController {
 			}
 			String nombreSede = sedesService.nombreSedePorCodSede(sedeSelec);
 			String nombreAula = aulasService.nombreAulaPorCodAula(aulaSelec);
-
+			
+			int diaSem = diaSemana(1, 1, Integer.parseInt(anoSelec));
+			//quitar
+			System.out.println("Día: " + diaSem);
+			//quitar
+			
 			mav.addObject("anoSelec", anoSelec);
 			mav.addObject("usuario", usuario);
 			mav.addObject("nombreSede", nombreSede);
 			mav.addObject("nombreAula", nombreAula);
 			mav.addObject("reservasAula", reservasAula);
+			mav.addObject("diaSem", diaSem);
 
 			mav.setViewName("reserva");
 			return mav;
@@ -122,4 +129,32 @@ public class reservasController {
 		}
 	}
 
+	int diaSemana (int dia, int mes, int ano)
+	   {
+	    int diaSem = 0;
+	    int nD = 0;
+	    Calendar c = Calendar.getInstance();
+
+	    c.set(ano, mes, dia);
+	    nD=c.get(Calendar.DAY_OF_WEEK) - 4; 
+	    System.out.println(nD);
+	    switch (nD){
+	        case 1: diaSem = 1;
+	            break;
+	        case 2: diaSem = 2;
+	            break;
+	        case 3: diaSem = 3;
+	            break;
+	        case -3: diaSem = 4;
+	            break;
+	        case -2: diaSem = 5;
+	            break;
+	        case -1: diaSem = 6;
+	            break;
+	        case 0: diaSem = 7;
+	            break;
+	    }
+
+	    return diaSem;
+	}
 }

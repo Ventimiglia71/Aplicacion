@@ -1,7 +1,0 @@
-package com.cice.aulas.repositories;
-
-import org.springframework.data.jpa.repository.JpaRepository;
-
-public interface IAulasRepository extends JpaRepository<T, ID> {
-
-}

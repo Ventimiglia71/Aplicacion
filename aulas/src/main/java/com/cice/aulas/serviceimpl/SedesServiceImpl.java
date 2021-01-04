@@ -7,13 +7,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.cice.aulas.entities.Sede;
-import com.cice.aulas.repositories.ISedeRepository;
+import com.cice.aulas.repositories.ISedesRepository;
 import com.cice.aulas.service.ISedesService;
 
 @Service
 public class SedesServiceImpl implements ISedesService {
 	@Autowired
-	ISedeRepository sedeRepository ;
+	ISedesRepository sedeRepository ;
 
 	@Override
 	public void agregarSede(Sede sede) {
@@ -22,7 +22,8 @@ public class SedesServiceImpl implements ISedesService {
 	
 	@Override
 	public Sede obtenerUltSede() {
-		return sedeRepository.findLastSede();
+		return null;
+		//		return sedeRepository.findLastSede();
 	}
 
 	@Override

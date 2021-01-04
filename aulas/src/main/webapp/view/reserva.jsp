@@ -32,12 +32,84 @@
 	    </div>
 	</div>
 	<div class="partir1 mt-1"><p></p></div>
+	
 	<div class="partir40 mt-1">
 		<div class="partirNo colorContraCabecera centrarTexto letraSynemono">Enero</div>
 		<div class="partirNo espacio"><p></p></div>
-		<div class=partir1></div>
-				
+
+		<!-- Cabecera Calendario -->
+		<div class="partir3"><p></p></div>
+		<div class="partir10">
+			<a class="dias" href="/aulas/seleccionar">L</a>
+		</div>	
+		<div class="partir4"><p></p></div>
+
+		<div class="partir10">
+			<a class="dias" href="/aulas/seleccionar">M</a>
+		</div>	
+		<div class="partir4"><p></p></div>
+		<div class="partir10">
+			<a class="dias" href="/aulas/seleccionar">X</a>
+		</div>	
+		<div class="partir4"><p></p></div>
+		<div class="partir10">
+			<a class="dias" href="/aulas/seleccionar">J</a>
+		</div>	
+		<div class="partir4"><p></p></div>
+		<div class="partir10">
+			<a class="dias" href="/aulas/seleccionar">V</a>
+		</div>	
+		<div class="partir4"><p></p></div>
+		<div class="partir10">
+			<a class="dias" href="/aulas/seleccionar">S</a>
+		</div>	
+		<div class="partir4"><p></p></div>
+		<div class="partir10">
+			<a class="dias" href="/aulas/seleccionar">D</a>
+		</div>	
+		<div class="partir3 numInvisible"><p>0</p></div>
+
+		<!-- Primera Semana -->
+		<div class="partir3"><p></p></div>
+		<c:forEach begin="1" end="${diaSem - 2}" var="i">
+			<div class="partir10 botonInvisible">
+				<a class="numInvisible">0</a>
+			</div>	
+			<div class="partir4"><p></p></div>
+		</c:forEach>		
+		<div class="partir10 botonInvisible">
+			<a class="numInvisible">0</a>
+		</div>	
+
+
+		<c:forEach begin="${reservasAula[0].dia}" end="${reservasAula[7 - diaSem].dia}" var="i">
+			<div class="partir4"><p></p></div>
+			<div class="partir10 botonCal">
+				<a class="numCal" href="/aulas/seleccionar">${reservasAula[i - 1].dia}</a>
+			</div>	
+		</c:forEach>  
+		<div class="partir3 numInvisible"><p>0</p></div>
+
+		<!-- Cuerpo del mes -->
+		<div class="partirNo espacio"><p></p></div>
+		<div class="partir3"><p></p></div>
+		<div class="partir10 botonCal">
+			<a class="numCal" href="/aulas/seleccionar">${reservasAula[i - 1].dia}</a>
+		</div>	
+
+
+		<c:forEach begin="${reservasAula[0].dia}" end="${reservasAula[7 - diaSem].dia}" var="i">
+			<div class="partir4"><p></p></div>
+			<div class="partir10 botonCal">
+				<a class="numCal" href="/aulas/seleccionar">${reservasAula[i - 1].dia}</a>
+			</div>	
+		</c:forEach>  
+		
+		<c:forEach begin="${reservasAula[0].dia}" end="${reservasAula[7 - diaSem].dia}" var="i">
+			<div class="partir3 numInvisible"><p>0</p></div>
+		</c:forEach>  
 	</div>
+	
 	<div class="partir3 mt-1"><p></p></div>
 	<div class="partir40 mt-1"><p></p></div>
 	<div class="partir1 mt-1"><p></p></div>
