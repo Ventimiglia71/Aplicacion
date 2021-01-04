@@ -16,7 +16,7 @@
 </head>
 
 <body>
-	<c:import url="navbar.jsp"/>
+	<c:import url="navbarVero.jsp"/>
     <h1 id="tit-listado">
         MODIFICACIÓN DE SEDE
     </h1>

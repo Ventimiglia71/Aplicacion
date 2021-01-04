@@ -27,7 +27,7 @@
 </head>
 
 <body>
-	<c:import url="navbarVero.jsp"/>
+	<c:import url="navbar.jsp"/>
     <h1 id="tit-listado">
         LISTADO DE SEDES
     </h1>

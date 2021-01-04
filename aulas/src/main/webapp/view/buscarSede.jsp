@@ -6,7 +6,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/aulas/css/resulClas.css" rel="stylesheet" type="text/css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="/aulas/bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="/aulas/bootstrap-4.5.0-dist/css/bootstrap.min.css">
@@ -25,7 +24,7 @@
 </head>
 
 <body onload="check-exist()">
-	<c:import url="navbar.jsp"/>
+	<c:import url="navbarVero.jsp"/>
     <h1 id="tit-listado">
         SOLICITUD DE SEDE
     </h1>
