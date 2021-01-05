@@ -18,8 +18,13 @@
 		function configurarBorrado(id){
 			idSede=id;
 		}
+		
 		function borrar(){
 			window.location.href = "/aulas/sedes/deleteSede?idSede=" + idSede;
+		}
+		
+		function modificar(idSede){
+			window.location.href = "/aulas/sedes/findSede?codigo=" + idSede;
 		}
 	</script>
     
@@ -31,30 +36,36 @@
     <h1 id="tit-listado">
         LISTADO DE SEDES
     </h1>
-    <div class="container-md w-75 table-responsive">
+    <div class="container-md w-75 table-responsive" id="div-contenedor">
 		<table class="table table-striped alineacionVerticalCentrada" id="tabla-sedes">
 			<thead class="colores-base">
 				<tr>
-					<th scope="col">Código</th>
+					<th scope="col" class="estilo-col-w5">Código</th>
 					<th scope="col">Nombre</th>
 					<th scope="col">Dirección</th>
                     <th scope="col">Teléfono</th>
                     <th scope="col">Aulas</th>
                     <th scope="col"></th>
+                    <th scope="col"></th>                    
 				</tr>
 			</thead>
 			<tbody>
                 <c:forEach items="${sedes}" var="sede">
                     <tr>
-                        <td class="estilo-col1">${sede.cod_sede}</td>  
-                        <td class="estilo-col2">${sede.nombre_sede}</td>
-                        <td class="estilo-col3">${sede.direccion}</td>
-                        <td class="estilo-col4">${sede.telefono}</td>
-                        <td class="estilo-col1 texto-centrado">${sede.num_aulas}</td>
-                        <td class="estilo-col1">
-                        	<button type="button" class="btn btn-secondary" id="btn-borrar" data-toggle="modal" data-target="#divBorrado" onclick="configurarBorrado('${sede.cod_sede}')">
+                        <td >${sede.cod_sede}</td>  
+                        <td class="estilo-col-w30">${sede.nombre_sede}</td>
+                        <td class="estilo-col-w40">${sede.direccion}</td>
+                        <td class="estilo-col-w10">${sede.telefono}</td>
+                        <td class="estilo-col-w5">${sede.num_aulas}</td>
+                        <td class="estilo-col-w5">
+                        	<button type="button" class="btn btn-secondary tooltip-buttons btn-listado colores-base" data-placement="top" title="BORRAR" id="btn-borrar" data-toggle="modal" data-target="#divBorrado" onclick="configurarBorrado('${sede.cod_sede}')">
 								Borrar
 							</button>
+                        </td>
+                        <td class="estilo-col-w5">                        						
+                        	<button type="button" class="btn btn-secondary tooltip-buttons btn-listado colores-base" data-placement="top" title="MODIFICAR" id="btn-modificar" onclick="modificar('${sede.cod_sede}')">
+								Modificar 
+							</button>									
                         </td>
                     </tr>
                 </c:forEach>
@@ -76,7 +87,7 @@
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-light" data-dismiss="modal">Cancelar</button>
-					<button type="button" class="btn btn-dark btn-modal-ok" id="btn-confirmar" onclick="borrar()">Confirmar</button>
+					<button type="button" class="btn btn-modal-ok colores-base" id="btn-confirmar" onclick="borrar()">Confirmar</button>
 				</div>
 			</div>
 		</div>

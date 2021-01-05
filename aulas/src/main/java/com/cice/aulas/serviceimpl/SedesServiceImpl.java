@@ -22,8 +22,7 @@ public class SedesServiceImpl implements ISedesService {
 	
 	@Override
 	public Sede obtenerUltSede() {
-		return null;
-		//		return sedeRepository.findLastSede();
+		return sedeRepository.findLastSede();
 	}
 
 	@Override

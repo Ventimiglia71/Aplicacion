@@ -26,7 +26,7 @@
 <body onload="check-exist()">
 	<c:import url="navbarVero.jsp"/>
     <h1 id="tit-listado">
-        SOLICITUD DE SEDE
+        Búsqueda de sede
     </h1>
     <div class="container-md w-50 table-responsive borde-fucsia-1 disabled-fondo font-blkchcry">
         <form action="/aulas/sedes/findSede" method="GET">
@@ -61,7 +61,7 @@
               </fieldset>
               <div>
                 <button type="submit" class="btn btn-secondary btn-operacion" id="btn-buscar">
-                    Solicitar
+                    Buscar
                 </button>            
               </div>
         </form>
@@ -80,7 +80,7 @@
 					La sede solicitada NO EXISTE.
 				</div>
 				<div class="modal-footer">
-					<button type="button" class="btn btn-dark btn-modal-ok btn-modal-1button" data-dismiss="modal">Cerrar</button>
+					<button type="button" class="btn btn-dark btn-modal-ok btn-modal-1button colores-base" data-dismiss="modal">Cerrar</button>
 				</div>
 			</div>
 		</div>

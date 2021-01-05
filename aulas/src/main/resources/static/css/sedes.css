@@ -10,9 +10,13 @@
    margin-bottom: 0.9em;
 }
 
+#div-contenedor {
+	max-width: 75%;
+}
+
 #tabla-sedes {
    width: 100%;
-   height: 435px;
+   height: 390px;
    margin: auto;
    border: 2px solid;
    border-color:#d50478;
@@ -30,32 +34,42 @@ tbody tr:hover{
    color: white;
 }
 
-.estilo-col1 {
-   width: 5%;
-}
-
-.estilo-col2 {
-   width: 30%;
-   padding-top: 3em;
-}
-
-.estilo-col3 {
-   width: 40%;
-}
-.estilo-col4 {
-   width: 15%;
-}
-
-.texto-centrado {
-   text-align: center;
+th, td {
+  border-bottom: 1px solid #ddd;
 }
 
 table td{
    vertical-align: middle !important;
 }
 
-#btn-borrar:hover {
-   background-color: #d50478 !important;
+.estilo-col-w5 {
+   width: 5%;
+}
+
+.estilo-col-w10 {
+   width: 10%;
+}
+
+.estilo-col-w30 {
+   width: 30%;
+}
+
+.estilo-col-w40 {
+   width: 40%;
+}
+
+.btn-listado{
+   padding: 0.3rem 0.7rem;
+   font-size: 0.8em;
+}
+
+.btn-listado:hover{
+   background-color: #feafdb;
+   color: black;
+}
+
+.texto-centrado {
+   text-align: center;
 }
 
 .colores-base {
@@ -64,8 +78,8 @@ table td{
 }
 
 .btn-modal-ok:hover{
-   background-color: #d50478;
-   color: white;
+   background-color: #feafdb;
+   color: black;
 }
 
 /************************************************/
@@ -155,11 +169,13 @@ input[type=number] {      /* Elimina los botones en campos numéricos.*/
    margin-bottom: 0.6em;
    margin-right: 0.09em;
    float: right;
+   background-color: #d50478;
+   color: white;
 }
 
 .btn-operacion:hover{
-   background-color: #d50478;
-   color: white;
+   background-color: #feafdb;
+   color: black;
 }
 
 .btn-modal-1button{

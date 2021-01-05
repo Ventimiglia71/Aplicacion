@@ -12,13 +12,13 @@
 	<link rel="stylesheet" href="/aulas/bootstrap-4.5.0-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/aulas/css/navbarmio.css">
     <link rel="stylesheet" href="/aulas/css/sedes.css">
-    <title>Alta Sede</title>
+    <title>Nueva Sede</title>
 </head>
 
 <body>
     <c:import url="navbarVero.jsp"/>
     <h1 id="tit-listado">
-        ALTA DE SEDE
+        Datos de la nueva sede
     </h1>
     <div class="container-md w-50 table-responsive borde-fucsia-1 disabled-fondo font-blkchcry">
         <form action="/aulas/sedes/addSede" method="GET">
