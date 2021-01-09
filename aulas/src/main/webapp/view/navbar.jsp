@@ -32,9 +32,9 @@
                 role="button" data-toggle="dropdown" aria-haspopup="true"
                 aria-expanded="false"> Sedes </a>
                 <div class="dropdown-menu darkBG" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="/aulas/sedes/prepararAddSede">Alta</a>
-                    <a class="dropdown-item" href="/aulas/sedes/findAllSedes">Listado</a>
-                    <a class="dropdown-item" href="/aulas/sedes/prepararFindSede">Modificación</a>
+                    <a class="dropdown-item" href="/aulas/prepararAddSede">Alta</a>
+                    <a class="dropdown-item" href="/aulas/findAllSedes">Listado</a>
+                    <a class="dropdown-item" href="/aulas/prepararFindSede">Modificación</a>
                 </div>
             </li>
             <li class="nav-item dropdown"><a

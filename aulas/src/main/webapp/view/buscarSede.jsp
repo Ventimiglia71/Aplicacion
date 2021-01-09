@@ -24,12 +24,12 @@
 </head>
 
 <body onload="check-exist()">
-	<c:import url="navbarVero.jsp"/>
+	<c:import url="navbar.jsp"/>
     <h1 id="tit-listado">
         Búsqueda de sede
     </h1>
     <div class="container-md w-50 table-responsive borde-fucsia-1 disabled-fondo font-blkchcry">
-        <form action="/aulas/sedes/findSede" method="GET">
+        <form action="/aulas/findSede" method="GET">
             <fieldset class="fieldset-border" id="fsidentificacion">
               <legend class="fieldset-border">Identificación</legend>
               <div class="form-group">

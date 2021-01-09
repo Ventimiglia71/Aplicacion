@@ -20,13 +20,13 @@ public class SedeController {
 	private ISedesService servicio;
 	
 	// Captura los datos de la sede para el alta.
-	@GetMapping("/sedes/prepararAddSede")
+	@GetMapping("/prepararAddSede")
 	public String prepararAddSede() {
 		return "agregarSede";
 	}
 	
 	// Realiza el alta y muestra los datos junto con el código generado.
-	@GetMapping("/sedes/addSede")
+	@GetMapping("/addSede")
 	public ModelAndView addSede(@RequestParam(name="nombre", required = true) String nombre_sede,
 						  		@RequestParam(required = true) String direccion,
 						  		@RequestParam(required = true) String telefono,
@@ -45,19 +45,19 @@ public class SedeController {
 	}
 	
 	// Muestra los datos de una Sede.
-	@GetMapping("/sedes/mostrarDatosSede")
+	@GetMapping("/mostrarDatosSede")
 	public String mostrarDatosSede(@RequestParam String mensaje) {
 		return "mostrarDatosSede";
 	}	
 	
 	// Captura el código de la sede a buscar.
-	@GetMapping("/sedes/prepararFindSede")
+	@GetMapping("/prepararFindSede")
 	public String prepararFindSede() {
 		return "buscarSede";
 	}
 	
 	// Muestra los datos de la sede a modificar.
-	@GetMapping("/sedes/findSede")
+	@GetMapping("/findSede")
 	public ModelAndView findSede(@RequestParam(name="codigo", required = true) int cod_sede){
 		ModelAndView mav = new ModelAndView();
 		Sede sede = servicio.consultarSede(cod_sede);
@@ -78,7 +78,7 @@ public class SedeController {
 	}
 	
 	// Modifica los datos de una sede y retorna al listado de sedes.
-	@GetMapping("/sedes/modifSede")
+	@GetMapping("/modifSede")
 	public String modifSede(@RequestParam(name="codigo", required = true) int cod_sede,		
 					        @RequestParam(name="nombre", required = true) String nombre_sede,
  			        	    @RequestParam(required = true) String direccion,
@@ -86,11 +86,11 @@ public class SedeController {
 					        @RequestParam(name="numaulas", required = true) int num_aulas){
 		Sede sede = new Sede(cod_sede, nombre_sede, direccion, telefono, num_aulas);
 		servicio.agregarSede(sede);		
-		return "redirect:/sedes/findAllSedes";
+		return "redirect:/findAllSedes";
 	}
 	
 	// Muestra un listado con todas las sedes.
-	@GetMapping("/sedes/findAllSedes")
+	@GetMapping("/findAllSedes")
 	public ModelAndView findAllSedes(){
 		ModelAndView mav = new ModelAndView();
 		List<Sede> sedes = servicio.allSedes();
@@ -100,9 +100,9 @@ public class SedeController {
 	}
 	
 	// Borra una sede desde el listado y retorna a éste de nuevo.
-	@GetMapping("/sedes/deleteSede")
+	@GetMapping("/deleteSede")
 	public String deleteSede(@RequestParam(required = true) int idSede){
 		servicio.borrarSede(idSede);
-		return "redirect:/sedes/findAllSedes";
+		return "redirect:/findAllSedes";
 	}
 }

@@ -16,12 +16,12 @@
 </head>
 
 <body>
-	<c:import url="navbarVero.jsp"/>
+	<c:import url="navbar.jsp"/>
     <h1 id="tit-listado">
         INFORMACIÓN DE SEDE
     </h1>
     <div class="container-md w-50 table-responsive borde-fucsia-1 disabled-fondo font-blkchcry">
-        <form action="/aulas/sedes/prepararAddSede" method="GET">
+        <form action="/aulas/prepararAddSede" method="GET">
             <fieldset class="fieldset-border" id="fsidentificacion">
               <legend class="fieldset-border">Identificación</legend>
               <div class="form-group">

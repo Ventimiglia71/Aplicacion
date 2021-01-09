@@ -20,11 +20,11 @@
 		}
 		
 		function borrar(){
-			window.location.href = "/aulas/sedes/deleteSede?idSede=" + idSede;
+			window.location.href = "/aulas/deleteSede?idSede=" + idSede;
 		}
 		
 		function modificar(idSede){
-			window.location.href = "/aulas/sedes/findSede?codigo=" + idSede;
+			window.location.href = "/aulas/findSede?codigo=" + idSede;
 		}
 	</script>
     
@@ -32,7 +32,7 @@
 </head>
 
 <body>
-	<c:import url="navbarVero.jsp"/>
+	<c:import url="navbar.jsp"/>
     <h1 id="tit-listado">
         LISTADO DE SEDES
     </h1>
