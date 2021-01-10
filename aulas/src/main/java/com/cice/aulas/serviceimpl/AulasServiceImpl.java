@@ -1,5 +1,6 @@
 package com.cice.aulas.serviceimpl;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,6 +33,25 @@ public class AulasServiceImpl implements IAulasService {
 	@Override
 	public List<Aula> seleccionAulas(int sedeSelec, int tipoElegido, int numPuestos) {
 		return aulasRepo.seleccionAulas(sedeSelec, tipoElegido, numPuestos);
+	}
+
+	@Override
+	public void addAula(Aula a) {
+		aulasRepo.save(a);
+		
+	}
+
+	@Override
+	public List<Aula> findAll() {
+		List<Aula> aulas = new ArrayList<Aula>();
+		aulas = (List<Aula>) aulasRepo.findAll();		
+		return aulas;
+	}
+
+	@Override
+	public void deleteAula(int cod_aula) {
+		aulasRepo.deleteById(cod_aula);
+		
 	}
 
 }

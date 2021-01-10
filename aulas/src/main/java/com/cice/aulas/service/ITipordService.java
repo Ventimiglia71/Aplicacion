@@ -6,4 +6,6 @@ import com.cice.aulas.entities.TipOrd;
 
 public interface ITipordService {
 	public List<TipOrd> allTiposOrdenador();
+	public List<TipOrd> findAll();
+	
 }

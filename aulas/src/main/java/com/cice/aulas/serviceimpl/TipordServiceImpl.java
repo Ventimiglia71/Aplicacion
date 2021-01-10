@@ -19,4 +19,9 @@ public class TipordServiceImpl implements ITipordService{
 		return tipordRepo.findAll();
 	}
 
+	@Override
+	public List<TipOrd> findAll() {
+		return (List<TipOrd>) tipordRepo.findAll();
+	}
+	
 }
