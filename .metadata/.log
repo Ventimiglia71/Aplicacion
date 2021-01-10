@@ -4562,3 +4562,488 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.wst.html.ui 1 1 2021-01-04 16:12:26.192
 !MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+!SESSION 2021-01-10 12:39:24.544 -----------------------------------------------
+eclipse.buildId=4.16.0.I20200604-0540
+java.version=1.8.0_271
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-01-10 12:39:29.833
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2021-01-10 12:39:32.944
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-01-10 12:39:32.944
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3fe3ebb3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@22a1d77b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.jst.jsp.core 4 4 2021-01-10 12:39:37.197
+!MESSAGE A workspace crash was detected. The previous session did not exit normally. Not using saved taglib indexes.
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 12:39:40.709
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 12:39:40.711
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 12:39:40.716
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-01-10 12:39:41.928
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Usuario'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 2 2021-01-10 12:39:48.064
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 12:48:47.018
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 12:48:47.021
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 12:48:47.023
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.jface 2 0 2021-01-10 12:48:54.682
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-01-10 12:48:54.682
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5b08a421,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7c98fe3c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 12:52:44.488
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 12:52:44.490
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@b1fccca[org.springframework.tooling.boot.ls:1.21.0.202009020949(id=1026)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 12:52:44.493
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 12:52:44.519
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 12:52:46.790
+!MESSAGE Boot LS startup time from start to initialized: 2289ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 12:52:47.011
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.zgdGijDWisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 12:52:47.013
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 12:52:47.015
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 12:52:47.017
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 12:52:47.019
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 12:52:47.021
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 12:52:47.022
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 12:52:47.024
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.zgdGijDW => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 12:52:47.046
+!MESSAGE classpath=114 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 12:52:47.051
+!MESSAGE buffering callback sts4.classpath.zgdGijDW aulas false 114
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 12:52:47.052
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 12:52:47.069
+!MESSAGE classpath=118 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 12:52:47.073
+!MESSAGE buffering callback sts4.classpath.zgdGijDW hoteleclipse false 118
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 12:52:47.075
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 12:52:47.085
+!MESSAGE classpath=114 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 12:52:47.088
+!MESSAGE buffering callback sts4.classpath.zgdGijDW laliga false 114
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 12:52:47.090
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 12:52:47.099
+!MESSAGE classpath=114 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 12:52:47.102
+!MESSAGE buffering callback sts4.classpath.zgdGijDW ruiz false 114
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 12:52:47.104
+!MESSAGE executing callback sts4.classpath.zgdGijDW 4 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 12:52:47.144
+!MESSAGE executing callback sts4.classpath.zgdGijDW SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:07:28.906
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.zgdGijDW
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:07:28.909
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.zgdGijDW
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:07:28.910
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:07:28.911
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.zgdGijDW => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:07:50.688
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:07:50.690
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@b1fccca[org.springframework.tooling.boot.ls:1.21.0.202009020949(id=1026)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:07:50.691
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:08:00.714
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:08:00.718
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@b1fccca[org.springframework.tooling.boot.ls:1.21.0.202009020949(id=1026)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:08:00.720
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:08:02.324
+!MESSAGE Boot LS startup time from start to initialized: 1602ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:08:02.350
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ZiPOldsIisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:08:02.352
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:08:02.353
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:08:02.354
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:08:02.357
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:08:02.359
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:08:02.360
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:08:02.362
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ZiPOldsI => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:08:02.380
+!MESSAGE classpath=114 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:08:02.384
+!MESSAGE buffering callback sts4.classpath.ZiPOldsI aulas false 114
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:08:02.385
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:08:02.401
+!MESSAGE classpath=118 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:08:02.405
+!MESSAGE buffering callback sts4.classpath.ZiPOldsI hoteleclipse false 118
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:08:02.407
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:08:02.416
+!MESSAGE classpath=114 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:08:02.420
+!MESSAGE buffering callback sts4.classpath.ZiPOldsI laliga false 114
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:08:02.422
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:08:02.427
+!MESSAGE classpath=114 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:08:02.430
+!MESSAGE buffering callback sts4.classpath.ZiPOldsI ruiz false 114
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:08:02.432
+!MESSAGE executing callback sts4.classpath.ZiPOldsI 4 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:08:02.463
+!MESSAGE executing callback sts4.classpath.ZiPOldsI SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:10:02.578
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ZiPOldsI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:10:02.580
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.ZiPOldsI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:10:02.582
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:10:02.584
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ZiPOldsI => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:12:00.986
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:12:00.989
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@b1fccca[org.springframework.tooling.boot.ls:1.21.0.202009020949(id=1026)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:12:00.990
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:12:02.616
+!MESSAGE Boot LS startup time from start to initialized: 1624ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:12:02.644
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.rFtomuNzisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:12:02.646
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:12:02.648
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:12:02.649
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:12:02.651
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:12:02.653
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:12:02.655
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:12:02.656
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.rFtomuNz => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:12:02.676
+!MESSAGE classpath=114 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:12:02.680
+!MESSAGE buffering callback sts4.classpath.rFtomuNz aulas false 114
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:12:02.681
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:12:02.702
+!MESSAGE classpath=118 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:12:02.706
+!MESSAGE buffering callback sts4.classpath.rFtomuNz hoteleclipse false 118
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:12:02.710
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:12:02.721
+!MESSAGE classpath=114 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:12:02.725
+!MESSAGE buffering callback sts4.classpath.rFtomuNz laliga false 114
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:12:02.727
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:12:02.734
+!MESSAGE classpath=114 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:12:02.738
+!MESSAGE buffering callback sts4.classpath.rFtomuNz ruiz false 114
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:12:02.739
+!MESSAGE executing callback sts4.classpath.rFtomuNz 4 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:12:02.774
+!MESSAGE executing callback sts4.classpath.rFtomuNz SUCCESS [done]
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 13:16:23.855
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 13:16:23.858
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 13:16:30.959
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 13:16:30.961
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 13:16:30.962
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 13:17:08.923
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 13:17:08.926
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 13:17:17.869
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 13:17:17.871
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 13:17:17.873
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:17:36.117
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.rFtomuNz
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:17:36.119
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.rFtomuNz
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:17:36.121
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-10 13:17:36.122
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.rFtomuNz => OK
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 13:17:53.692
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 13:17:53.696
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 13:17:53.699
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 13:18:12.597
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 13:18:12.599
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 13:18:12.601
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 13:18:31.899
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 13:18:31.902
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 13:18:40.834
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 13:18:40.837
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 13:18:40.839
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 13:19:05.895
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 13:19:05.898
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 13:19:05.900
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 13:19:41.416
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 13:19:41.420
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 13:19:41.421
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 13:20:21.042
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 13:20:21.045
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 13:20:25.344
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 13:20:25.346
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 13:20:25.349
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 13:21:41.651
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 13:21:41.653
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 13:21:41.654
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 13:22:17.556
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 13:22:17.558
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 13:22:23.694
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 13:22:23.698
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 13:22:23.700
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 13:22:47.383
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 13:22:47.386
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-10 13:22:47.387
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT

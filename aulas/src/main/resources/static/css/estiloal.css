@@ -4,15 +4,9 @@
 :-ms-input-placeholder { color: #fed0d3; }
 :focus::-webkit-input-placeholder{color:transparent;}
 
-@font-face {
-    font-family: "SyneMono";
-    src: url("../fuentes/SyneMono.woff2") format('woff2');
-    font-style: normal;
-    font-weight: normal;
-}
-
 html, body {
     overflow: hidden;
+    color: #d50478!important;
   }
   
 div {
@@ -46,6 +40,11 @@ div {
   text-align: center;
 }
 
+.partir1_5 {
+  float: left;
+  width: 1.5%;
+}
+
 .partir2 {
   float: left;
   width: 2%;
@@ -58,15 +57,38 @@ div {
   text-align: center;
 }
 
+.partir3_5 {
+  float: left;
+  width: 3.5%;
+  text-align: center;
+}
+
 .partir4 {
   float: left;
   width: 4%;
   text-align: center;
 }
 
+.partir4punto5 {
+  float: left;
+  width: 4.5%;
+  text-align: center;
+}
+
 .partir5 {
   float: left;
   width: 5%;
+  text-align: center;
+}
+
+.partir5_5 {
+  float: left;
+  width: 5.5%;
+}
+
+.partir7 {
+  float: left;
+  width: 7%;
   text-align: center;
 }
 
@@ -79,14 +101,16 @@ div {
 .partir15 {
   float: left;
   width: 15%;
-  height:2000px;
-  text-align: center;
 }
 
 .partir20 {
   float: left;
   width: 20%;
   text-align: center;
+}
+
+.partir25 {
+  width: 25%;
 }
 
 .partir35 {
@@ -103,6 +127,11 @@ div {
   border-style: solid;
 }
 
+.partir402 {
+  float: left;
+  width: 40%;
+}
+
 .partir50 {
   float: left;
   width: 50%;
@@ -116,30 +145,47 @@ div {
   text-align: center;
 }
 
+.partir75 {
+  width: 75%;
+}
+
 .partir80 {
   float: left;
   width: 80%;
   text-align: center;
 }
 
+.partir85 {
+  float: left;
+  width: 85%;
+}
+
 .leerAnyo {
+  background-color: white;
+  color: #d50478;
+  border-color: #d50478;
+  width: 95%;
+  height: 4vh;
+  font-size: 11px;
+  text-align: center;
+}
+
+.leerUsuario {
   background-color: #d50478;
   color: white;
-  border-color: white;
-  margin-top: 0.65vh;
-  width: 10vh;
-  height: auto;
+  border-color: #d50478;
+  width: 95%;
+  height: 4.4vh;
   font-size: 11px;
   text-align: center;
 }
 
 .listas {
-  background-color: #d50478;
-  color: white;
-  border-color: white;
-  margin-top: 0.65vh;
-  width: 25vh;
-  height: auto;
+  background-color: white;
+  color: #d50478;
+  border-color: #d50478;
+  width: 95%;
+  height: 4vh;
   font-size: 11px;
   text-align: center;
   border-width: 2px;
@@ -163,13 +209,13 @@ div {
   background-color: white;
   border-color: #d50478;
   font-size: 11px;
-  width: 60%;
+  width: 90%;
   border-radius: 50rem;
 }
 
 .botonCons:hover {
-  color: #d50478;
-  background-color: white;
+  color: white;
+  background-color: #d50478;
 
 }
 
@@ -177,6 +223,10 @@ div {
 	background-color: transparent;
 	color: transparent;
 	border-color: transparent;
+}
+
+.fl {
+	float: left!important;
 }
 
 .mt-1 {
@@ -191,8 +241,28 @@ div {
 	padding-top: 1vh!important;
 }
 
+.pt-2_1 {
+	padding-top: 2.1vh!important;
+}
+
+.pt-3 {
+	padding-top: 3vh!important;
+}
+
+.pt-3_3 {
+	padding-top: 3.3vh!important;
+}
+
+.largo2000 {
+	height: 2000px;	
+}
+
 .centrarTexto {
 	text-align: center;
+}
+
+.textoIzqda {
+	text-align: left;
 }
 
 .letraSynemono {
@@ -203,6 +273,11 @@ div {
 .espacio {
 	float: left;
 	height: 1vh;
+}
+
+.espacio4 {
+	float: left;
+	height: 4vh;
 }
 
 .botonCal {
@@ -230,4 +305,80 @@ div {
 	color: #d50478;
 	font-size: 18px;
 	text-align: center;
+}
+
+.badge-secondary {
+    color: #fff;
+    background-color: #d50478!important;
+}
+
+.badge-third {
+    color: #d50478!important;
+    background-color: white!important;
+}
+
+.badge-error {
+    color: #fff!important;
+    background-color: red!important;
+}
+
+.form-control-rosa {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #d50478!important;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    border-color: #d50478!important;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-secondary-mio {
+    color: #fff;
+    background-color: #d50478;
+    border-color: #d50478;
+    width: 26%;
+}
+
+.btn-secondary-mio:hover {
+    color: #d50478;
+    background-color: white;
+    border-color: #d50478;
+    width: 26%;
+}
+
+.btn-mio {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 50rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.table-rosa {
+    color: #d50478;
+    background-color: white;
+}
+
+.centrado {
+	text-align: center;
+}
+
+.izqda {
+	text-align: left;
 }

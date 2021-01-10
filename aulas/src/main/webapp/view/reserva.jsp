@@ -11,108 +11,114 @@
 	<link rel="stylesheet" 	href="./bootstrap-4.5.0-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/estiloal.css"></head>
     <link rel="stylesheet" href="./css/navbarmio.css"></head>
+	<script>
+		function volver(){
+			window.location.href = "/aulas/preConsulta";
+		}
+	</script>
 </head>
 <body>
 	<c:import url="navbar.jsp"/>
-    <div class="colorCabecera partir15">
-	    <div class="colorContraCabecera partir20">
-		    <span class="claspan partirNo ml-1 pt-1">Usuario:</span>
-	        <span class="claspan partirNo ml-1">Año:</span>
-	        <span class="claspan partirNo ml-1">Sede:</span>
-	        <span class="claspan partirNo ml-1">Aula:</span>
-    	</div>
-	    <div class="colorContraCabecera partir80">
-		    <span class="claspan partirNo ml-1 pt-1">albertorpon@gmail.com</span>
-	        <span class="claspan partirNo ml-1">${anoSelec}</span>
-	        <span class="claspan partirNo ml-1">${nombreSede}</span>
-	        <span class="claspan partirNo ml-1">${nombreAula}</span>
-    	</div>
-	    <div class="colorContraCabecera paddingSup paddingInf">
-	            <button class="botonCons" type="submit">Volver</button>    
-	    </div>
-	</div>
-	<div class="partir1 mt-1"><p></p></div>
-	
-	<div class="partir40 mt-1">
-		<div class="partirNo colorContraCabecera centrarTexto letraSynemono">Enero</div>
-		<div class="partirNo espacio"><p></p></div>
-
-		<!-- Cabecera Calendario -->
-		<div class="partir3"><p></p></div>
-		<div class="partir10">
-			<a class="dias" href="/aulas/seleccionar">L</a>
-		</div>	
-		<div class="partir4"><p></p></div>
-
-		<div class="partir10">
-			<a class="dias" href="/aulas/seleccionar">M</a>
-		</div>	
-		<div class="partir4"><p></p></div>
-		<div class="partir10">
-			<a class="dias" href="/aulas/seleccionar">X</a>
-		</div>	
-		<div class="partir4"><p></p></div>
-		<div class="partir10">
-			<a class="dias" href="/aulas/seleccionar">J</a>
-		</div>	
-		<div class="partir4"><p></p></div>
-		<div class="partir10">
-			<a class="dias" href="/aulas/seleccionar">V</a>
-		</div>	
-		<div class="partir4"><p></p></div>
-		<div class="partir10">
-			<a class="dias" href="/aulas/seleccionar">S</a>
-		</div>	
-		<div class="partir4"><p></p></div>
-		<div class="partir10">
-			<a class="dias" href="/aulas/seleccionar">D</a>
-		</div>	
-		<div class="partir3 numInvisible"><p>0</p></div>
-
-		<!-- Primera Semana -->
-		<div class="partir3"><p></p></div>
-		<c:forEach begin="1" end="${diaSem - 2}" var="i">
-			<div class="partir10 botonInvisible">
-				<a class="numInvisible">0</a>
-			</div>	
-			<div class="partir4"><p></p></div>
-		</c:forEach>		
-		<div class="partir10 botonInvisible">
-			<a class="numInvisible">0</a>
-		</div>	
-
-
-		<c:forEach begin="${reservasAula[0].dia}" end="${reservasAula[7 - diaSem].dia}" var="i">
-			<div class="partir4"><p></p></div>
-			<div class="partir10 botonCal">
-				<a class="numCal" href="/aulas/seleccionar">${reservasAula[i - 1].dia}</a>
-			</div>	
-		</c:forEach>  
-		<div class="partir3 numInvisible"><p>0</p></div>
-
-		<!-- Cuerpo del mes -->
-		<div class="partirNo espacio"><p></p></div>
-		<div class="partir3"><p></p></div>
-		<div class="partir10 botonCal">
-			<a class="numCal" href="/aulas/seleccionar">${reservasAula[i - 1].dia}</a>
-		</div>	
-
-
-		<c:forEach begin="${reservasAula[0].dia}" end="${reservasAula[7 - diaSem].dia}" var="i">
-			<div class="partir4"><p></p></div>
-			<div class="partir10 botonCal">
-				<a class="numCal" href="/aulas/seleccionar">${reservasAula[i - 1].dia}</a>
-			</div>	
-		</c:forEach>  
-		
-		<c:forEach begin="${reservasAula[0].dia}" end="${reservasAula[7 - diaSem].dia}" var="i">
-			<div class="partir3 numInvisible"><p>0</p></div>
-		</c:forEach>  
-	</div>
-	
-	<div class="partir3 mt-1"><p></p></div>
-	<div class="partir40 mt-1"><p></p></div>
-	<div class="partir1 mt-1"><p></p></div>
-	
+    <form action="/aulas/calendario">
+	    <div class="colorContraCabecera partir15 centrado largo2000">
+		    <div class="colorContraCabecera partir25 fl izqda">
+			    <span class="claspan partirNo ml-1 pt-2_1">Usuario:</span>
+		        <span class="claspan partirNo ml-1 pt-3_3">Sede:</span>
+		        <span class="claspan partirNo ml-1 pt-3">Tipos:</span>
+		        <span class="claspan partirNo ml-1 pt-3">Puestos:</span>
+		        <span class="claspan partirNo ml-1 pt-3">Aulas:</span>
+		        <span class="claspan partirNo ml-1 pt-3">Año:</span>
+		        <span class="claspan partirNo ml-1 pt-3">Mes:</span>
+	    	</div>
+		    <div class="colorContraCabecera partir75 fl izqda">
+		        <input class="leerUsuario mt-1" name="usuario" value="${usuario}" readonly="readonly">
+	            <select class="listas mt-1" name="sedeSelec">
+	            	<c:forEach items="${sedes}" var="sede">
+						<c:choose>
+			                <c:when test="${sede.cod_sede eq codSede}">
+		                		<option class="desplegable" value="${sede.cod_sede}" selected>${sede.nombre_sede}</option>
+		                	</c:when>
+			                <c:otherwise>
+		                		<option value="${sede.cod_sede}">${sede.nombre_sede}</option>
+		                	</c:otherwise>
+						</c:choose>
+					</c:forEach>
+	            </select>
+	            <select class="listas mt-1" name="tipoElegido">
+	            	<c:forEach items="${tipos}" var="tipo">
+						<c:choose>
+			                <c:when test="${tipo.cod_tipord eq codTipo}">
+		                		<option value="${tipo.cod_tipord}" selected>${tipo.tipo}</option>
+		                	</c:when>
+			                <c:otherwise>
+		                		<option value="${tipo.cod_tipord}">${tipo.tipo}</option>
+		                	</c:otherwise>
+						</c:choose>
+					</c:forEach>
+	            </select>
+				<c:choose>
+	                <c:when test="${empty numPuestos}">
+	            		<input 	class="leerAnyo mt-1" type="text" name="numPuestos" placeholder="Num. Puestos" size=2 readonly="readonly">
+	               	</c:when>
+	                <c:otherwise>
+	            		<input 	class="leerAnyo mt-1" type="text" name="numPuestos" value="${numPuestos}" size=2 readonly="readonly">
+		          	</c:otherwise>
+				</c:choose>
+				<c:choose>
+	                <c:when test="${seleccionAulas[0].cod_aula eq 0}">
+			            <select class="listas mt-1 badge-error" name="aulaSelec">
+			            	<c:forEach items="${seleccionAulas}" var="aula">
+								<c:choose>
+					                <c:when test="${aula.cod_aula eq codAula}">
+				                		<option value="${aula.cod_aula}" selected>${aula.nombre_aula}</option>
+				                	</c:when>
+					                <c:otherwise>
+				                		<option value="${aula.cod_aula}">${aula.nombre_aula}</option>
+				                	</c:otherwise>
+								</c:choose>
+							</c:forEach>
+			            </select>
+			        </c:when>
+			        <c:otherwise>
+			            <select class="listas mt-1" name="aulaSelec">
+			            	<c:forEach items="${seleccionAulas}" var="aula">
+								<c:choose>
+					                <c:when test="${aula.cod_aula eq codAula}">
+				                		<option value="${aula.cod_aula}" selected>${aula.nombre_aula}</option>
+				                	</c:when>
+					                <c:otherwise>
+				                		<option value="${aula.cod_aula}">${aula.nombre_aula}</option>
+				                	</c:otherwise>
+								</c:choose>
+							</c:forEach>
+			            </select>
+			        </c:otherwise>
+				</c:choose>
+				<c:choose>
+	                <c:when test="${empty anoSelec}">
+			            <input 	class="leerAnyo mt-1" type="text" name="anoSelec" id="anoSelec" placeholder="Año" size=4 required>
+	               	</c:when>
+	                <c:otherwise>
+			            <input 	class="leerAnyo mt-1" type="text" name="anoSelec" id="anoSelec" value="${anoSelec}" size=4 required>
+		          	</c:otherwise>
+				</c:choose>
+	            <select class="listas mt-1" name="mesSelec">
+					<c:import url="meses.jsp"/>
+	            </select>
+	    	</div>
+	    	<div class="partirNo espacio"><p></p></div>
+			<c:choose>
+				<c:when test="${seleccionAulas[0].cod_aula ne 0}">
+				    <div class="colorContraCabecera">
+				            <button class="botonCons" type="submit">Ver Calendario</button>    
+				    </div>
+			    </c:when>
+		    </c:choose>
+	    	<div class="partirNo espacio"><p></p></div>
+		    <div class="colorContraCabecera">
+		            <button class="botonCons" onclick="volver()">Volver</button>    
+		    </div>
+		</div>
+	</form>	
 </body>
 </html>

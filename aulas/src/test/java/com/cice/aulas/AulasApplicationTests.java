@@ -15,9 +15,9 @@ class AulasApplicationTests {
 
 	@Test
 	void pruGrabarReserva() {
-		Reserva reserva = new Reserva(0, 2020, 1, 1, 3, "alberto", 0, 0);
+		Reserva reserva = new Reserva(0, "Alberto", 3, 2021, 1, 1, 9);
 		reservaRepo.save(reserva);
-		reserva = new Reserva(0, 2020, 1, 2, 3, "alberto", 0, 0);
+		reserva = new Reserva(0, "Alberto", 3, 2021, 1, 1, 9);
 		reservaRepo.save(reserva);
 	} 
 	

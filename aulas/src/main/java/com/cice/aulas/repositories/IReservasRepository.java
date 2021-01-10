@@ -13,4 +13,24 @@ public interface IReservasRepository extends JpaRepository<Reserva, Integer> {
 	List<Reserva> existeAnyoAula(	@Param("anoSelec") Integer anoSelec,
 									@Param("aulaSelec") Integer aulaSelec);
 	
+	@Query(nativeQuery = true, value = "SELECT * FROM reservas WHERE anyo 		= 	:anoSelec "
+														      + "and mes 		= 	:mesSelec "
+														      + "and dia		=	:diaSelec "
+														      + "and cod_aula 	= 	:aulaSelec "
+														      + "and hora 		=	:horaSelec")
+	List<Reserva> buscarVacios(	@Param("anoSelec") Integer anoSelec,
+								@Param("mesSelec") Integer mesSelec,
+								@Param("diaSelec") Integer diaSelec,
+								@Param("aulaSelec") Integer aulaSelec,
+								@Param("horaSelec") Integer horaSelec);
+	
+	@Query(nativeQuery = true, value = "SELECT * FROM reservas WHERE	cod_aula 	= 	:aulaSelec and "
+																	 + "anyo 		= 	:anoSelec and "
+																	 + "mes 			= 	:mesSelec "
+																	 + "ORDER BY dia asc, hora asc")
+	List<Reserva> reservasHechas(	@Param("aulaSelec") Integer aulaSelec,
+									@Param("anoSelec") Integer anoSelec,
+									@Param("mesSelec") Integer mesSelec);
+
+	
 }

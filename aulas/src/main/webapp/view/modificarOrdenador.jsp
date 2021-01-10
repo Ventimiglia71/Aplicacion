@@ -1,25 +1,21 @@
 <%@ page contentType="text/html; charset=UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<script
-	src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="/bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
-<link rel="stylesheet"
-	href="/bootstrap-4.5.0-dist/css/bootstrap.min.css">
-<link rel="stylesheet" href="/css/hoteleclipse.css">
-<title>Modificar Ordenador</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="./bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="./bootstrap-4.5.0-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/estiloal.css">
+	<link rel="stylesheet" href="./css/navbarmio.css">
+	<title>Modificar Ordenador</title>
 </head>
-
 <body>
-
-	<c:import url="mantenimiento.jsp" />
-
+	<c:import url="navbar.jsp" />
+	<div class="partirNo espacio4"></div>
 	<div class="container-md w-75">
 		<h2 class="paddingTop20">
 			MODIFICAR <span class="badge badge-secondary">ORDENADORES</span>

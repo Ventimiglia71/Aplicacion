@@ -24,4 +24,14 @@ public class AulasServiceImpl implements IAulasService {
 		return aulasRepo.nombreAulaPorCodAula(aulaSelec);
 	}
 
+	@Override
+	public List<Aula> AllAulas() {
+		return aulasRepo.findAll();
+	}
+
+	@Override
+	public List<Aula> seleccionAulas(int sedeSelec, int tipoElegido, int numPuestos) {
+		return aulasRepo.seleccionAulas(sedeSelec, tipoElegido, numPuestos);
+	}
+
 }

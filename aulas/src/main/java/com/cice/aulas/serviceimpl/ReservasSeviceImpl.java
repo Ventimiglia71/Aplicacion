@@ -24,4 +24,13 @@ public class ReservasSeviceImpl implements IReservasService{
 		reservaRepo.save(reserva);
 	}
 
+	@Override
+	public List<Reserva> buscarVacios(int anoSelec, int mesSelec, int diaSelec, int aulaSelec, int horaSelec) {
+		return reservaRepo.buscarVacios(anoSelec, mesSelec, diaSelec, aulaSelec, horaSelec);
+	}
+
+	@Override
+	public List<Reserva> reservasHechas(int aulaSelec, int anoSelec, int mesSelec) {
+		return reservaRepo.reservasHechas(aulaSelec, anoSelec, mesSelec);
+	}
 }
