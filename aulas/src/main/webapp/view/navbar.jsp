@@ -12,9 +12,8 @@
                 role="button" data-toggle="dropdown" aria-haspopup="true"
                 aria-expanded="false"> Equipamientos </a>
                 <div class="dropdown-menu darkBG" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="/hoteleclipse/admin/findAllHabitaciones">Alta</a>
-                    <a class="dropdown-item" href="/hoteleclipse/admin/inicioCrearHabitacion">Listado</a>
-                    <a class="dropdown-item" href="/hoteleclipse/admin/inicioCrearHabitacion">Modificación</a>
+					<a class="dropdown-item" href="/aulas/AgregarEquipamiento">Alta</a>
+                    <a class="dropdown-item" href="/aulas/ListadoEquipo">Listado</a>
                 </div>
             </li>
             <li class="nav-item dropdown"><a

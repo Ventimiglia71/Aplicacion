@@ -16,6 +16,12 @@ public class Equipamiento {
 	private String nombre_equipo;
 	private String descripcion;
 	
+	public Equipamiento(String nombre_equipo, String descripcion) {
+		super();
+		this.nombre_equipo = nombre_equipo;
+		this.descripcion = descripcion;
+	}
+
 	public Equipamiento() {		
 	}
 
@@ -47,6 +53,12 @@ public class Equipamiento {
 
 	public void setDescripcion(String descripcion) {
 		this.descripcion = descripcion;
+	}
+
+	@Override
+	public String toString() {
+		return "Equipamiento [cod_equipo=" + cod_equipo + ", nombre_equipo=" + nombre_equipo + ", descripcion="
+				+ descripcion + "]";
 	}
 
 }

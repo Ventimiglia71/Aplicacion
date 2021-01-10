@@ -17,7 +17,9 @@
 <fullyQualifiedTypeName name="com.cice.aulas.entities.Reserva"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="com.cice.aulas.repositories.IReservasRepository"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="org.hibernate.annotations.Parameter"/>
 <fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.cice.aulas.service.ITipordService"/>
+<fullyQualifiedTypeName name="com.cice.aulas.entities.TipOrd"/>
 </qualifiedTypeNameHistroy>

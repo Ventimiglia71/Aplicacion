@@ -25,4 +25,25 @@ public class EquipamientoServiceImpl implements IEquipamientoService  {
 		return repository.findAll();
 	}
 	
+	@Override
+	public List<Equipamiento> listaEquipos() {
+		return repository.findAll();
+	}
+
+	@Override
+	public Equipamiento addEquipo(Equipamiento equipo) {
+
+		return repository.save(equipo);
+	}
+
+	@Override
+	public Equipamiento listarId(int id) {
+		return repository.findById(id).orElse(null);
+	}
+
+	@Override
+	public void delete(int id) {
+		repository.deleteById(id);
+		
+	}
 }

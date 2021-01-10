@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value=""/>
+		<item key="selection" value="form-control-ro"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="form-control-ro"/>
+			<item value="f"/>
+			<item value="form-control"/>
+			<item value="boton"/>
+			<item value="preModificar"/>
 			<item value="forE"/>
 			<item value="for"/>
 			<item value="numCal"/>
@@ -18,11 +23,6 @@
 			<item value="tipo_or"/>
 			<item value="invisible"/>
 			<item value="espacio"/>
-			<item value="partirEn"/>
-			<item value="quitar"/>
-			<item value="grabar"/>
-			<item value="cambiaSede"/>
-			<item value="selecAulas"/>
 		</list>
 		<list key="replacehistory">
 			<item value="cod_tipord"/>
