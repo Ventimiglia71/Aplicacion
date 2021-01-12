@@ -229,12 +229,20 @@ div {
 	float: left!important;
 }
 
+.ml-1 {
+	margin-left: 1vh!important;
+}
+
+.ml-5 {
+	margin-left: 5vh!important;
+}
+
 .mt-1 {
 	margin-top: 1vh!important;
 }
 
-.ml-1 {
-	margin-left: 1vh!important;
+.padl-5 {
+	padding-top: 5vh!important;
 }
 
 .pt-1 {

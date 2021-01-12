@@ -19,13 +19,18 @@
 	
 	</script>
 	<title>Listado de equipos</title>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-		<script src="./bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
-		<link rel="stylesheet"href="./bootstrap-4.5.0-dist/css/bootstrap.min.css">
-		<link rel="stylesheet" href="./css/navbarmio.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="../bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="../bootstrap-4.5.0-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/navbarmio.css">
 </head>
 <body>
-	<c:import url="navbar.jsp" />
+	<nav class="navbar navbar-expand-lg navbar-dark purpura-navbar">
+	    <a class="navbar-brand" href="/mantenimiento/MenuPrincipal">
+	        <img class="logo" src="../imagenes/CICE.PNG" alt="Mantenimiento">
+	    </a>
+		<c:import url="navbarAdmin.jsp"/>
+	</nav>
 	<div class="container mt-4">
 	<a href="AgregarEquipamiento" class="btn btn-primary">Nuevo Registro</a>
 		<table class="table">

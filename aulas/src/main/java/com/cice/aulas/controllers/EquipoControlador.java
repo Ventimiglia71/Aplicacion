@@ -21,13 +21,13 @@ public class EquipoControlador {
 	@Autowired
 	IEquipamientoService equipoServicio;
 	
-	@GetMapping("AgregarEquipamiento")
+	@GetMapping("admin/AgregarEquipamiento")
 	public String iniciarAgregarEquipamiento() {
 		return "AgregarEquipamiento";
 		
 	}
 	
-	@RequestMapping(value = "grabarEquipamiento", method = RequestMethod.GET)
+	@RequestMapping(value = "admin/grabarEquipamiento", method = RequestMethod.GET)
 	public String grabarEquipamiento(
 			@RequestParam("nombre_equipo") String nombre,
 			@RequestParam("descripcion") String descripcion)
@@ -37,24 +37,17 @@ public class EquipoControlador {
 		return ("AgregarEquipamiento");
 	}
 	
-	@GetMapping("ListadoEquipo")
+	@GetMapping("admin/ListadoEquipo")
 	public ModelAndView listaEquipos() {
-		ModelAndView mav = new ModelAndView();
-		//quitar
-		System.out.println("ENTRANDOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO");
-		//quitar
 		List<Equipamiento> equipamiento = equipoServicio.listaEquipos();
-		//quitar
-		for (Equipamiento equipamiento2 : equipamiento) {
-			System.out.println(equipamiento2);
-		}
-		//quitar
 		
+		ModelAndView mav = new ModelAndView();
+
 		mav.addObject("equipamiento", equipamiento);
 		mav.setViewName("ListadoEquipo");
 		return mav;
 	}
-	@GetMapping("preModificarEquipo")
+	@GetMapping("admin/preModificarEquipo")
 	public ModelAndView editar(@RequestParam("id") Integer id) {
 		Equipamiento equipo=equipoServicio.listarId(id);
 
@@ -67,7 +60,7 @@ public class EquipoControlador {
 		return mav;
 	}
 	
-	@RequestMapping(value = "modificarEquipamiento", method = RequestMethod.GET)
+	@RequestMapping(value = "admin/modificarEquipamiento", method = RequestMethod.GET)
 	public String modificarEquipamiento(
 			@RequestParam("id") int id,
 			@RequestParam("nombre_equipo") String nombre,
@@ -80,7 +73,7 @@ public class EquipoControlador {
 	}
 	
 
-	@GetMapping("eliminar")
+	@GetMapping("admin/eliminar")
 	public String delete(@RequestParam(required = true) int id) {
 		
 		equipoServicio.delete(id);

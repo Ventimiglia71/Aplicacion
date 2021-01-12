@@ -19,7 +19,12 @@
 	</script>
 </head>
 <body>
-	<c:import url="navbar.jsp"/>
+	<nav class="navbar navbar-expand-lg navbar-dark purpura-navbar">
+	    <a class="navbar-brand" href="/mantenimiento/MenuPrincipal">
+	        <img class="logo" src="./imagenes/CICE.PNG" alt="Mantenimiento">
+	    </a>
+		<c:import url="navbar.jsp"/>
+	</nav>
 	<div class="colorContraCabecera partir15 centrado largo2000">
     	<form action="/aulas/calendario">
 		    <div class="colorContraCabecera partir25 fl izqda">

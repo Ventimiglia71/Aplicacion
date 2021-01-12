@@ -1,0 +1,134 @@
+package com.cice.aulas.controllers;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+
+import com.cice.aulas.entities.Aula;
+import com.cice.aulas.entities.Equipamiento;
+import com.cice.aulas.entities.Sede;
+import com.cice.aulas.entities.TipOrd;
+import com.cice.aulas.service.IAulasService;
+import com.cice.aulas.service.IEquipamientoService;
+import com.cice.aulas.service.ISedesService;
+import com.cice.aulas.service.ITipordService;
+
+@Controller
+public class AulaController {
+	@Autowired
+	IAulasService aulaService;
+	@Autowired
+	IEquipamientoService equipamientoService;
+	@Autowired
+	ISedesService sedesService;	
+	@Autowired
+	ITipordService tiposOrdenadorService;
+
+	@GetMapping("admin/altaAula")
+	public ModelAndView mostrarForm() {
+		System.out.println("ALTA AULAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
+		ModelAndView mav = new ModelAndView();
+		List<TipOrd> tiposOrdenadores = tiposOrdenadorService.findAll();
+		List<Equipamiento> equipamientos = equipamientoService.findAll();
+		List<Sede> sedes = sedesService.allSedes();
+		mav.setViewName("crearAula");
+		mav.addObject("tiposOrdenadores", tiposOrdenadores);
+		mav.addObject("equipamientos", equipamientos);
+		mav.addObject("sedes", sedes);
+		return mav;
+		
+	}
+
+	@RequestMapping(value = "admin/altaAulaConfirm", method = RequestMethod.POST)
+	public String crearOrdenador(	@RequestParam("nombre_aula") String nombre_aula, 
+									@RequestParam("num_aula") int num_aula,
+									@RequestParam("num_puestos") int num_puestos,									
+									@RequestParam("cod_tipord") int cod_tipord,
+									@RequestParam("cod_equipo") int cod_equipo,
+									@RequestParam("cod_sede") int cod_sede,
+									RedirectAttributes attributes) {
+		System.out.println("ENTRANDOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO");
+		Aula aula = new Aula(0, nombre_aula, num_aula, num_puestos, cod_tipord, cod_equipo, cod_sede);
+		aulaService.addAula(aula);
+
+		attributes.addFlashAttribute("msg", "Aula dada de alta!");
+		return "redirect:admin/mostrarAulas";		
+	}
+
+	@GetMapping("admin/mostrarAulas")
+	public ModelAndView findAllAulas() {
+		System.out.println("ENTRANDOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO22222222222222222222");
+		List<Aula> aulas = aulaService.findAll();
+
+		ModelAndView mav = new ModelAndView();
+
+		mav.setViewName("mostrarAulas");
+		mav.addObject("aulas", aulas);
+		return mav;
+	}
+
+	@RequestMapping(value = "admin/preModificarAula", method = RequestMethod.GET)
+	public ModelAndView preModificarAula(
+			@RequestParam("cod_aula") int cod_aula,
+			@RequestParam("nombre_aula") String nombre_aula, 
+			@RequestParam("num_aula") int num_aula,
+			@RequestParam("num_puestos") int num_puestos,									
+			@RequestParam("cod_tipord") int cod_tipord,
+			@RequestParam("cod_equipo") int cod_equipo,
+			@RequestParam("cod_sede") int cod_sede) {
+		
+		ModelAndView mav = new ModelAndView();
+		
+		List<TipOrd> tiposOrdenadores = tiposOrdenadorService.findAll();
+		List<Equipamiento> equipamientos = equipamientoService.findAll();
+		List<Sede> sedes = sedesService.allSedes();
+		
+		mav.addObject("cod_aula", cod_aula);
+		mav.addObject("nombre_aula", nombre_aula);
+		mav.addObject("num_aula", num_aula);
+		mav.addObject("num_puestos", num_puestos);
+		mav.addObject("cod_tipord", cod_tipord);
+		mav.addObject("cod_equipo", cod_equipo);
+		mav.addObject("cod_sede", cod_sede);
+		mav.addObject("tiposOrdenadores", tiposOrdenadores);
+		mav.addObject("equipamientos", equipamientos);
+		mav.addObject("sedes", sedes);
+		
+		mav.setViewName("preModifAula");
+		
+		return mav;
+		
+	}
+
+	@GetMapping("admin/modificarAula")
+	public String modificarAula(
+			@RequestParam("cod_aula") int cod_aula,
+			@RequestParam("nombre_aula") String nombre_aula, 
+			@RequestParam("num_aula") int num_aula,
+			@RequestParam("num_puestos") int num_puestos,									
+			@RequestParam("cod_tipord") int cod_tipord,
+			@RequestParam("cod_equipo") int cod_equipo,
+			@RequestParam("cod_sede") int cod_sede,
+			RedirectAttributes attributes) {
+		
+		Aula aula = new Aula(cod_aula, nombre_aula, num_aula, num_puestos, cod_tipord, cod_equipo, cod_sede);
+		aulaService.addAula(aula);
+		attributes.addFlashAttribute("msg", "Aula modificada!");
+		return "redirect:admin/mostrarAulas";		
+	}
+
+	@GetMapping("admin/borrarAula")
+	public String borrarAula(@RequestParam(required = true) int cod_aula,
+				  RedirectAttributes attributes) {
+		aulaService.deleteAula(cod_aula);
+		attributes.addFlashAttribute("msg", "aula borrada!");
+		return "redirect:admin/mostrarAulas";		
+	}
+}

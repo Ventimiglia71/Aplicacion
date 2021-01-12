@@ -31,7 +31,7 @@ public class AulaController {
 	@Autowired
 	ITipordService tiposOrdenadorService;
 
-	@GetMapping("altaAula")
+	@GetMapping("admin/altaAula")
 	public ModelAndView mostrarForm() {
 		ModelAndView mav = new ModelAndView();
 		List<TipOrd> tiposOrdenadores = tiposOrdenadorService.findAll();
@@ -45,7 +45,7 @@ public class AulaController {
 		
 	}
 
-	@RequestMapping(value = "altaAulaConfirm", method = RequestMethod.POST)
+	@RequestMapping(value = "admin/altaAulaConfirm", method = RequestMethod.GET)
 	public String crearOrdenador(	@RequestParam("nombre_aula") String nombre_aula, 
 									@RequestParam("num_aula") int num_aula,
 									@RequestParam("num_puestos") int num_puestos,									
@@ -53,23 +53,25 @@ public class AulaController {
 									@RequestParam("cod_equipo") int cod_equipo,
 									@RequestParam("cod_sede") int cod_sede,
 									RedirectAttributes attributes) {
-		
 		Aula aula = new Aula(0, nombre_aula, num_aula, num_puestos, cod_tipord, cod_equipo, cod_sede);
 		aulaService.addAula(aula);
+
 		attributes.addFlashAttribute("msg", "Aula dada de alta!");
 		return "redirect:mostrarAulas";		
 	}
 
-	@GetMapping("mostrarAulas")
+	@GetMapping("admin/mostrarAulas")
 	public ModelAndView findAllAulas() {
-		ModelAndView mav = new ModelAndView();
 		List<Aula> aulas = aulaService.findAll();
+
+		ModelAndView mav = new ModelAndView();
+
 		mav.setViewName("mostrarAulas");
 		mav.addObject("aulas", aulas);
 		return mav;
 	}
 
-	@RequestMapping(value = "preModificarAula", method = RequestMethod.GET)
+	@RequestMapping(value = "admin/preModificarAula", method = RequestMethod.GET)
 	public ModelAndView preModificarAula(
 			@RequestParam("cod_aula") int cod_aula,
 			@RequestParam("nombre_aula") String nombre_aula, 
@@ -102,7 +104,7 @@ public class AulaController {
 		
 	}
 
-	@GetMapping("modificarAula")
+	@GetMapping("admin/modificarAula")
 	public String modificarAula(
 			@RequestParam("cod_aula") int cod_aula,
 			@RequestParam("nombre_aula") String nombre_aula, 
@@ -119,7 +121,7 @@ public class AulaController {
 		return "redirect:mostrarAulas";		
 	}
 
-	@GetMapping("borrarAula")
+	@GetMapping("admin/borrarAula")
 	public String borrarAula(@RequestParam(required = true) int cod_aula,
 				  RedirectAttributes attributes) {
 		aulaService.deleteAula(cod_aula);

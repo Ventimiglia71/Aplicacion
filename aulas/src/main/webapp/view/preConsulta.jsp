@@ -24,7 +24,12 @@
     <link rel="stylesheet" href="./css/navbarmio.css"></head>
 </head>
 <body>
-	<c:import url="navbar.jsp"/>
+	<nav class="navbar navbar-expand-lg navbar-dark purpura-navbar">
+	    <a class="navbar-brand" href="/mantenimiento/MenuPrincipal">
+	        <img class="logo" src="./imagenes/CICE.PNG" alt="Mantenimiento">
+	    </a>
+		<c:import url="navbar.jsp"/>
+	</nav>
     <form action="/aulas/reserva">
 	    <div class="colorContraCabecera partir15 centrado">
 		    <div class="colorContraCabecera partir25 fl izqda">

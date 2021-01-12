@@ -6,22 +6,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/aulas/css/resulClas.css" rel="stylesheet" type="text/css">
+    <link href="../css/resulClas.css" rel="stylesheet" type="text/css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="/aulas/bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" href="/aulas/bootstrap-4.5.0-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/aulas/css/navbarmio.css">
-    <link rel="stylesheet" href="/aulas/css/sedes.css">
+	<script src="../bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="../bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/navbarmio.css">
+    <link rel="stylesheet" href="../css/sedes.css">
     <title>Información Sede</title>
 </head>
 
 <body>
-	<c:import url="navbar.jsp"/>
+	<nav class="navbar navbar-expand-lg navbar-dark purpura-navbar">
+	    <a class="navbar-brand" href="/mantenimiento/MenuPrincipal">
+	        <img class="logo" src="../imagenes/CICE.PNG" alt="Mantenimiento">
+	    </a>
+		<c:import url="navbarAdmin.jsp"/>
+	</nav>
     <h1 id="tit-listado">
         INFORMACIÓN DE SEDE
     </h1>
     <div class="container-md w-50 table-responsive borde-fucsia-1 disabled-fondo font-blkchcry">
-        <form action="/aulas/prepararAddSede" method="GET">
+        <form action="/aulas/admin/prepararAddSede" method="GET">
             <fieldset class="fieldset-border" id="fsidentificacion">
               <legend class="fieldset-border">Identificación</legend>
               <div class="form-group">

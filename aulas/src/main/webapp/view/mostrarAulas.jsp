@@ -6,10 +6,10 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="./bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" href="./bootstrap-4.5.0-dist/css/bootstrap.min.css">
-	<link rel="stylesheet" href="./css/estiloal.css">
-	<link rel="stylesheet" href="./css/navbarmio.css">
+	<script src="../bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="../bootstrap-4.5.0-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/estiloal.css">
+	<link rel="stylesheet" href="../css/navbarmio.css">
 	<title>Listado de Aulas</title>
 	<script>
 		function configurarBorrado(id) {
@@ -22,7 +22,12 @@
 </head>
 
 <body>
-	<c:import url="navbar.jsp" />
+	<nav class="navbar navbar-expand-lg navbar-dark purpura-navbar">
+	    <a class="navbar-brand" href="/mantenimiento/MenuPrincipal">
+	        <img class="logo" src="../imagenes/CICE.PNG" alt="Mantenimiento">
+	    </a>
+		<c:import url="navbarAdmin.jsp"/>
+	</nav>
 	<div class="container-md w-75 mt-5">
 		<h2 class="paddingTop20">
 			LISTADO <span class="badge badge-secondary">AULAS</span>
@@ -65,7 +70,7 @@
 
 						</td>
 						<td class="derecha"><a
-							href="/aulas/preModificarAula?cod_aula=${aula.cod_aula}&
+							href="/aulas/admin/preModificarAula?cod_aula=${aula.cod_aula}&
 							nombre_aula=${aula.nombre_aula}&
 							num_aula=${aula.num_aula}&
 							num_puestos=${aula.num_puestos}&

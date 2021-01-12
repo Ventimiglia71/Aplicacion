@@ -4,15 +4,13 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/aulas/css/resulClas.css" rel="stylesheet" type="text/css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="/aulas/bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" href="/aulas/bootstrap-4.5.0-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/aulas/css/navbarmio.css">
-    <link rel="stylesheet" href="/aulas/css/sedes.css">
-    
+	<script src="../bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="../bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/sedes.css">
+	<link rel="stylesheet" href="../css/navbarmio.css">
     <script>
 		var idSede;
 		function configurarBorrado(id){
@@ -20,11 +18,11 @@
 		}
 		
 		function borrar(){
-			window.location.href = "/aulas/deleteSede?idSede=" + idSede;
+			window.location.href = "/aulas/admin/deleteSede?idSede=" + idSede;
 		}
 		
 		function modificar(idSede){
-			window.location.href = "/aulas/findSede?codigo=" + idSede;
+			window.location.href = "/aulas/admin/findSede?codigo=" + idSede;
 		}
 	</script>
     
@@ -32,7 +30,12 @@
 </head>
 
 <body>
-	<c:import url="navbar.jsp"/>
+	<nav class="navbar navbar-expand-lg navbar-dark purpura-navbar">
+	    <a class="navbar-brand" href="/mantenimiento/MenuPrincipal">
+	        <img class="logo" src="../imagenes/CICE.PNG" alt="Mantenimiento">
+	    </a>
+		<c:import url="navbarAdmin.jsp"/>
+	</nav>
     <h1 id="tit-listado">
         LISTADO DE SEDES
     </h1>

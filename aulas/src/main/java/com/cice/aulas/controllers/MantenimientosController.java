@@ -13,4 +13,12 @@ public class MantenimientosController {
 		mav.setViewName("mantenimiento");
 		return mav;
 	}
+
+	@GetMapping("/admin")
+	public ModelAndView mantenimientoAdmin() {
+		ModelAndView mav = new ModelAndView();
+		mav.setViewName("mantenimientoAdmin");
+		return mav;
+	}
+	
 }

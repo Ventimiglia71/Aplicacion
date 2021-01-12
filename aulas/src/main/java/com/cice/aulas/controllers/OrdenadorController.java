@@ -24,12 +24,12 @@ public class OrdenadorController {
 	 * ModelAndView mav = new ModelAndView(); mav.setViewName("prueba"); return mav;
 	 */
 
-	@GetMapping("/altaordenador")
+	@GetMapping("/admin/altaordenador")
 	public String inicioCrear() {
 		return "crearOrdenador";
 	}
 
-	@RequestMapping(value = "/altaordenador", method = RequestMethod.POST)
+	@RequestMapping(value = "/admin/altaordenador", method = RequestMethod.POST)
 	public String crearOrdenador(	@RequestParam("cod_tipord") int cod_tipord,
 									@RequestParam("tamano_pant") String tamano_pant, 
 									@RequestParam("cpu") String cpu,
@@ -39,16 +39,18 @@ public class OrdenadorController {
 		return ("crearOrdenador");
 	}
 
-	@GetMapping("/findAllOrdenador")
+	@GetMapping("/admin/findAllOrdenador")
 	public ModelAndView findAllOrdenadores() {
-		ModelAndView mav = new ModelAndView();
 		List<Ordenador> ordenadores = ordenadorservice.findAll();
-		mav.setViewName("mostrarOrdenador");
+
+		ModelAndView mav = new ModelAndView();
+
 		mav.addObject("ordenadores", ordenadores);
+		mav.setViewName("mostrarOrdenador");
 		return mav;
 	}
 
-	@RequestMapping(value = "/preModificar", method = RequestMethod.GET)
+	@RequestMapping(value = "/admin/preModificar", method = RequestMethod.GET)
 	public ModelAndView preModificar(
 			@RequestParam("cod_ordenador") int cod_ordenador,
 			@RequestParam("cod_tipord") String cod_tipord,
@@ -69,7 +71,7 @@ public class OrdenadorController {
 		
 	}
 
-	@GetMapping("/modificarOrdenador")
+	@GetMapping("/admin/modificarOrdenador")
 	public String modificarOrdenador(
 			@RequestParam("cod_ordenador") int cod_ordenador,
 			@RequestParam("cod_tipord") int cod_tipord,
@@ -80,13 +82,13 @@ public class OrdenadorController {
 		Ordenador o = new Ordenador(cod_ordenador, cod_tipord, tamano_pant, cpu, ram);
 		System.out.println("Hola");
 		ordenadorservice.createOrdenador(o);
-		return "redirect:/findAllOrdenador";
+		return "redirect:/admin/findAllOrdenador";
 	}
 
-	@GetMapping("/borrarordenador")
+	@GetMapping("/admin/borrarordenador")
 	public String borrarOrdenador(@RequestParam(required = true) int cod_ordenador) {
 		ordenadorservice.deleteOrdenador(cod_ordenador);
-		return "redirect:/findAllOrdenador";
+		return "redirect:/admin/findAllOrdenador";
 	}
 
 }
