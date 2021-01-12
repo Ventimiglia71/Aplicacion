@@ -12,13 +12,13 @@
 	href="../bootstrap-4.5.0-dist/css/bootstrap.min.css">
 <link rel="stylesheet" href="../css/estiloal.css">
 <link rel="stylesheet" href="../css/navbarmio.css">
-<title>Listado de Aulas</title>
-<script>
+<title>Listado de Usuarios</title>
+<script>	
 	function configurarBorrado(id) {
-		codAula = id;
+		idUsuario = id;
 	}
 	function borrar() {
-		window.location.href = "borrarAula?cod_aula=" + codAula;
+		window.location.href = "borrarUsuario?id=" + idUsuario;
 	}
 </script>
 </head>
@@ -32,7 +32,7 @@
 	</nav>
 	<div class="container-md w-75 my-5">
 		<h2 class="paddingTop20">
-			LISTADO <span class="badge badge-secondary">AULAS</span>
+			LISTADO <span class="badge badge-secondary">USUARIOS</span>
 		</h2>
 
 		<c:if test="${msg != null}">
@@ -42,49 +42,28 @@
 		<table class="table table-striped table-rosa">
 			<thead>
 				<tr>
-					<th scope="col">Código Aula</th>
-					<th class="derecha" scope="col">Nombre Aula</th>
-					<th class="derecha" scope="col">Num. Aula</th>
-					<th class="derecha" scope="col">Num. Puestos</th>
-					<th class="derecha" scope="col">Tipo Ordenador</th>
-					<th class="derecha" scope="col">Código Equipo</th>
-					<th class="derecha" scope="col">Código Sede</th>
-					<th class="derecha" scope="col">Borrar</th>
-					<th class="derecha" scope="col">Modificar</th>
+					<th scope="col">Id</th>
+					<th scope="col">Activo</th>
+					<th scope="col">Usuario</th>
+					<th scope="col">Password</th>
+					<th scope="col">Borrar</th>
 				</tr>
 			</thead>
 			<tbody>
-				<c:forEach items="${aulas}" var="aula">
+				<c:forEach items="${usuarios}" var="usuario">
 					<tr>
-						<th scope="row">${aula.cod_aula}</th>
-
-						<td class="derecha">${aula.nombre_aula}</td>
-						<td class="derecha">${aula.num_aula}</td>
-						<td class="derecha">${aula.num_puestos}</td>
-						<td class="derecha">${aula.cod_tipord}</td>
-						<td class="derecha">${aula.cod_equipo}</td>
-						<td class="derecha">${aula.cod_sede}</td>
-						<td class="derecha">
-							<button type="button" class="btn btn-success" data-toggle="modal"
-								data-target="#divBorrado"
-								onclick="configurarBorrado('${aula.cod_aula}')">Borrar
-							</button>
-
+						<th scope="row" class="align-middle text-center">${usuario.id}</th>
+						<td class="align-middle text-left">${usuario.enabled}</td>
+						<td class="align-middle text-left">${usuario.username}</td>
+						<td class="align-middle text-left">${usuario.password}</td>
+						<td class="align-middle text-center">
+							<button type="button" class="btn btn-secondary"
+								data-toggle="modal" data-target="#divBorrado"
+								onclick="configurarBorrado('${usuario.id}')">Borrar</button>
 						</td>
-						<td class="derecha"><a
-							href="/aulas/admin/preModificarAula?cod_aula=${aula.cod_aula}&
-							nombre_aula=${aula.nombre_aula}&
-							num_aula=${aula.num_aula}&
-							num_puestos=${aula.num_puestos}&
-							cod_tipord=${aula.cod_tipord}&
-							cod_equipo=${aula.cod_equipo}&
-							cod_sede=${aula.cod_sede}"
-							class="btn btn-success">Modificar</a></td>
 					</tr>
-
 				</c:forEach>
 			</tbody>
-
 		</table>
 	</div>
 	<div class="modal fade" id="divBorrado" tabindex="-1" role="dialog"

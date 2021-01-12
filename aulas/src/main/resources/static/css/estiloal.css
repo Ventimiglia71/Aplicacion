@@ -5,7 +5,7 @@
 :focus::-webkit-input-placeholder{color:transparent;}
 
 html, body {
-    overflow: hidden;
+    /*overflow: hidden; */
     color: #d50478!important;
   }
   

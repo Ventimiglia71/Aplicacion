@@ -1,8 +1,7 @@
+<%@ page contentType="text/html; charset=UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item dropdown">
-                <a class="top nav-link">Mantenimiento</a>
-            </li>
+        <ul class="navbar-nav mr-auto">            
             <li class="nav-item dropdown"><a
                 class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
                 role="button" data-toggle="dropdown" aria-haspopup="true"
@@ -28,7 +27,7 @@
                 <div class="dropdown-menu darkBG" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="/aulas/admin/prepararAddSede">Alta</a>
                     <a class="dropdown-item" href="/aulas/admin/findAllSedes">Listado</a>
-                    <a class="dropdown-item" href="/aulas/admin/prepararFindSede">Modificación</a>
+                    <a class="dropdown-item" href="/aulas/admin/prepararFindSede">ModificaciÃ³n</a>
                 </div>
             </li>
             <li class="nav-item dropdown"><a
@@ -39,7 +38,17 @@
 					<a class="dropdown-item" href="/aulas/admin/altaAula">Alta</a> 
 					<a class="dropdown-item" href="/aulas/admin/mostrarAulas">Listado</a> 
                 </div>
-            </li>            
+            </li> 
+            <li class="nav-item dropdown"><a
+				class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+				role="button" data-toggle="dropdown" aria-haspopup="true"
+				aria-expanded="false"> Usuarios </a>
+				<div class="dropdown-menu darkBG" aria-labelledby="navbarDropdown">
+					<a class="dropdown-item" href="/aulas/admin/altaUsuario">Alta</a> <a
+						class="dropdown-item" href="/aulas/admin/mostrarUsuarios">Listado
+						usuarios</a>
+				</div>
+			</li>           
             <li class="nav-item dropdown"><a
                 class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
                 role="button" data-toggle="dropdown" aria-haspopup="true"
@@ -52,8 +61,9 @@
             <li class="nav-item dropdown">
             	<a class="top nav-link" href="/aulas/preConsulta">Consultar</a>
             </li>
+            <li class="nav-item"><form action="/aulas/admin" method="GET" >
+       			 <button class="btpurp btn-purpura ml-3 my-2 my-sm-0" type="submit">Inicio</button>
+    		</form></li>  
         </ul>
-        <form action="/aulas/admin" method="GET" class="form-inline my-2 my-lg-0">
-            <button class="btpurp btn-purpura my-2 my-sm-0" type="submit">Salir</button>
-        </form>
+        <a class="nav-item btn btn-primary ml-5" href="<c:url value="/logout" />">Logout</a>
     </div>

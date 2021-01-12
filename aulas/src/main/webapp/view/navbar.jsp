@@ -1,7 +1,9 @@
+<%@ page contentType="text/html; charset=UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
         <li class="nav-item dropdown">
-        	<a class="top nav-link" href="/aulas/admin">Administración</a>
+        	<a class="top nav-link" href="/aulas/admin">AdministraciÃ³n</a>
         </li>
         <li class="nav-item dropdown"><a
             class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
@@ -15,8 +17,9 @@
         <li class="nav-item dropdown">
         	<a class="top nav-link" href="/aulas/preConsulta">Consultar</a>
         </li>
-    </ul>
-    <form action="/aulas" method="GET" class="form-inline my-2 my-lg-0">
-        <button class="btpurp btn-purpura my-2 my-sm-0" type="submit">Salir</button>
-    </form>
+        <li class="nav-item"><form action="/aulas" method="GET" >
+        <button class="btpurp btn-purpura ml-3 my-2 my-sm-0" type="submit">Inicio</button>
+    	</form></li>        
+    </ul>  
+    <a class="nav-item btn btn-primary ml-5"	href="<c:url value="/logout" />">Logout</a>
 </div>
