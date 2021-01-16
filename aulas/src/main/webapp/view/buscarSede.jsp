@@ -11,8 +11,16 @@
 	<link rel="stylesheet" href="../bootstrap-4.5.0-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/navbarmio.css">
     <link rel="stylesheet" href="../css/sedes.css">
-       
-    <title>Solicitud Sede</title>   
+
+    <script type="text/javascript">
+    	$(document).ready(function() {
+      		if(${!existesede} && ${primeravez}){
+        		$('#infoModal').modal('toggle');
+      		}
+    	});
+  	</script>
+              
+    <title>Búsqueda Sede</title>   
 </head>
 
 <body onload="check-exist()">

@@ -1,5 +1,16 @@
 package com.cice.aulas.entities;
 
+/**
+ * Sede es una clase que contiene toda la información relativa a cada una de las sedes de la acedemia.
+ * Dicha información se guarda en la tabla llamada "sedes".
+ * Los campos son:
+ * 	- cod_sede:  Código identificativo de la sede. Es generado automáticamente por el sistema.
+ * 	- nombre_sede:  Nombre de la sede.
+ * 	- direccion:  Dirección donde se encuentra la sede.
+ * 	- num_aulas:  Número de aulas que hay en la sede.
+ * 	- telefono:  Teléfono de la sede.
+ */
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
