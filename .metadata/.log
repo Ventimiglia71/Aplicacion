@@ -7524,3 +7524,2896 @@ java.lang.InterruptedException
 
 !ENTRY org.eclipse.wst.html.ui 1 1 2021-01-12 16:11:40.165
 !MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+!SESSION 2021-01-14 12:42:25.227 -----------------------------------------------
+eclipse.buildId=4.16.0.I20200604-0540
+java.version=1.8.0_271
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2021-01-14 12:42:33.958
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-01-14 12:42:33.958
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7dc963be,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@61c4fc34,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-14 12:42:41.702
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-14 12:42:41.704
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-14 12:42:41.709
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-01-14 12:42:43.060
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Usuario'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 2 2021-01-14 12:43:05.151
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2021-01-16 11:18:57.167 -----------------------------------------------
+eclipse.buildId=4.16.0.I20200604-0540
+java.version=1.8.0_271
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2021-01-16 11:19:04.991
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-01-16 11:19:04.991
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4c678a1f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@217009bd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-01-16 11:19:11.813
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Usuario'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 2 2021-01-16 11:23:47.796
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 12:38:15.270
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 12:38:15.273
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@67272d4c[org.springframework.tooling.boot.ls:1.21.0.202009020949(id=1026)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 12:38:15.280
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 12:38:15.306
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 12:38:17.149
+!MESSAGE Boot LS startup time from start to initialized: 1859ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 12:38:17.357
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.hUxiyozZisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 12:38:17.359
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 12:38:17.361
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 12:38:17.363
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 12:38:17.366
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 12:38:17.368
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 12:38:17.369
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 12:38:17.371
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.hUxiyozZ => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 12:38:17.394
+!MESSAGE classpath=118 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 12:38:17.398
+!MESSAGE buffering callback sts4.classpath.hUxiyozZ aulas false 118
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 12:38:17.400
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 12:38:17.416
+!MESSAGE classpath=114 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 12:38:17.420
+!MESSAGE buffering callback sts4.classpath.hUxiyozZ laliga false 114
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 12:38:17.422
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 12:38:17.428
+!MESSAGE classpath=114 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 12:38:17.432
+!MESSAGE buffering callback sts4.classpath.hUxiyozZ ruiz false 114
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 12:38:17.434
+!MESSAGE executing callback sts4.classpath.hUxiyozZ 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 12:38:17.473
+!MESSAGE executing callback sts4.classpath.hUxiyozZ SUCCESS [done]
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-16 12:38:29.558
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-16 12:38:29.562
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-16 12:38:29.567
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 12:46:17.357
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.hUxiyozZ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 12:46:17.359
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.hUxiyozZ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 12:46:17.361
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 12:46:17.363
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.hUxiyozZ => OK
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-01-16 12:46:18.570
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2021-01-16 15:54:09.364 -----------------------------------------------
+eclipse.buildId=4.16.0.I20200604-0540
+java.version=1.8.0_271
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-01-16 15:54:13.077
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2021-01-16 15:54:16.447
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-01-16 15:54:16.447
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@229c4d34,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5b49b1df,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 15:54:24.590
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 15:54:24.590
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@46f7c5c1[org.springframework.tooling.boot.ls:1.21.0.202009020949(id=1026)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 15:54:24.606
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 15:54:24.637
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-01-16 15:54:26.699
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Usuario'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 15:54:27.388
+!MESSAGE Boot LS startup time from start to initialized: 2782ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 15:54:27.856
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.SztARksEisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 15:54:27.856
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 15:54:27.856
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 15:54:27.856
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 15:54:27.856
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 15:54:27.856
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 15:54:27.856
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 15:54:27.871
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.SztARksE => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 15:54:27.887
+!MESSAGE classpath=118 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 15:54:27.887
+!MESSAGE buffering callback sts4.classpath.SztARksE aulas false 118
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 15:54:27.887
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 15:54:27.903
+!MESSAGE classpath=114 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 15:54:27.903
+!MESSAGE buffering callback sts4.classpath.SztARksE laliga false 114
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 15:54:27.903
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 15:54:27.918
+!MESSAGE classpath=114 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 15:54:27.918
+!MESSAGE buffering callback sts4.classpath.SztARksE ruiz false 114
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 15:54:27.918
+!MESSAGE executing callback sts4.classpath.SztARksE 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 15:54:27.949
+!MESSAGE executing callback sts4.classpath.SztARksE SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-01-16 15:54:42.772
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.ui 2 2 2021-01-16 16:06:02.485
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 16:58:31.681
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.SztARksE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 16:58:31.684
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.SztARksE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 16:58:31.686
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 16:58:31.688
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.SztARksE => OK
+!SESSION 2021-01-16 17:51:20.238 -----------------------------------------------
+eclipse.buildId=4.16.0.I20200604-0540
+java.version=1.8.0_271
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2021-01-16 17:51:27.208
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-01-16 17:51:27.208
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2e096ac0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@d7c00de,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 17:51:34.476
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 17:51:34.478
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@102d4cea[org.springframework.tooling.boot.ls:1.21.0.202009020949(id=1026)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 17:51:34.481
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 17:51:34.518
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-01-16 17:51:36.357
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Usuario'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 17:51:36.891
+!MESSAGE Boot LS startup time from start to initialized: 2398ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 17:51:37.187
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.JKtpwthyisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 17:51:37.187
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 17:51:37.187
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 17:51:37.187
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 17:51:37.187
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 17:51:37.187
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 17:51:37.187
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 17:51:37.187
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.JKtpwthy => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 17:51:37.203
+!MESSAGE classpath=118 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 17:51:37.218
+!MESSAGE buffering callback sts4.classpath.JKtpwthy aulas false 118
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 17:51:37.218
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 17:51:37.218
+!MESSAGE classpath=114 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 17:51:37.234
+!MESSAGE buffering callback sts4.classpath.JKtpwthy laliga false 114
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 17:51:37.234
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 17:51:37.234
+!MESSAGE classpath=114 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 17:51:37.234
+!MESSAGE buffering callback sts4.classpath.JKtpwthy ruiz false 114
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 17:51:37.234
+!MESSAGE executing callback sts4.classpath.JKtpwthy 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 17:51:37.286
+!MESSAGE executing callback sts4.classpath.JKtpwthy SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2021-01-16 17:53:54.919
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-16 19:30:53.113
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-16 19:30:53.115
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-16 19:30:53.121
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-16 19:49:04.669
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-16 19:49:04.671
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-16 19:49:04.673
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-16 19:51:03.722
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-16 19:51:03.724
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-16 19:51:03.725
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-16 20:36:34.431
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-16 20:36:34.433
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-16 20:36:34.434
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-01-16 20:40:43.171
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jface 2 0 2021-01-16 20:46:28.449
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-01-16 20:46:28.449
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4380b6eb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1d3b942b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-16 20:50:26.525
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-16 20:50:26.527
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-16 20:50:26.528
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 21:05:57.554
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 21:05:57.564
+!MESSAGE classpath=118 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 21:05:57.569
+!MESSAGE buffering callback sts4.classpath.JKtpwthy hoteleclipse false 118
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 21:05:57.571
+!MESSAGE executing callback sts4.classpath.JKtpwthy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 21:05:57.578
+!MESSAGE executing callback sts4.classpath.JKtpwthy SUCCESS [done]
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-16 21:06:07.697
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-16 21:06:07.699
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-16 21:06:07.701
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.jst.jee 4 2 2021-01-16 21:07:22.397
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jst.jee".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.createModelResource(JEE5ModelProvider.java:209)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.getModelResource(JEE5ModelProvider.java:190)
+	at org.eclipse.jst.jee.model.internal.Web25ModelProvider.getModelObject(Web25ModelProvider.java:44)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.getModelObject(JEE5ModelProvider.java:233)
+	at org.eclipse.jst.jee.model.internal.Web25MergedModelProvider.getXmlWebApp(Web25MergedModelProvider.java:59)
+	at org.eclipse.jst.jee.model.internal.Web25MergedModelProvider.internalModelChanged(Web25MergedModelProvider.java:155)
+	at org.eclipse.jst.jee.model.internal.Web25MergedModelProvider.xmlModelChanged(Web25MergedModelProvider.java:146)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider$XmlModelListener.modelsChanged(AbstractMergedModelProvider.java:91)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider$NotifyRunner.run(JEE5ModelProvider.java:470)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.notifyListeners(JEE5ModelProvider.java:445)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.resourceChanged(JEE5ModelProvider.java:117)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider$ResourceAdapter.notifyChanged(JEE5ModelProvider.java:81)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.setModified(ResourceImpl.java:1867)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl$ContentsEList.modified(ResourceImpl.java:486)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl$ContentsEList.didRemove(ResourceImpl.java:447)
+	at org.eclipse.emf.common.util.AbstractEList.didClear(AbstractEList.java:170)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl$ContentsEList.didClear(ResourceImpl.java:466)
+	at org.eclipse.emf.common.util.BasicEList.clear(BasicEList.java:639)
+	at org.eclipse.emf.common.notify.impl.NotifyingListImpl.doClear(NotifyingListImpl.java:1158)
+	at org.eclipse.emf.common.notify.impl.NotifyingListImpl.clear(NotifyingListImpl.java:1085)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.doUnload(ResourceImpl.java:1699)
+	at org.eclipse.emf.ecore.xmi.impl.XMLResourceImpl.doUnload(XMLResourceImpl.java:720)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.unload(ResourceImpl.java:1721)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.removeAndUnloadAllResources(ProjectResourceSetImpl.java:885)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.release(ProjectResourceSetImpl.java:866)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.ResourceSetWorkbenchEditSynchronizer.release(ResourceSetWorkbenchEditSynchronizer.java:222)
+	at org.eclipse.jem.util.emf.workbench.ResourceSetWorkbenchSynchronizer.resourceChanged(ResourceSetWorkbenchSynchronizer.java:184)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.ResourceSetWorkbenchEditSynchronizer.resourceChanged(ResourceSetWorkbenchEditSynchronizer.java:137)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:259)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:375)
+	at org.eclipse.core.internal.resources.Project.close(Project.java:193)
+	at org.eclipse.ui.actions.CloseResourceAction.invokeOperation(CloseResourceAction.java:171)
+	at org.eclipse.ui.actions.WorkspaceAction.execute(WorkspaceAction.java:159)
+	at org.eclipse.ui.actions.WorkspaceAction$1.runInWorkspace(WorkspaceAction.java:459)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jst.jee 4 0 2021-01-16 21:07:22.399
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.createModelResource(JEE5ModelProvider.java:209)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.getModelResource(JEE5ModelProvider.java:190)
+	at org.eclipse.jst.jee.model.internal.Web25ModelProvider.getModelObject(Web25ModelProvider.java:44)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.getModelObject(JEE5ModelProvider.java:233)
+	at org.eclipse.jst.jee.model.internal.Web25MergedModelProvider.getXmlWebApp(Web25MergedModelProvider.java:59)
+	at org.eclipse.jst.jee.model.internal.Web25MergedModelProvider.internalModelChanged(Web25MergedModelProvider.java:155)
+	at org.eclipse.jst.jee.model.internal.Web25MergedModelProvider.xmlModelChanged(Web25MergedModelProvider.java:146)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider$XmlModelListener.modelsChanged(AbstractMergedModelProvider.java:91)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider$NotifyRunner.run(JEE5ModelProvider.java:470)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.notifyListeners(JEE5ModelProvider.java:445)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.resourceChanged(JEE5ModelProvider.java:117)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider$ResourceAdapter.notifyChanged(JEE5ModelProvider.java:81)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.setModified(ResourceImpl.java:1867)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl$ContentsEList.modified(ResourceImpl.java:486)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl$ContentsEList.didRemove(ResourceImpl.java:447)
+	at org.eclipse.emf.common.util.AbstractEList.didClear(AbstractEList.java:170)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl$ContentsEList.didClear(ResourceImpl.java:466)
+	at org.eclipse.emf.common.util.BasicEList.clear(BasicEList.java:639)
+	at org.eclipse.emf.common.notify.impl.NotifyingListImpl.doClear(NotifyingListImpl.java:1158)
+	at org.eclipse.emf.common.notify.impl.NotifyingListImpl.clear(NotifyingListImpl.java:1085)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.doUnload(ResourceImpl.java:1699)
+	at org.eclipse.emf.ecore.xmi.impl.XMLResourceImpl.doUnload(XMLResourceImpl.java:720)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.unload(ResourceImpl.java:1721)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.removeAndUnloadAllResources(ProjectResourceSetImpl.java:885)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.release(ProjectResourceSetImpl.java:866)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.ResourceSetWorkbenchEditSynchronizer.release(ResourceSetWorkbenchEditSynchronizer.java:222)
+	at org.eclipse.jem.util.emf.workbench.ResourceSetWorkbenchSynchronizer.resourceChanged(ResourceSetWorkbenchSynchronizer.java:184)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.ResourceSetWorkbenchEditSynchronizer.resourceChanged(ResourceSetWorkbenchEditSynchronizer.java:137)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:259)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:375)
+	at org.eclipse.core.internal.resources.Project.close(Project.java:193)
+	at org.eclipse.ui.actions.CloseResourceAction.invokeOperation(CloseResourceAction.java:171)
+	at org.eclipse.ui.actions.WorkspaceAction.execute(WorkspaceAction.java:159)
+	at org.eclipse.ui.actions.WorkspaceAction$1.runInWorkspace(WorkspaceAction.java:459)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 21:07:22.520
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 21:07:22.522
+!MESSAGE buffering callback sts4.classpath.JKtpwthy hoteleclipse true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 21:07:22.524
+!MESSAGE executing callback sts4.classpath.JKtpwthy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 21:07:22.527
+!MESSAGE executing callback sts4.classpath.JKtpwthy SUCCESS [done]
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-16 21:13:09.273
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-16 21:13:09.275
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-16 21:13:09.276
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-16 21:55:58.013
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-16 21:55:58.015
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-16 21:55:58.017
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-01-16 22:01:45.439
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-16 22:08:52.840
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-16 22:08:52.845
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-16 22:08:52.846
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-16 22:18:10.416
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-16 22:18:10.419
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-16 22:18:10.420
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 22:24:34.107
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.JKtpwthy
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 22:24:34.110
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.JKtpwthy
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 22:24:34.112
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-16 22:24:34.114
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.JKtpwthy => OK
+!SESSION 2021-01-17 10:59:02.768 -----------------------------------------------
+eclipse.buildId=4.16.0.I20200604-0540
+java.version=1.8.0_271
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2021-01-17 10:59:09.991
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-01-17 10:59:09.991
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@d7c00de,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@11fa11b2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-17 10:59:17.278
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-17 10:59:17.280
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-17 10:59:17.285
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-01-17 10:59:18.517
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Usuario'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 2 2021-01-17 10:59:27.458
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-17 11:24:47.472
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-17 11:24:47.474
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-17 11:24:47.476
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 11:24:48.612
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 11:24:48.614
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@140c2926[org.springframework.tooling.boot.ls:1.21.0.202009020949(id=1026)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 11:24:48.618
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 11:24:48.647
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 11:25:10.050
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 11:25:10.053
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@140c2926[org.springframework.tooling.boot.ls:1.21.0.202009020949(id=1026)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 11:25:10.055
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 11:25:11.651
+!MESSAGE Boot LS startup time from start to initialized: 1594ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 11:25:11.686
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.lEUDEDxeisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 11:25:11.688
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 11:25:11.690
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 11:25:11.691
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 11:25:11.694
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 11:25:11.695
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 11:25:11.697
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 11:25:11.698
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.lEUDEDxe => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 11:25:11.721
+!MESSAGE classpath=118 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 11:25:11.725
+!MESSAGE buffering callback sts4.classpath.lEUDEDxe aulas false 118
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 11:25:11.727
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 11:25:11.742
+!MESSAGE classpath=114 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 11:25:11.749
+!MESSAGE buffering callback sts4.classpath.lEUDEDxe laliga false 114
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 11:25:11.752
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 11:25:11.761
+!MESSAGE classpath=114 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 11:25:11.767
+!MESSAGE buffering callback sts4.classpath.lEUDEDxe ruiz false 114
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 11:25:11.770
+!MESSAGE executing callback sts4.classpath.lEUDEDxe 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 11:25:11.805
+!MESSAGE executing callback sts4.classpath.lEUDEDxe SUCCESS [done]
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-17 11:25:35.642
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-17 11:25:35.644
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-17 11:25:35.645
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-17 11:28:06.534
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-17 11:28:06.539
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-17 11:28:06.542
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-17 11:36:51.047
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-17 11:36:51.049
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-17 11:36:51.051
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-17 11:36:57.687
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-17 11:36:57.688
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-17 11:36:57.690
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-17 11:37:01.516
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-17 11:37:01.519
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-17 11:37:01.521
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-17 12:38:02.339
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-17 12:38:02.341
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-17 12:38:02.342
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.jdt.core 4 4 2021-01-17 12:44:38.719
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package com.cice.aulas.controllers;
+
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.format.annotation.DateTimeFormat;
+import org.springframework.security.access.annotation.Secured;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.cice.aulas.entities.Aula;
+import com.cice.aulas.entities.Mes;
+import com.cice.aulas.entities.Reserva;
+import com.cice.aulas.entities.Sede;
+import com.cice.aulas.service.IAulasService;
+import com.cice.aulas.service.IReservasService;
+import com.cice.aulas.service.ISedesService;
+import com.cice.aulas.service.ITipordService;
+
+@Secured("ROLE_USER")
+@Controller
+public class reservasController {
+	@Autowired
+	ISedesService sedesService;
+	@Autowired
+	IAulasService aulasService;
+	@Autowired
+	IReservasService reservasService;
+	@Autowired
+	ITipordService tipordService;
+	
+	@GetMapping("/preReservaUnitaria")
+	public ModelAndView preReservaUnitaria(	@RequestParam("modo") String modo,
+											@RequestParam("mensaje") String mensaje,
+											@RequestParam("sedeSelec") int sedeSelec) {
+		//Recuperamos todas las sedes para alimentar el combo para elegirlas
+		List<Sede> sedes = sedesService.allSedes();
+
+		int codSede = 0;
+
+		if (sedeSelec < 0) {
+			codSede = sedes.get(0).getCod_sede();
+		} else {
+			codSede = sedeSelec;
+		}
+
+		//Obtenemos todas las aulas de la primera sede de la BBDD
+		List<Aula> aulas = aulasService.aulasPorSede(codSede); 
+		int codAula = aulas.get(0).getCod_aula();
+		
+		ModelAndView mav = new ModelAndView();
+
+		mav.addObject("sedes", sedes);
+		mav.addObject("codSede", codSede);
+		mav.addObject("aulas", aulas);
+		mav.addObject("codAula", codAula);
+		mav.addObject("modo", modo);
+		mav.addObject("mensaje", mensaje);
+
+
+		mav.setViewName("preReservaUnitaria");
+		return mav;
+	}
+
+	@RequestMapping(value = "/reservaUnitaria", method = RequestMethod.GET)
+	public String reservaUnitaria(
+			@RequestParam("sedeSelec") int sedeSelec,
+			@RequestParam("codAulaSelec") int codAulaSelec,
+			@RequestParam("fechaDesde") @DateTimeFormat(pattern = "yyyy-MM-dd") LocalDate fechaDesde,
+			@RequestParam("fechaHasta") @DateTimeFormat(pattern = "yyyy-MM-dd") LocalDate fechaHasta,
+			@RequestParam("horaDesde") int horaDesde,
+			@RequestParam("horaHasta") int horaHasta) {
+		//Preparamos variables de trabajo
+		String mensaje = "";
+		String fechaDesdeTexto = fechaDesde.toString();
+		String fechaHastaTexto = fechaHasta.toString();
+		if(fechaHastaTexto.contains("9999-12-31")) {
+			fechaHastaTexto = fechaDesdeTexto;
+		}
+		int anyoDesde	= Integer.parseInt(fechaDesdeTexto.substring(0, 4));
+		int mesDesde	= Integer.parseInt(fechaDesdeTexto.substring(5,7));
+		int diaDesde	= Integer.parseInt(fechaDesdeTexto.substring(8));
+		int anyoHasta	= Integer.parseInt(fechaHastaTexto.substring(0, 4));
+		int mesHasta	= Integer.parseInt(fechaHastaTexto.substring(5,7));
+		int diaHasta	= Integer.parseInt(fechaHastaTexto.substring(8));
+		
+		if (anyoHasta 	< 	anyoDesde 		||
+			(anyoHasta 	==  anyoDesde &&
+			 mesHasta 	<	mesDesde	) 	||
+			(anyoHasta 	==  anyoDesde &&
+			 mesHasta 	==	mesDesde  &&
+			 diaHasta	<	diaDesde)		||
+			 horaHasta 	<	horaDesde		) {
+			mensaje = "La fecha/hora hasta debe ser mayor o igual que la fecha/hora desde, nunca menor";
+			if(fechaDesdeTexto.contains(fechaHastaTexto)) {
+				return "redirect:/preReservaUnitaria?modo=0&mensaje=" + mensaje + "&sedeSelec=" + sedeSelec;
+			} else {
+				return "redirect:/preReservaUnitaria?modo=3&mensaje=" + mensaje + "&sedeSelec=" + sedeSelec;
+			}
+		}
+
+		//Validamos que estén libres los registros que queremos grabar
+		Boolean hayDatos = false;
+		for (int i = anyoDesde; i < anyoHasta + 1; i++) {
+			for (int j = mesDesde; j < mesHasta + 1; j++) {
+				for (int k = diaDesde; k < diaHasta + 1; k++) {
+					for (int l = horaDesde; l < horaHasta + 1; l++) {
+						List<Reserva> comprobacion = reservasService.buscarVacios(i, j, k, codAulaSelec, l);
+						if (comprobacion.size() != 0) {
+							hayDatos = true;
+							break;
+						}
+					}
+				}
+			}
+		}
+		
+		int diaIni = 0;
+		int diaFin = 0;
+		if (!hayDatos) {
+			//Creamos un bucle para grabar todas los días y horas que se hayan seleccionado
+			for (int i = anyoDesde; i < anyoHasta + 1; i++) {
+				for (int j = mesDesde; j < mesHasta + 1; j++) {
+					if (j == mesDesde && j == mesHasta) {
+						diaIni = diaDesde;
+						diaFin = diaHasta;
+					}
+					if (j != mesDesde && j == mesHasta) {
+						diaIni = 1;
+						diaFin = diaHasta;
+					}
+					if (j == mesDesde && j != mesHasta) {
+						diaIni = diaDesde;
+						diaFin = 31;
+					}
+					if (j != mesDesde && j != mesHasta) {
+						diaIni = 1;
+						diaFin = 31;
+					}
+					for (int k = diaIni; k < diaFin + 1; k++) {
+						for (int l = horaDesde; l < horaHasta + 1; l++) {
+							if (diaSemana(k, j, i) != 7) {
+								if ((j == 1 || j == 3 || j == 5 || j == 7 || j == 8 || j == 10 || j == 12) ||
+									((j == 4 || j == 6 || j == 9 || j == 11) && (k < 31)) ||	
+									(j == 2 && i % 4 == 0) && ((anoSelec % 100 != 0) || (anoSelec % 400 == 0))) && k < 30) ||
+									(j == 2 && i % 2020 != 0 && k < 29)) {
+									reservasService.grabarReserva(new Reserva(0, "", codAulaSelec, i, j, k, l));
+								}
+							}
+						}
+					}
+				}
+			}
+			mensaje = "Reserva grabada correctamente";
+			if(fechaDesdeTexto.contains(fechaHastaTexto)) {
+				return "redirect:/preReservaUnitaria?modo=1&mensaje=" + mensaje + "&sedeSelec=" + sedeSelec;
+			} else {
+				return "redirect:/preReservaUnitaria?modo=2&mensaje=" + mensaje + "&sedeSelec=" + sedeSelec;
+			}
+			
+		} else {
+			mensaje = "La reserva no es posible, AULA ya ocupada en estos horarios y fechas";
+			if(fechaDesdeTexto.contains(fechaHastaTexto)) {
+				return "redirect:/preReservaUnitaria?modo=0&mensaje=" + mensaje + "&sedeSelec=" + sedeSelec;
+			} else {
+				return "redirect:/preReservaUnitaria?modo=3&mensaje=" + mensaje + "&sedeSelec=" + sedeSelec;
+			}
+		}
+	}
+	
+	@GetMapping("/preConsulta")
+	public ModelAndView preConsulta(@RequestParam(required = true) int sedeSelec) {
+		//Obtenemos el año en el que estamos para ofrecerlo como opción y que no haya que teclearlo
+		Calendar c1 = Calendar.getInstance();
+		int anyoEnCurso = c1.get(Calendar.YEAR);
+		String anyo = Integer.toString(anyoEnCurso);
+
+		//Rellenamos la matriz con los meses
+		List<Mes> meses = rellenarMeses();
+		int codMes = 1;
+		
+		//Recuperamos todas las sedes para alimentar el combo para elegirlas
+		List<Sede> sedes = sedesService.allSedes();
+		int codSede = 0;
+
+		if (sedeSelec < 0) {
+			codSede = sedes.get(0).getCod_sede();
+		} else {
+			codSede = sedeSelec;
+		}
+
+		//Obtenemos todas las aulas de la primera sede de la BBDD
+		List<Aula> aulas = aulasService.aulasPorSede(codSede); 
+		int codAula = aulas.get(0).getCod_aula();
+		
+		ModelAndView mav = new ModelAndView();
+
+		mav.addObject("anyo", anyo);
+		mav.addObject("meses", meses);
+		mav.addObject("CodMes", codMes);
+		mav.addObject("sedes", sedes);
+		mav.addObject("codSede", codSede);
+		mav.addObject("aulas", aulas);
+		mav.addObject("codAula", codAula);
+
+		mav.setViewName("preConsulta");
+		return mav;
+	}
+	
+	@GetMapping("/calendario")
+	public ModelAndView calendario(	@RequestParam(required = true) int sedeSelec,
+									@RequestParam(required = true) int aulaSelec,
+									@RequestParam(required = true) int anoSelec,
+									@RequestParam(required = true) int mesSelec) {
+		//Recuperamos todas las sedes para alimentar el combo para elegirlas
+		List<Sede> sedes = sedesService.allSedes();
+		
+		//Indicamos cual es la sede elegida
+		int codSede = sedeSelec;
+
+		//Obtenemos todas las aulas de la primera sede de la BBDD
+		List<Aula> aulas = aulasService.aulasPorSede(codSede); 
+		
+		//Indicamos cual es el aula elegida
+		int codAula = aulaSelec;
+		
+		//Rellenamos la matriz con los meses
+		List<Mes> meses = rellenarMeses();
+		int codMes = mesSelec;
+		
+		//Montamos el mes requerido completo con las marcas de reservadas o no
+		int diasMes = 0;
+		if (mesSelec == 1 || mesSelec == 3 || mesSelec == 5 || mesSelec == 7 || mesSelec == 8 || mesSelec == 10 || mesSelec == 12) {
+			diasMes = 31;
+			System.out.println("31");
+		} else if (mesSelec == 4 || mesSelec == 6 || mesSelec == 9 || mesSelec == 11) {
+			diasMes = 30;
+		} else if ((anoSelec % 4 == 0) && ((anoSelec % 100 != 0) || (anoSelec % 400 == 0))) {
+			diasMes = 29;
+		} else {
+			diasMes = 28;
+		}
+		
+		//quitar
+		System.out.println("AÑO: " + anoSelec);
+		System.out.println("dividir: " + anoSelec % 2020);
+		System.out.println("DIASMES: " + diasMes);
+		//quitar
+		//Creamos la tabla del mes completo con todas sus horas y la iniciamos a no reservada (false)
+		boolean[][] reservado = new boolean[diasMes + 1][14];
+		for (int i = 1; i < diasMes + 1; i++) {
+			for (int j = 1; j < 14; j++) {
+				reservado[i][j] = false;
+			}
+		}
+
+		//Vamos a buscar las reservas que hay hechas con los datos introducidos
+		List<Reserva> reservasHechas = reservasService.reservasHechas(aulaSelec, anoSelec, mesSelec);
+		
+		//revisamos las reservas recuperadas y actualizamos como true en la tabla del mes
+		for (Reserva reserva : reservasHechas) {
+			reservado[reserva.getDia()][reserva.getHora() - 8] = true;
+		}
+			
+		//Conseguimos el nombre del mes
+		String mesNombre = nombreMes(mesSelec - 1);
+		
+		ModelAndView mav = new ModelAndView();
+		
+		mav.addObject("anyo", anoSelec);
+		mav.addObject("sedes", sedes);
+		mav.addObject("codSede", codSede);
+		mav.addObject("aulas", aulas);
+		mav.addObject("codAula", codAula);
+		mav.addObject("meses", meses);
+		mav.addObject("codMes", codMes);
+		mav.addObject("diasMes", diasMes);
+		mav.addObject("reservado", reservado);
+		mav.addObject("mesNombre", mesNombre);
+		
+		mav.setViewName("calendario");
+		return mav;
+	}
+
+	int diaSemana (int dia, int mes, int ano)
+	   {
+	    int diaSem = 0;
+	    int nD = 0;
+	    Calendar c = Calendar.getInstance();
+
+	    c.set(ano, mes - 1, dia);
+	    nD=c.get(Calendar.DAY_OF_WEEK); 
+	    System.out.println(nD);
+	    switch (nD){
+	        case 1: diaSem = 7;
+	            break;
+	        case 2: diaSem = 1;
+	            break;
+	        case 3: diaSem = 2;
+	            break;
+	        case 4: diaSem = 3;
+	            break;
+	        case 5: diaSem = 4;
+	            break;
+	        case 6: diaSem = 5;
+	            break;
+	        case 7: diaSem = 6;
+	            break;
+	    }
+
+	    return diaSem;
+	}
+	
+	String nombreMes(int month) {
+		String result = "";
+		
+		switch(month){
+		  case 0:
+		    {
+		      result="Enero";
+		      break;
+		    }
+		  case 1:
+		    {
+		      result="Febrero";
+		      break;
+		    }
+		  case 2:
+		    {
+		      result="Marzo";
+		      break;
+		    }
+		  case 3:
+		    {
+		      result="Abril";
+		      break;
+		    }
+		  case 4:
+		    {
+		      result="Mayo";
+		      break;
+		    }
+		  case 5:
+		    {
+		      result="Junio";
+		      break;
+		    }
+		  case 6:
+		    {
+		      result="Julio";
+		      break;
+		    }
+		  case 7:
+		    {
+		      result="Agosto";
+		      break;
+		    }
+		  case 8:
+		    {
+		      result="Septiembre";
+		      break;
+		    }
+		  case 9:
+		    {
+		      result="Octubre";
+		      break;
+		    }
+		  case 10:
+		    {
+		      result="Noviembre";
+		      break;
+		    }
+		  case 11:
+		    {
+		      result="Diciembre";
+		      break;
+		    }
+		  default:
+		    {
+		      result="Error";
+		      break;
+		    }
+		}
+		return result;
+	}
+
+	List<Mes> rellenarMeses() {
+		ArrayList<Mes> meses = new ArrayList<Mes>();
+		
+		meses.add(new Mes(1, "Enero"));
+		meses.add(new Mes(2, "Febrero"));
+		meses.add(new Mes(3, "Marzo"));
+		meses.add(new Mes(4, "Abril"));
+		meses.add(new Mes(5, "Mayo"));
+		meses.add(new Mes(6, "Junio"));
+		meses.add(new Mes(7, "Julio"));
+		meses.add(new Mes(8, "Agosto"));
+		meses.add(new Mes(9, "Septiembre"));
+		meses.add(new Mes(10, "Octubre"));
+		meses.add(new Mes(11, "Noviembre"));
+		meses.add(new Mes(12, "Diciembre"));
+		
+		return meses;
+	}
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2638)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2014)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3750)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1932)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1963)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3023)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2203)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2968)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2203)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2968)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2193)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2965)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2193)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2965)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2193)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2965)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2193)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2965)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2203)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2968)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3302)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1513)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:450)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:200)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1138)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2021-01-17 12:44:38.723
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2638)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2014)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3750)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1932)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1963)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3023)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2203)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2968)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2203)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2968)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2193)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2965)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2193)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2965)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2193)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2965)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2193)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2965)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2203)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2968)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3302)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1513)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:450)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:200)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1138)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2021-01-17 12:44:38.726
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2638)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2014)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3750)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1932)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1963)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3023)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2203)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2968)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2203)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2968)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2193)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2965)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2193)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2965)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2193)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2965)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2193)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2965)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2203)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2968)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3302)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1513)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:450)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:200)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1138)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.core 4 4 2021-01-17 12:44:38.744
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package com.cice.aulas.controllers;
+
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.format.annotation.DateTimeFormat;
+import org.springframework.security.access.annotation.Secured;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.cice.aulas.entities.Aula;
+import com.cice.aulas.entities.Mes;
+import com.cice.aulas.entities.Reserva;
+import com.cice.aulas.entities.Sede;
+import com.cice.aulas.service.IAulasService;
+import com.cice.aulas.service.IReservasService;
+import com.cice.aulas.service.ISedesService;
+import com.cice.aulas.service.ITipordService;
+
+@Secured("ROLE_USER")
+@Controller
+public class reservasController {
+	@Autowired
+	ISedesService sedesService;
+	@Autowired
+	IAulasService aulasService;
+	@Autowired
+	IReservasService reservasService;
+	@Autowired
+	ITipordService tipordService;
+	
+	@GetMapping("/preReservaUnitaria")
+	public ModelAndView preReservaUnitaria(	@RequestParam("modo") String modo,
+											@RequestParam("mensaje") String mensaje,
+											@RequestParam("sedeSelec") int sedeSelec) {
+		//Recuperamos todas las sedes para alimentar el combo para elegirlas
+		List<Sede> sedes = sedesService.allSedes();
+
+		int codSede = 0;
+
+		if (sedeSelec < 0) {
+			codSede = sedes.get(0).getCod_sede();
+		} else {
+			codSede = sedeSelec;
+		}
+
+		//Obtenemos todas las aulas de la primera sede de la BBDD
+		List<Aula> aulas = aulasService.aulasPorSede(codSede); 
+		int codAula = aulas.get(0).getCod_aula();
+		
+		ModelAndView mav = new ModelAndView();
+
+		mav.addObject("sedes", sedes);
+		mav.addObject("codSede", codSede);
+		mav.addObject("aulas", aulas);
+		mav.addObject("codAula", codAula);
+		mav.addObject("modo", modo);
+		mav.addObject("mensaje", mensaje);
+
+
+		mav.setViewName("preReservaUnitaria");
+		return mav;
+	}
+
+	@RequestMapping(value = "/reservaUnitaria", method = RequestMethod.GET)
+	public String reservaUnitaria(
+			@RequestParam("sedeSelec") int sedeSelec,
+			@RequestParam("codAulaSelec") int codAulaSelec,
+			@RequestParam("fechaDesde") @DateTimeFormat(pattern = "yyyy-MM-dd") LocalDate fechaDesde,
+			@RequestParam("fechaHasta") @DateTimeFormat(pattern = "yyyy-MM-dd") LocalDate fechaHasta,
+			@RequestParam("horaDesde") int horaDesde,
+			@RequestParam("horaHasta") int horaHasta) {
+		//Preparamos variables de trabajo
+		String mensaje = "";
+		String fechaDesdeTexto = fechaDesde.toString();
+		String fechaHastaTexto = fechaHasta.toString();
+		if(fechaHastaTexto.contains("9999-12-31")) {
+			fechaHastaTexto = fechaDesdeTexto;
+		}
+		int anyoDesde	= Integer.parseInt(fechaDesdeTexto.substring(0, 4));
+		int mesDesde	= Integer.parseInt(fechaDesdeTexto.substring(5,7));
+		int diaDesde	= Integer.parseInt(fechaDesdeTexto.substring(8));
+		int anyoHasta	= Integer.parseInt(fechaHastaTexto.substring(0, 4));
+		int mesHasta	= Integer.parseInt(fechaHastaTexto.substring(5,7));
+		int diaHasta	= Integer.parseInt(fechaHastaTexto.substring(8));
+		
+		if (anyoHasta 	< 	anyoDesde 		||
+			(anyoHasta 	==  anyoDesde &&
+			 mesHasta 	<	mesDesde	) 	||
+			(anyoHasta 	==  anyoDesde &&
+			 mesHasta 	==	mesDesde  &&
+			 diaHasta	<	diaDesde)		||
+			 horaHasta 	<	horaDesde		) {
+			mensaje = "La fecha/hora hasta debe ser mayor o igual que la fecha/hora desde, nunca menor";
+			if(fechaDesdeTexto.contains(fechaHastaTexto)) {
+				return "redirect:/preReservaUnitaria?modo=0&mensaje=" + mensaje + "&sedeSelec=" + sedeSelec;
+			} else {
+				return "redirect:/preReservaUnitaria?modo=3&mensaje=" + mensaje + "&sedeSelec=" + sedeSelec;
+			}
+		}
+
+		//Validamos que estén libres los registros que queremos grabar
+		Boolean hayDatos = false;
+		for (int i = anyoDesde; i < anyoHasta + 1; i++) {
+			for (int j = mesDesde; j < mesHasta + 1; j++) {
+				for (int k = diaDesde; k < diaHasta + 1; k++) {
+					for (int l = horaDesde; l < horaHasta + 1; l++) {
+						List<Reserva> comprobacion = reservasService.buscarVacios(i, j, k, codAulaSelec, l);
+						if (comprobacion.size() != 0) {
+							hayDatos = true;
+							break;
+						}
+					}
+				}
+			}
+		}
+		
+		int diaIni = 0;
+		int diaFin = 0;
+		if (!hayDatos) {
+			//Creamos un bucle para grabar todas los días y horas que se hayan seleccionado
+			for (int i = anyoDesde; i < anyoHasta + 1; i++) {
+				for (int j = mesDesde; j < mesHasta + 1; j++) {
+					if (j == mesDesde && j == mesHasta) {
+						diaIni = diaDesde;
+						diaFin = diaHasta;
+					}
+					if (j != mesDesde && j == mesHasta) {
+						diaIni = 1;
+						diaFin = diaHasta;
+					}
+					if (j == mesDesde && j != mesHasta) {
+						diaIni = diaDesde;
+						diaFin = 31;
+					}
+					if (j != mesDesde && j != mesHasta) {
+						diaIni = 1;
+						diaFin = 31;
+					}
+					for (int k = diaIni; k < diaFin + 1; k++) {
+						for (int l = horaDesde; l < horaHasta + 1; l++) {
+							if (diaSemana(k, j, i) != 7) {
+								if ((j == 1 || j == 3 || j == 5 || j == 7 || j == 8 || j == 10 || j == 12) ||
+									((j == 4 || j == 6 || j == 9 || j == 11) && (k < 31)) ||	
+									(j == 2 && i % 4 == 0) && ((anoSelec % 100 != 0) || (anoSelec % 400 == 0))) && k < 30) ||
+									(j == 2 && i % 2020 != 0 && k < 29)) {
+									reservasService.grabarReserva(new Reserva(0, "", codAulaSelec, i, j, k, l));
+								}
+							}
+						}
+					}
+				}
+			}
+			mensaje = "Reserva grabada correctamente";
+			if(fechaDesdeTexto.contains(fechaHastaTexto)) {
+				return "redirect:/preReservaUnitaria?modo=1&mensaje=" + mensaje + "&sedeSelec=" + sedeSelec;
+			} else {
+				return "redirect:/preReservaUnitaria?modo=2&mensaje=" + mensaje + "&sedeSelec=" + sedeSelec;
+			}
+			
+		} else {
+			mensaje = "La reserva no es posible, AULA ya ocupada en estos horarios y fechas";
+			if(fechaDesdeTexto.contains(fechaHastaTexto)) {
+				return "redirect:/preReservaUnitaria?modo=0&mensaje=" + mensaje + "&sedeSelec=" + sedeSelec;
+			} else {
+				return "redirect:/preReservaUnitaria?modo=3&mensaje=" + mensaje + "&sedeSelec=" + sedeSelec;
+			}
+		}
+	}
+	
+	@GetMapping("/preConsulta")
+	public ModelAndView preConsulta(@RequestParam(required = true) int sedeSelec) {
+		//Obtenemos el año en el que estamos para ofrecerlo como opción y que no haya que teclearlo
+		Calendar c1 = Calendar.getInstance();
+		int anyoEnCurso = c1.get(Calendar.YEAR);
+		String anyo = Integer.toString(anyoEnCurso);
+
+		//Rellenamos la matriz con los meses
+		List<Mes> meses = rellenarMeses();
+		int codMes = 1;
+		
+		//Recuperamos todas las sedes para alimentar el combo para elegirlas
+		List<Sede> sedes = sedesService.allSedes();
+		int codSede = 0;
+
+		if (sedeSelec < 0) {
+			codSede = sedes.get(0).getCod_sede();
+		} else {
+			codSede = sedeSelec;
+		}
+
+		//Obtenemos todas las aulas de la primera sede de la BBDD
+		List<Aula> aulas = aulasService.aulasPorSede(codSede); 
+		int codAula = aulas.get(0).getCod_aula();
+		
+		ModelAndView mav = new ModelAndView();
+
+		mav.addObject("anyo", anyo);
+		mav.addObject("meses", meses);
+		mav.addObject("CodMes", codMes);
+		mav.addObject("sedes", sedes);
+		mav.addObject("codSede", codSede);
+		mav.addObject("aulas", aulas);
+		mav.addObject("codAula", codAula);
+
+		mav.setViewName("preConsulta");
+		return mav;
+	}
+	
+	@GetMapping("/calendario")
+	public ModelAndView calendario(	@RequestParam(required = true) int sedeSelec,
+									@RequestParam(required = true) int aulaSelec,
+									@RequestParam(required = true) int anoSelec,
+									@RequestParam(required = true) int mesSelec) {
+		//Recuperamos todas las sedes para alimentar el combo para elegirlas
+		List<Sede> sedes = sedesService.allSedes();
+		
+		//Indicamos cual es la sede elegida
+		int codSede = sedeSelec;
+
+		//Obtenemos todas las aulas de la primera sede de la BBDD
+		List<Aula> aulas = aulasService.aulasPorSede(codSede); 
+		
+		//Indicamos cual es el aula elegida
+		int codAula = aulaSelec;
+		
+		//Rellenamos la matriz con los meses
+		List<Mes> meses = rellenarMeses();
+		int codMes = mesSelec;
+		
+		//Montamos el mes requerido completo con las marcas de reservadas o no
+		int diasMes = 0;
+		if (mesSelec == 1 || mesSelec == 3 || mesSelec == 5 || mesSelec == 7 || mesSelec == 8 || mesSelec == 10 || mesSelec == 12) {
+			diasMes = 31;
+			System.out.println("31");
+		} else if (mesSelec == 4 || mesSelec == 6 || mesSelec == 9 || mesSelec == 11) {
+			diasMes = 30;
+		} else if ((anoSelec % 4 == 0) && ((anoSelec % 100 != 0) || (anoSelec % 400 == 0))) {
+			diasMes = 29;
+		} else {
+			diasMes = 28;
+		}
+		
+		//quitar
+		System.out.println("AÑO: " + anoSelec);
+		System.out.println("dividir: " + anoSelec % 2020);
+		System.out.println("DIASMES: " + diasMes);
+		//quitar
+		//Creamos la tabla del mes completo con todas sus horas y la iniciamos a no reservada (false)
+		boolean[][] reservado = new boolean[diasMes + 1][14];
+		for (int i = 1; i < diasMes + 1; i++) {
+			for (int j = 1; j < 14; j++) {
+				reservado[i][j] = false;
+			}
+		}
+
+		//Vamos a buscar las reservas que hay hechas con los datos introducidos
+		List<Reserva> reservasHechas = reservasService.reservasHechas(aulaSelec, anoSelec, mesSelec);
+		
+		//revisamos las reservas recuperadas y actualizamos como true en la tabla del mes
+		for (Reserva reserva : reservasHechas) {
+			reservado[reserva.getDia()][reserva.getHora() - 8] = true;
+		}
+			
+		//Conseguimos el nombre del mes
+		String mesNombre = nombreMes(mesSelec - 1);
+		
+		ModelAndView mav = new ModelAndView();
+		
+		mav.addObject("anyo", anoSelec);
+		mav.addObject("sedes", sedes);
+		mav.addObject("codSede", codSede);
+		mav.addObject("aulas", aulas);
+		mav.addObject("codAula", codAula);
+		mav.addObject("meses", meses);
+		mav.addObject("codMes", codMes);
+		mav.addObject("diasMes", diasMes);
+		mav.addObject("reservado", reservado);
+		mav.addObject("mesNombre", mesNombre);
+		
+		mav.setViewName("calendario");
+		return mav;
+	}
+
+	int diaSemana (int dia, int mes, int ano)
+	   {
+	    int diaSem = 0;
+	    int nD = 0;
+	    Calendar c = Calendar.getInstance();
+
+	    c.set(ano, mes - 1, dia);
+	    nD=c.get(Calendar.DAY_OF_WEEK); 
+	    System.out.println(nD);
+	    switch (nD){
+	        case 1: diaSem = 7;
+	            break;
+	        case 2: diaSem = 1;
+	            break;
+	        case 3: diaSem = 2;
+	            break;
+	        case 4: diaSem = 3;
+	            break;
+	        case 5: diaSem = 4;
+	            break;
+	        case 6: diaSem = 5;
+	            break;
+	        case 7: diaSem = 6;
+	            break;
+	    }
+
+	    return diaSem;
+	}
+	
+	String nombreMes(int month) {
+		String result = "";
+		
+		switch(month){
+		  case 0:
+		    {
+		      result="Enero";
+		      break;
+		    }
+		  case 1:
+		    {
+		      result="Febrero";
+		      break;
+		    }
+		  case 2:
+		    {
+		      result="Marzo";
+		      break;
+		    }
+		  case 3:
+		    {
+		      result="Abril";
+		      break;
+		    }
+		  case 4:
+		    {
+		      result="Mayo";
+		      break;
+		    }
+		  case 5:
+		    {
+		      result="Junio";
+		      break;
+		    }
+		  case 6:
+		    {
+		      result="Julio";
+		      break;
+		    }
+		  case 7:
+		    {
+		      result="Agosto";
+		      break;
+		    }
+		  case 8:
+		    {
+		      result="Septiembre";
+		      break;
+		    }
+		  case 9:
+		    {
+		      result="Octubre";
+		      break;
+		    }
+		  case 10:
+		    {
+		      result="Noviembre";
+		      break;
+		    }
+		  case 11:
+		    {
+		      result="Diciembre";
+		      break;
+		    }
+		  default:
+		    {
+		      result="Error";
+		      break;
+		    }
+		}
+		return result;
+	}
+
+	List<Mes> rellenarMeses() {
+		ArrayList<Mes> meses = new ArrayList<Mes>();
+		
+		meses.add(new Mes(1, "Enero"));
+		meses.add(new Mes(2, "Febrero"));
+		meses.add(new Mes(3, "Marzo"));
+		meses.add(new Mes(4, "Abril"));
+		meses.add(new Mes(5, "Mayo"));
+		meses.add(new Mes(6, "Junio"));
+		meses.add(new Mes(7, "Julio"));
+		meses.add(new Mes(8, "Agosto"));
+		meses.add(new Mes(9, "Septiembre"));
+		meses.add(new Mes(10, "Octubre"));
+		meses.add(new Mes(11, "Noviembre"));
+		meses.add(new Mes(12, "Diciembre"));
+		
+		return meses;
+	}
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2638)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2014)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3750)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1932)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1963)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3023)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2203)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2968)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2203)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2968)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2193)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2965)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2193)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2965)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2193)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2965)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2193)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2965)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2203)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2968)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3302)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1513)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1231)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:820)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:271)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:263)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:196)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:186)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$3.run(SelectionListenerWithASTManager.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 2 2021-01-17 12:44:38.747
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2638)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2014)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3750)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1932)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1963)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3023)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2203)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2968)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2203)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2968)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2193)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2965)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2193)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2965)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2193)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2965)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2193)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2965)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2203)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2968)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3302)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1513)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1231)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:820)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:271)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:263)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:196)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:186)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$3.run(SelectionListenerWithASTManager.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 0 2021-01-17 12:44:38.749
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2638)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2014)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3750)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1932)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1963)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3023)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2203)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2968)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2203)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2968)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2193)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2965)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2193)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2965)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2193)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2965)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2193)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2965)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2203)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2968)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3302)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1513)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1231)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:820)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:271)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:263)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:196)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:186)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$3.run(SelectionListenerWithASTManager.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2021-01-17 12:44:40.282
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package com.cice.aulas.controllers;
+
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.format.annotation.DateTimeFormat;
+import org.springframework.security.access.annotation.Secured;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.cice.aulas.entities.Aula;
+import com.cice.aulas.entities.Mes;
+import com.cice.aulas.entities.Reserva;
+import com.cice.aulas.entities.Sede;
+import com.cice.aulas.service.IAulasService;
+import com.cice.aulas.service.IReservasService;
+import com.cice.aulas.service.ISedesService;
+import com.cice.aulas.service.ITipordService;
+
+@Secured("ROLE_USER")
+@Controller
+public class reservasController {
+	@Autowired
+	ISedesService sedesService;
+	@Autowired
+	IAulasService aulasService;
+	@Autowired
+	IReservasService reservasService;
+	@Autowired
+	ITipordService tipordService;
+	
+	@GetMapping("/preReservaUnitaria")
+	public ModelAndView preReservaUnitaria(	@RequestParam("modo") String modo,
+											@RequestParam("mensaje") String mensaje,
+											@RequestParam("sedeSelec") int sedeSelec) {
+		//Recuperamos todas las sedes para alimentar el combo para elegirlas
+		List<Sede> sedes = sedesService.allSedes();
+
+		int codSede = 0;
+
+		if (sedeSelec < 0) {
+			codSede = sedes.get(0).getCod_sede();
+		} else {
+			codSede = sedeSelec;
+		}
+
+		//Obtenemos todas las aulas de la primera sede de la BBDD
+		List<Aula> aulas = aulasService.aulasPorSede(codSede); 
+		int codAula = aulas.get(0).getCod_aula();
+		
+		ModelAndView mav = new ModelAndView();
+
+		mav.addObject("sedes", sedes);
+		mav.addObject("codSede", codSede);
+		mav.addObject("aulas", aulas);
+		mav.addObject("codAula", codAula);
+		mav.addObject("modo", modo);
+		mav.addObject("mensaje", mensaje);
+
+
+		mav.setViewName("preReservaUnitaria");
+		return mav;
+	}
+
+	@RequestMapping(value = "/reservaUnitaria", method = RequestMethod.GET)
+	public String reservaUnitaria(
+			@RequestParam("sedeSelec") int sedeSelec,
+			@RequestParam("codAulaSelec") int codAulaSelec,
+			@RequestParam("fechaDesde") @DateTimeFormat(pattern = "yyyy-MM-dd") LocalDate fechaDesde,
+			@RequestParam("fechaHasta") @DateTimeFormat(pattern = "yyyy-MM-dd") LocalDate fechaHasta,
+			@RequestParam("horaDesde") int horaDesde,
+			@RequestParam("horaHasta") int horaHasta) {
+		//Preparamos variables de trabajo
+		String mensaje = "";
+		String fechaDesdeTexto = fechaDesde.toString();
+		String fechaHastaTexto = fechaHasta.toString();
+		if(fechaHastaTexto.contains("9999-12-31")) {
+			fechaHastaTexto = fechaDesdeTexto;
+		}
+		int anyoDesde	= Integer.parseInt(fechaDesdeTexto.substring(0, 4));
+		int mesDesde	= Integer.parseInt(fechaDesdeTexto.substring(5,7));
+		int diaDesde	= Integer.parseInt(fechaDesdeTexto.substring(8));
+		int anyoHasta	= Integer.parseInt(fechaHastaTexto.substring(0, 4));
+		int mesHasta	= Integer.parseInt(fechaHastaTexto.substring(5,7));
+		int diaHasta	= Integer.parseInt(fechaHastaTexto.substring(8));
+		
+		if (anyoHasta 	< 	anyoDesde 		||
+			(anyoHasta 	==  anyoDesde &&
+			 mesHasta 	<	mesDesde	) 	||
+			(anyoHasta 	==  anyoDesde &&
+			 mesHasta 	==	mesDesde  &&
+			 diaHasta	<	diaDesde)		||
+			 horaHasta 	<	horaDesde		) {
+			mensaje = "La fecha/hora hasta debe ser mayor o igual que la fecha/hora desde, nunca menor";
+			if(fechaDesdeTexto.contains(fechaHastaTexto)) {
+				return "redirect:/preReservaUnitaria?modo=0&mensaje=" + mensaje + "&sedeSelec=" + sedeSelec;
+			} else {
+				return "redirect:/preReservaUnitaria?modo=3&mensaje=" + mensaje + "&sedeSelec=" + sedeSelec;
+			}
+		}
+
+		//Validamos que estén libres los registros que queremos grabar
+		Boolean hayDatos = false;
+		for (int i = anyoDesde; i < anyoHasta + 1; i++) {
+			for (int j = mesDesde; j < mesHasta + 1; j++) {
+				for (int k = diaDesde; k < diaHasta + 1; k++) {
+					for (int l = horaDesde; l < horaHasta + 1; l++) {
+						List<Reserva> comprobacion = reservasService.buscarVacios(i, j, k, codAulaSelec, l);
+						if (comprobacion.size() != 0) {
+							hayDatos = true;
+							break;
+						}
+					}
+				}
+			}
+		}
+		
+		int diaIni = 0;
+		int diaFin = 0;
+		if (!hayDatos) {
+			//Creamos un bucle para grabar todas los días y horas que se hayan seleccionado
+			for (int i = anyoDesde; i < anyoHasta + 1; i++) {
+				for (int j = mesDesde; j < mesHasta + 1; j++) {
+					if (j == mesDesde && j == mesHasta) {
+						diaIni = diaDesde;
+						diaFin = diaHasta;
+					}
+					if (j != mesDesde && j == mesHasta) {
+						diaIni = 1;
+						diaFin = diaHasta;
+					}
+					if (j == mesDesde && j != mesHasta) {
+						diaIni = diaDesde;
+						diaFin = 31;
+					}
+					if (j != mesDesde && j != mesHasta) {
+						diaIni = 1;
+						diaFin = 31;
+					}
+					for (int k = diaIni; k < diaFin + 1; k++) {
+						for (int l = horaDesde; l < horaHasta + 1; l++) {
+							if (diaSemana(k, j, i) != 7) {
+								if ((j == 1 || j == 3 || j == 5 || j == 7 || j == 8 || j == 10 || j == 12) ||
+									((j == 4 || j == 6 || j == 9 || j == 11) && (k < 31)) ||	
+									(j == 2 && i % 4 == 0) && ((anoSelec % 100 != 0) || (anoSelec % 400 == 0))) && k < 30) ||
+									(j == 2 && i % 2020 != 0 && k < 29)) {
+									reservasService.grabarReserva(new Reserva(0, "", codAulaSelec, i, j, k, l));
+								}
+							}
+						}
+					}
+				}
+			}
+			mensaje = "Reserva grabada correctamente";
+			if(fechaDesdeTexto.contains(fechaHastaTexto)) {
+				return "redirect:/preReservaUnitaria?modo=1&mensaje=" + mensaje + "&sedeSelec=" + sedeSelec;
+			} else {
+				return "redirect:/preReservaUnitaria?modo=2&mensaje=" + mensaje + "&sedeSelec=" + sedeSelec;
+			}
+			
+		} else {
+			mensaje = "La reserva no es posible, AULA ya ocupada en estos horarios y fechas";
+			if(fechaDesdeTexto.contains(fechaHastaTexto)) {
+				return "redirect:/preReservaUnitaria?modo=0&mensaje=" + mensaje + "&sedeSelec=" + sedeSelec;
+			} else {
+				return "redirect:/preReservaUnitaria?modo=3&mensaje=" + mensaje + "&sedeSelec=" + sedeSelec;
+			}
+		}
+	}
+	
+	@GetMapping("/preConsulta")
+	public ModelAndView preConsulta(@RequestParam(required = true) int sedeSelec) {
+		//Obtenemos el año en el que estamos para ofrecerlo como opción y que no haya que teclearlo
+		Calendar c1 = Calendar.getInstance();
+		int anyoEnCurso = c1.get(Calendar.YEAR);
+		String anyo = Integer.toString(anyoEnCurso);
+
+		//Rellenamos la matriz con los meses
+		List<Mes> meses = rellenarMeses();
+		int codMes = 1;
+		
+		//Recuperamos todas las sedes para alimentar el combo para elegirlas
+		List<Sede> sedes = sedesService.allSedes();
+		int codSede = 0;
+
+		if (sedeSelec < 0) {
+			codSede = sedes.get(0).getCod_sede();
+		} else {
+			codSede = sedeSelec;
+		}
+
+		//Obtenemos todas las aulas de la primera sede de la BBDD
+		List<Aula> aulas = aulasService.aulasPorSede(codSede); 
+		int codAula = aulas.get(0).getCod_aula();
+		
+		ModelAndView mav = new ModelAndView();
+
+		mav.addObject("anyo", anyo);
+		mav.addObject("meses", meses);
+		mav.addObject("CodMes", codMes);
+		mav.addObject("sedes", sedes);
+		mav.addObject("codSede", codSede);
+		mav.addObject("aulas", aulas);
+		mav.addObject("codAula", codAula);
+
+		mav.setViewName("preConsulta");
+		return mav;
+	}
+	
+	@GetMapping("/calendario")
+	public ModelAndView calendario(	@RequestParam(required = true) int sedeSelec,
+									@RequestParam(required = true) int aulaSelec,
+									@RequestParam(required = true) int anoSelec,
+									@RequestParam(required = true) int mesSelec) {
+		//Recuperamos todas las sedes para alimentar el combo para elegirlas
+		List<Sede> sedes = sedesService.allSedes();
+		
+		//Indicamos cual es la sede elegida
+		int codSede = sedeSelec;
+
+		//Obtenemos todas las aulas de la primera sede de la BBDD
+		List<Aula> aulas = aulasService.aulasPorSede(codSede); 
+		
+		//Indicamos cual es el aula elegida
+		int codAula = aulaSelec;
+		
+		//Rellenamos la matriz con los meses
+		List<Mes> meses = rellenarMeses();
+		int codMes = mesSelec;
+		
+		//Montamos el mes requerido completo con las marcas de reservadas o no
+		int diasMes = 0;
+		if (mesSelec == 1 || mesSelec == 3 || mesSelec == 5 || mesSelec == 7 || mesSelec == 8 || mesSelec == 10 || mesSelec == 12) {
+			diasMes = 31;
+			System.out.println("31");
+		} else if (mesSelec == 4 || mesSelec == 6 || mesSelec == 9 || mesSelec == 11) {
+			diasMes = 30;
+		} else if ((anoSelec % 4 == 0) && ((anoSelec % 100 != 0) || (anoSelec % 400 == 0))) {
+			diasMes = 29;
+		} else {
+			diasMes = 28;
+		}
+		
+		//quitar
+		System.out.println("AÑO: " + anoSelec);
+		System.out.println("dividir: " + anoSelec % 2020);
+		System.out.println("DIASMES: " + diasMes);
+		//quitar
+		//Creamos la tabla del mes completo con todas sus horas y la iniciamos a no reservada (false)
+		boolean[][] reservado = new boolean[diasMes + 1][14];
+		for (int i = 1; i < diasMes + 1; i++) {
+			for (int j = 1; j < 14; j++) {
+				reservado[i][j] = false;
+			}
+		}
+
+		//Vamos a buscar las reservas que hay hechas con los datos introducidos
+		List<Reserva> reservasHechas = reservasService.reservasHechas(aulaSelec, anoSelec, mesSelec);
+		
+		//revisamos las reservas recuperadas y actualizamos como true en la tabla del mes
+		for (Reserva reserva : reservasHechas) {
+			reservado[reserva.getDia()][reserva.getHora() - 8] = true;
+		}
+			
+		//Conseguimos el nombre del mes
+		String mesNombre = nombreMes(mesSelec - 1);
+		
+		ModelAndView mav = new ModelAndView();
+		
+		mav.addObject("anyo", anoSelec);
+		mav.addObject("sedes", sedes);
+		mav.addObject("codSede", codSede);
+		mav.addObject("aulas", aulas);
+		mav.addObject("codAula", codAula);
+		mav.addObject("meses", meses);
+		mav.addObject("codMes", codMes);
+		mav.addObject("diasMes", diasMes);
+		mav.addObject("reservado", reservado);
+		mav.addObject("mesNombre", mesNombre);
+		
+		mav.setViewName("calendario");
+		return mav;
+	}
+
+	int diaSemana (int dia, int mes, int ano)
+	   {
+	    int diaSem = 0;
+	    int nD = 0;
+	    Calendar c = Calendar.getInstance();
+
+	    c.set(ano, mes - 1, dia);
+	    nD=c.get(Calendar.DAY_OF_WEEK); 
+	    System.out.println(nD);
+	    switch (nD){
+	        case 1: diaSem = 7;
+	            break;
+	        case 2: diaSem = 1;
+	            break;
+	        case 3: diaSem = 2;
+	            break;
+	        case 4: diaSem = 3;
+	            break;
+	        case 5: diaSem = 4;
+	            break;
+	        case 6: diaSem = 5;
+	            break;
+	        case 7: diaSem = 6;
+	            break;
+	    }
+
+	    return diaSem;
+	}
+	
+	String nombreMes(int month) {
+		String result = "";
+		
+		switch(month){
+		  case 0:
+		    {
+		      result="Enero";
+		      break;
+		    }
+		  case 1:
+		    {
+		      result="Febrero";
+		      break;
+		    }
+		  case 2:
+		    {
+		      result="Marzo";
+		      break;
+		    }
+		  case 3:
+		    {
+		      result="Abril";
+		      break;
+		    }
+		  case 4:
+		    {
+		      result="Mayo";
+		      break;
+		    }
+		  case 5:
+		    {
+		      result="Junio";
+		      break;
+		    }
+		  case 6:
+		    {
+		      result="Julio";
+		      break;
+		    }
+		  case 7:
+		    {
+		      result="Agosto";
+		      break;
+		    }
+		  case 8:
+		    {
+		      result="Septiembre";
+		      break;
+		    }
+		  case 9:
+		    {
+		      result="Octubre";
+		      break;
+		    }
+		  case 10:
+		    {
+		      result="Noviembre";
+		      break;
+		    }
+		  case 11:
+		    {
+		      result="Diciembre";
+		      break;
+		    }
+		  default:
+		    {
+		      result="Error";
+		      break;
+		    }
+		}
+		return result;
+	}
+
+	List<Mes> rellenarMeses() {
+		ArrayList<Mes> meses = new ArrayList<Mes>();
+		
+		meses.add(new Mes(1, "Enero"));
+		meses.add(new Mes(2, "Febrero"));
+		meses.add(new Mes(3, "Marzo"));
+		meses.add(new Mes(4, "Abril"));
+		meses.add(new Mes(5, "Mayo"));
+		meses.add(new Mes(6, "Junio"));
+		meses.add(new Mes(7, "Julio"));
+		meses.add(new Mes(8, "Agosto"));
+		meses.add(new Mes(9, "Septiembre"));
+		meses.add(new Mes(10, "Octubre"));
+		meses.add(new Mes(11, "Noviembre"));
+		meses.add(new Mes(12, "Diciembre"));
+		
+		return meses;
+	}
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2638)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2014)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3750)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1932)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1963)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3023)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2203)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2968)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2203)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2968)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2193)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2965)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2193)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2965)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2193)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2965)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2193)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2965)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2203)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2968)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3302)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1513)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1231)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:820)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:271)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:263)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:196)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$3.run(SelectionListenerWithASTManager.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 2 2021-01-17 12:44:40.286
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2638)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2014)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3750)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1932)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1963)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3023)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2203)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2968)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2203)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2968)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2193)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2965)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2193)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2965)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2193)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2965)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2193)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2965)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2203)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2968)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3302)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1513)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1231)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:820)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:271)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:263)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:196)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$3.run(SelectionListenerWithASTManager.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 0 2021-01-17 12:44:40.289
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2638)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2014)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3750)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1932)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1963)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3023)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2203)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2968)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2203)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2968)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2193)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2965)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2193)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2965)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2193)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2965)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2193)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2965)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1372)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2944)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2203)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2968)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3302)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1513)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1231)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:820)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:271)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:263)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:196)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$3.run(SelectionListenerWithASTManager.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 12:54:35.493
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.lEUDEDxe
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 12:54:35.495
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.lEUDEDxe
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 12:54:35.497
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 12:54:35.499
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.lEUDEDxe => OK
+!SESSION 2021-01-17 13:21:26.767 -----------------------------------------------
+eclipse.buildId=4.16.0.I20200604-0540
+java.version=1.8.0_271
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2021-01-17 13:21:32.727
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-01-17 13:21:32.727
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2e096ac0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@d7c00de,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:21:38.984
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:21:38.986
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@7497471b[org.springframework.tooling.boot.ls:1.21.0.202009020949(id=1026)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:21:38.989
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:21:39.013
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-01-17 13:21:40.793
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Usuario'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:21:41.103
+!MESSAGE Boot LS startup time from start to initialized: 2104ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:21:41.326
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.StybNGRqisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:21:41.328
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:21:41.330
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:21:41.332
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:21:41.335
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:21:41.337
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:21:41.339
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:21:41.340
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.StybNGRq => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:21:41.371
+!MESSAGE classpath=118 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:21:41.377
+!MESSAGE buffering callback sts4.classpath.StybNGRq aulas false 118
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:21:41.379
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:21:41.395
+!MESSAGE classpath=114 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:21:41.399
+!MESSAGE buffering callback sts4.classpath.StybNGRq laliga false 114
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:21:41.401
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:21:41.408
+!MESSAGE classpath=114 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:21:41.411
+!MESSAGE buffering callback sts4.classpath.StybNGRq ruiz false 114
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:21:41.413
+!MESSAGE executing callback sts4.classpath.StybNGRq 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:21:41.456
+!MESSAGE executing callback sts4.classpath.StybNGRq SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:23:49.726
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.StybNGRq
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:23:49.730
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.StybNGRq
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:23:49.732
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:23:49.735
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.StybNGRq => OK
+
+!ENTRY org.eclipse.ui 2 2 2021-01-17 13:23:50.224
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2021-01-17 13:24:50.790 -----------------------------------------------
+eclipse.buildId=4.16.0.I20200604-0540
+java.version=1.8.0_271
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2021-01-17 13:24:57.134
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-01-17 13:24:57.134
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1c15a6aa,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7dc963be,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:25:03.457
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:25:03.459
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@5a10b7e8[org.springframework.tooling.boot.ls:1.21.0.202009020949(id=1026)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:25:03.462
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:25:03.487
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-01-17 13:25:05.213
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Usuario'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:25:05.605
+!MESSAGE Boot LS startup time from start to initialized: 2132ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:25:05.841
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.NeFLgDiDisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:25:05.844
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:25:05.846
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:25:05.849
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:25:05.852
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:25:05.854
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:25:05.857
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:25:05.859
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.NeFLgDiD => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:25:05.883
+!MESSAGE classpath=118 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:25:05.887
+!MESSAGE buffering callback sts4.classpath.NeFLgDiD aulas false 118
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:25:05.889
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:25:05.909
+!MESSAGE classpath=114 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:25:05.928
+!MESSAGE buffering callback sts4.classpath.NeFLgDiD laliga false 114
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:25:05.930
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:25:05.940
+!MESSAGE classpath=114 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:25:05.944
+!MESSAGE buffering callback sts4.classpath.NeFLgDiD ruiz false 114
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:25:05.946
+!MESSAGE executing callback sts4.classpath.NeFLgDiD 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:25:05.996
+!MESSAGE executing callback sts4.classpath.NeFLgDiD SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2021-01-17 13:25:21.431
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-17 13:53:45.169
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-17 13:53:45.171
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-01-17 13:53:45.177
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:57:33.013
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.NeFLgDiD
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:57:33.015
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.NeFLgDiD
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:57:33.017
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 13:57:33.019
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.NeFLgDiD => OK

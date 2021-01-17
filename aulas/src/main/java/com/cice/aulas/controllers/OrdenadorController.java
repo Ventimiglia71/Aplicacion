@@ -81,7 +81,6 @@ public class OrdenadorController {
 			@RequestParam("ram") String ram) {
 
 		Ordenador o = new Ordenador(cod_ordenador, cod_tipord, tamano_pant, cpu, ram);
-		System.out.println("Hola");
 		ordenadorservice.createOrdenador(o);
 		return "redirect:/admin/findAllOrdenador";
 	}

@@ -46,4 +46,9 @@ public class Role implements Serializable {
 	
 	private static final long serialVersionUID = 1L;
 
+	@Override
+	public String toString() {
+		return "Role [id=" + id + ", authority=" + authority + ", user_id=" + user_id + "]";
+	}
+
 }

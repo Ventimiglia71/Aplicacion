@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="admin/altaAulaConfirm"/>
+		<item key="selection" value=""/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="System"/>
+			<item value="quitar"/>
+			<item value="%"/>
+			<item value="new"/>
+			<item value="preConsulta"/>
 			<item value="admin/altaAulaConfirm"/>
 			<item value="preModificar"/>
 			<item value="findAllOrdenador"/>
@@ -18,19 +23,14 @@
 			<item value="forE"/>
 			<item value="for"/>
 			<item value="numCal"/>
-			<item value="partir10"/>
-			<item value="select"/>
-			<item value="tipo_ordenador"/>
-			<item value="Tipo"/>
-			<item value="tipo_or"/>
 		</list>
 		<list key="replacehistory">
 			<item value="cod_tipord"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="1027"/>
-		<item key="DIALOG_Y_ORIGIN" value="104"/>
+		<item key="DIALOG_X_ORIGIN" value="1041"/>
+		<item key="DIALOG_Y_ORIGIN" value="204"/>
 		<item key="DIALOG_WIDTH" value="284"/>
 		<item key="DIALOG_HEIGHT" value="391"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>

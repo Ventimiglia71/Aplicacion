@@ -19,7 +19,8 @@
 <fullyQualifiedTypeName name="com.cice.aulas.repositories.IReservasRepository"/>
 <fullyQualifiedTypeName name="org.hibernate.annotations.Parameter"/>
 <fullyQualifiedTypeName name="java.util.Calendar"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.cice.aulas.service.ITipordService"/>
 <fullyQualifiedTypeName name="com.cice.aulas.entities.TipOrd"/>
+<fullyQualifiedTypeName name="com.cice.aulas.entities.Mes"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

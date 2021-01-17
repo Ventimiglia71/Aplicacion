@@ -54,12 +54,12 @@
                 role="button" data-toggle="dropdown" aria-haspopup="true"
                 aria-expanded="false"> Reservas </a>
                 <div class="dropdown-menu darkBG" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="/aulas/preReservaUnitaria?modo=1&mensaje=Introduzca los datos">Unitarias</a>
-                    <a class="dropdown-item" href="/aulas/preReservaUnitaria?modo=2&mensaje=Introduzca los datos">Por Rango de Fechas</a>
+                    <a class="dropdown-item" href="/aulas/preReservaUnitaria?modo=1&mensaje=Introduzca los datos&sedeSelec=-1">Unitarias</a>
+                    <a class="dropdown-item" href="/aulas/preReservaUnitaria?modo=2&mensaje=Introduzca los datos&sedeSelec=-1">Por Rango de Fechas</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
-            	<a class="top nav-link" href="/aulas/preConsulta">Consultar</a>
+            	<a class="top nav-link" href="/aulas/preConsulta?sedeSelec=-1">Consultar</a>
             </li>
             <li class="nav-item"><form action="/aulas/admin" method="GET" >
        			 <button class="btpurp btn-purpura ml-3 my-2 my-sm-0" type="submit">Inicio</button>

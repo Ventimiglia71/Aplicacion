@@ -27,11 +27,8 @@
     <form action="/aulas/calendario">
 	    <div class="colorContraCabecera partir15 centrado largo2000">
 		    <div class="colorContraCabecera partir25 fl izqda">
-			    <span class="claspan partirNo ml-1 pt-2_1">Usuario:</span>
 		        <span class="claspan partirNo ml-1 pt-3_3">Sede:</span>
-		        <span class="claspan partirNo ml-1 pt-3">Tipos:</span>
-		        <span class="claspan partirNo ml-1 pt-3">Puestos:</span>
-		        <span class="claspan partirNo ml-1 pt-3">Aulas:</span>
+		        <span class="claspan partirNo ml-1 pt-3">Aula:</span>
 		        <span class="claspan partirNo ml-1 pt-3">Año:</span>
 		        <span class="claspan partirNo ml-1 pt-3">Mes:</span>
 	    	</div>

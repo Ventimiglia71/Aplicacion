@@ -1,6 +1,7 @@
 package com.cice.aulas.controllers;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
@@ -15,9 +16,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.cice.aulas.entities.Aula;
+import com.cice.aulas.entities.Mes;
 import com.cice.aulas.entities.Reserva;
 import com.cice.aulas.entities.Sede;
-import com.cice.aulas.entities.TipOrd;
 import com.cice.aulas.service.IAulasService;
 import com.cice.aulas.service.IReservasService;
 import com.cice.aulas.service.ISedesService;
@@ -37,17 +38,34 @@ public class reservasController {
 	
 	@GetMapping("/preReservaUnitaria")
 	public ModelAndView preReservaUnitaria(	@RequestParam("modo") String modo,
-											@RequestParam("mensaje") String mensaje) {
-		//usuario
-		String usuario = "albertorpon@gmail.com";
+											@RequestParam("mensaje") String mensaje,
+											@RequestParam("sedeSelec") int sedeSelec) {
+		//Recuperamos todas las sedes para alimentar el combo para elegirlas
+		List<Sede> sedes = sedesService.allSedes();
 		
+		int codSede = 0;
+		if (sedeSelec < 0) {
+			codSede = sedes.get(0).getCod_sede();
+		} else {
+			codSede = sedeSelec;
+		}
+
 		//Obtenemos todas las aulas de la primera sede de la BBDD
-		List<Aula> allAulas = aulasService.AllAulas(); 
+		List<Aula> aulas = aulasService.aulasPorSede(codSede); 
+		int codAula = 0;
+		if (aulas.size() > 0) {
+			//Indicamos cual es el aula elegida
+			codAula = aulas.get(0).getCod_aula();
+		} else {
+			aulas.add(new Aula(0, "NO HAY AULAS DISPONIBLES, Error si continúa, seleccione otra sede", 0, 0, 0, 0, 0));
+		}
 		
 		ModelAndView mav = new ModelAndView();
 
-		mav.addObject("usuario", usuario);
-		mav.addObject("allAulas", allAulas);
+		mav.addObject("sedes", sedes);
+		mav.addObject("codSede", codSede);
+		mav.addObject("aulas", aulas);
+		mav.addObject("codAula", codAula);
 		mav.addObject("modo", modo);
 		mav.addObject("mensaje", mensaje);
 
@@ -58,7 +76,7 @@ public class reservasController {
 
 	@RequestMapping(value = "/reservaUnitaria", method = RequestMethod.GET)
 	public String reservaUnitaria(
-			@RequestParam("usuario") String usuario,
+			@RequestParam("sedeSelec") int sedeSelec,
 			@RequestParam("codAulaSelec") int codAulaSelec,
 			@RequestParam("fechaDesde") @DateTimeFormat(pattern = "yyyy-MM-dd") LocalDate fechaDesde,
 			@RequestParam("fechaHasta") @DateTimeFormat(pattern = "yyyy-MM-dd") LocalDate fechaHasta,
@@ -87,9 +105,9 @@ public class reservasController {
 			 horaHasta 	<	horaDesde		) {
 			mensaje = "La fecha/hora hasta debe ser mayor o igual que la fecha/hora desde, nunca menor";
 			if(fechaDesdeTexto.contains(fechaHastaTexto)) {
-				return "redirect:/preReservaUnitaria?modo=0&mensaje=" + mensaje;
+				return "redirect:/preReservaUnitaria?modo=0&mensaje=" + mensaje + "&sedeSelec=" + sedeSelec;
 			} else {
-				return "redirect:/preReservaUnitaria?modo=3&mensaje=" + mensaje;
+				return "redirect:/preReservaUnitaria?modo=3&mensaje=" + mensaje + "&sedeSelec=" + sedeSelec;
 			}
 		}
 
@@ -109,15 +127,37 @@ public class reservasController {
 			}
 		}
 		
+		int diaIni = 0;
+		int diaFin = 0;
 		if (!hayDatos) {
-			System.out.println("NO HAY");
 			//Creamos un bucle para grabar todas los días y horas que se hayan seleccionado
 			for (int i = anyoDesde; i < anyoHasta + 1; i++) {
 				for (int j = mesDesde; j < mesHasta + 1; j++) {
-					for (int k = diaDesde; k < diaHasta + 1; k++) {
+					if (j == mesDesde && j == mesHasta) {
+						diaIni = diaDesde;
+						diaFin = diaHasta;
+					}
+					if (j != mesDesde && j == mesHasta) {
+						diaIni = 1;
+						diaFin = diaHasta;
+					}
+					if (j == mesDesde && j != mesHasta) {
+						diaIni = diaDesde;
+						diaFin = 31;
+					}
+					if (j != mesDesde && j != mesHasta) {
+						diaIni = 1;
+						diaFin = 31;
+					}
+					for (int k = diaIni; k < diaFin + 1; k++) {
 						for (int l = horaDesde; l < horaHasta + 1; l++) {
 							if (diaSemana(k, j, i) != 7) {
-								reservasService.grabarReserva(new Reserva(0, usuario, codAulaSelec, i, j, k, l));
+								if ((j == 1 || j == 3 || j == 5 || j == 7 || j == 8 || j == 10 || j == 12) ||
+									((j == 4 || j == 6 || j == 9 || j == 11) && (k < 31)) ||	
+									(j == 2 && bisiesto(i) && k < 30) ||
+									(j == 2 && !bisiesto(i) && k < 29)) {
+									reservasService.grabarReserva(new Reserva(0, "", codAulaSelec, i, j, k, l));
+								}
 							}
 						}
 					}
@@ -125,123 +165,104 @@ public class reservasController {
 			}
 			mensaje = "Reserva grabada correctamente";
 			if(fechaDesdeTexto.contains(fechaHastaTexto)) {
-				return "redirect:/preReservaUnitaria?modo=1&mensaje=" + mensaje;
+				return "redirect:/preReservaUnitaria?modo=1&mensaje=" + mensaje + "&sedeSelec=" + sedeSelec;
 			} else {
-				return "redirect:/preReservaUnitaria?modo=2&mensaje=" + mensaje;
+				return "redirect:/preReservaUnitaria?modo=2&mensaje=" + mensaje + "&sedeSelec=" + sedeSelec;
 			}
 			
 		} else {
 			mensaje = "La reserva no es posible, AULA ya ocupada en estos horarios y fechas";
 			if(fechaDesdeTexto.contains(fechaHastaTexto)) {
-				return "redirect:/preReservaUnitaria?modo=0&mensaje=" + mensaje;
+				return "redirect:/preReservaUnitaria?modo=0&mensaje=" + mensaje + "&sedeSelec=" + sedeSelec;
 			} else {
-				return "redirect:/preReservaUnitaria?modo=3&mensaje=" + mensaje;
+				return "redirect:/preReservaUnitaria?modo=3&mensaje=" + mensaje + "&sedeSelec=" + sedeSelec;
 			}
 		}
 	}
 	
 	@GetMapping("/preConsulta")
-	public ModelAndView preConsulta() {
+	public ModelAndView preConsulta(@RequestParam(required = true) int sedeSelec) {
 		//Obtenemos el año en el que estamos para ofrecerlo como opción y que no haya que teclearlo
 		Calendar c1 = Calendar.getInstance();
 		int anyoEnCurso = c1.get(Calendar.YEAR);
 		String anyo = Integer.toString(anyoEnCurso);
 
-		//Obtenemos todas las sedes para ponerlas en el desplegable para elegir una
-		String usuario = "albertorpon@gmail.com";
-
+		//Rellenamos la matriz con los meses
+		List<Mes> meses = rellenarMeses();
+		int codMes = 1;
+		
 		//Recuperamos todas las sedes para alimentar el combo para elegirlas
 		List<Sede> sedes = sedesService.allSedes();
-		int codSede = sedes.get(0).getCod_sede();
-		
-		//Recuperamos todos los tipos de ordenadores que hay para alimentar el combo para elegirlos
-		List<TipOrd> tipos = tipordService.allTiposOrdenador();
-		int codTipo = tipos.get(0).getCod_tipord();
+		int codSede = 0;
+
+		if (sedeSelec < 0) {
+			codSede = sedes.get(0).getCod_sede();
+		} else {
+			codSede = sedeSelec;
+		}
+
+		//Obtenemos todas las aulas de la sede seleccionada
+		List<Aula> aulas = aulasService.aulasPorSede(codSede); 
+		int codAula = 0;
+		if (aulas.size() > 0) {
+			//Indicamos cual es el aula elegida
+			codAula = aulas.get(0).getCod_aula();
+		} else {
+			aulas.add(new Aula(0, "NO HAY AULAS DISPONIBLES, Error si continúa, seleccione otra sede", 0, 0, 0, 0, 0));
+		}
 		
 		ModelAndView mav = new ModelAndView();
 
-		mav.addObject("usuario", usuario);
 		mav.addObject("anyo", anyo);
+		mav.addObject("meses", meses);
+		mav.addObject("CodMes", codMes);
 		mav.addObject("sedes", sedes);
 		mav.addObject("codSede", codSede);
-		mav.addObject("tipos", tipos);
-		mav.addObject("codTipo", codTipo);
+		mav.addObject("aulas", aulas);
+		mav.addObject("codAula", codAula);
 
 		mav.setViewName("preConsulta");
 		return mav;
 	}
 	
-	@GetMapping("/reserva")
-	public ModelAndView reserva(@RequestParam(required = true) String usuario,
-								@RequestParam(required = true) int sedeSelec,
-								@RequestParam(required = true) int tipoElegido,
-								@RequestParam(required = true) int numPuestos) {
-		//Recuperamos todas las sedes para alimentar el combo para elegirlas
-		List<Sede> sedes = sedesService.allSedes();
-		
-		//Indicamos cual es la sede elegida
-		int codSede = sedeSelec;
-
-		//Recuperamos todos los tipos de ordenadores que hay para alimentar el combo para elegirlos
-		List<TipOrd> tipos = tipordService.allTiposOrdenador();
-		int codTipo = tipoElegido;
-		
-		//Obtenemos todas las aulas de la primera sede de la BBDD
-		List<Aula> seleccionAulas = aulasService.seleccionAulas(sedeSelec, tipoElegido, numPuestos); 
-		// Si ningún aula cumple los requisitos devolvemos ese mensaje
-		if(seleccionAulas.size() == 0) {
-			Aula noHayAula = new Aula(0, "No hay Aula Disp.", 0, 0, 0, 0, 0);
-			seleccionAulas.add(noHayAula);
-		}
-
-		ModelAndView mav = new ModelAndView();
-		
-		mav.addObject("usuario", usuario);
-		mav.addObject("sedes", sedes);
-		mav.addObject("codSede", codSede);
-		mav.addObject("tipos", tipos);
-		mav.addObject("codTipo", codTipo);
-		mav.addObject("numPuestos", numPuestos);
-		mav.addObject("seleccionAulas", seleccionAulas);
-		
-		mav.setViewName("reserva");
-		return mav;
-	}
-
 	@GetMapping("/calendario")
-	public ModelAndView calendario(	@RequestParam(required = true) String usuario,
-									@RequestParam(required = true) int sedeSelec,
-									@RequestParam(required = true) int tipoElegido,
-									@RequestParam(required = true) int numPuestos,
+	public ModelAndView calendario(	@RequestParam(required = true) int sedeSelec,
 									@RequestParam(required = true) int aulaSelec,
 									@RequestParam(required = true) int anoSelec,
 									@RequestParam(required = true) int mesSelec) {
 		//Recuperamos todas las sedes para alimentar el combo para elegirlas
 		List<Sede> sedes = sedesService.allSedes();
+		int codSede = 0;
+		if (sedes.size() > 0) {
+			//Indicamos cual es la sede elegida
+			codSede = sedeSelec;
+		} else {
+			sedes.add(new Sede(0, "NO HAY SEDES DISPONIBLES", "", "", 0));
+		}
 		
-		//Indicamos cual es la sede elegida
-		int codSede = sedeSelec;
-
-		//Recuperamos todos los tipos de ordenadores que hay para alimentar el combo para elegirlos
-		List<TipOrd> tipos = tipordService.allTiposOrdenador();
-
-		//Indicamos cual es el tipo de ordenador elegido
-		int codTipo = tipoElegido;
 		
+
 		//Obtenemos todas las aulas de la primera sede de la BBDD
-		List<Aula> seleccionAulas = aulasService.seleccionAulas(sedeSelec, tipoElegido, numPuestos); 
+		List<Aula> aulas = aulasService.aulasPorSede(codSede); 
+		int codAula = 0;
+		if (aulas.size() > 0) {
+			//Indicamos cual es el aula elegida
+			codAula = aulaSelec;
+		} else {
+			aulas.add(new Aula(0, "NO HAY AULAS DISPONIBLES", 0, 0, 0, 0, 0));
+		}
 		
-		//Indicamos cual es el aula elegida
-		int codAula = aulaSelec;
+		//Rellenamos la matriz con los meses
+		List<Mes> meses = rellenarMeses();
+		int codMes = mesSelec;
 		
 		//Montamos el mes requerido completo con las marcas de reservadas o no
 		int diasMes = 0;
 		if (mesSelec == 1 || mesSelec == 3 || mesSelec == 5 || mesSelec == 7 || mesSelec == 8 || mesSelec == 10 || mesSelec == 12) {
 			diasMes = 31;
-			System.out.println("31");
 		} else if (mesSelec == 4 || mesSelec == 6 || mesSelec == 9 || mesSelec == 11) {
 			diasMes = 30;
-		} else if (anoSelec % 2020 == 0) {
+		} else if (bisiesto(anoSelec)) {
 			diasMes = 29;
 		} else {
 			diasMes = 28;
@@ -268,15 +289,13 @@ public class reservasController {
 		
 		ModelAndView mav = new ModelAndView();
 		
-		mav.addObject("usuario", usuario);
+		mav.addObject("anyo", anoSelec);
 		mav.addObject("sedes", sedes);
 		mav.addObject("codSede", codSede);
-		mav.addObject("tipos", tipos);
-		mav.addObject("codTipo", codTipo);
-		mav.addObject("numPuestos", numPuestos);
-		mav.addObject("anoSelec", anoSelec);
-		mav.addObject("seleccionAulas", seleccionAulas);
+		mav.addObject("aulas", aulas);
 		mav.addObject("codAula", codAula);
+		mav.addObject("meses", meses);
+		mav.addObject("codMes", codMes);
 		mav.addObject("diasMes", diasMes);
 		mav.addObject("reservado", reservado);
 		mav.addObject("mesNombre", mesNombre);
@@ -291,23 +310,22 @@ public class reservasController {
 	    int nD = 0;
 	    Calendar c = Calendar.getInstance();
 
-	    c.set(ano, mes, dia);
-	    nD=c.get(Calendar.DAY_OF_WEEK) - 4; 
-	    System.out.println(nD);
+	    c.set(ano, mes - 1, dia);
+	    nD=c.get(Calendar.DAY_OF_WEEK); 
 	    switch (nD){
-	        case 1: diaSem = 1;
+	        case 1: diaSem = 7;
 	            break;
-	        case 2: diaSem = 2;
+	        case 2: diaSem = 1;
 	            break;
-	        case 3: diaSem = 3;
+	        case 3: diaSem = 2;
 	            break;
-	        case -3: diaSem = 4;
+	        case 4: diaSem = 3;
 	            break;
-	        case -2: diaSem = 5;
+	        case 5: diaSem = 4;
 	            break;
-	        case -1: diaSem = 6;
+	        case 6: diaSem = 5;
 	            break;
-	        case 0: diaSem = 7;
+	        case 7: diaSem = 6;
 	            break;
 	    }
 
@@ -385,5 +403,31 @@ public class reservasController {
 		    }
 		}
 		return result;
+	}
+
+	List<Mes> rellenarMeses() {
+		ArrayList<Mes> meses = new ArrayList<Mes>();
+		
+		meses.add(new Mes(1, "Enero"));
+		meses.add(new Mes(2, "Febrero"));
+		meses.add(new Mes(3, "Marzo"));
+		meses.add(new Mes(4, "Abril"));
+		meses.add(new Mes(5, "Mayo"));
+		meses.add(new Mes(6, "Junio"));
+		meses.add(new Mes(7, "Julio"));
+		meses.add(new Mes(8, "Agosto"));
+		meses.add(new Mes(9, "Septiembre"));
+		meses.add(new Mes(10, "Octubre"));
+		meses.add(new Mes(11, "Noviembre"));
+		meses.add(new Mes(12, "Diciembre"));
+		
+		return meses;
+	}
+	
+	boolean bisiesto(int anio) {
+		if ((anio % 4 == 0) && ((anio % 100 != 0) || (anio % 400 == 0)))
+			return true;
+		else
+			return false;
 	}
 }

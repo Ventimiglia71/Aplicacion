@@ -7,14 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mantenimiento</title>
     <script type="text/javascript">
-	    function refresAnyo(codSede) {
-			var anyo = document.getElementById("anoSelec").value;
-	    	window.location.href = "/aulas/cambiaSede?anyo=" + anyo + "&codSede=" + codSede;
-	    }
-	    
-	    function selecAulas(anyo) {
-			var codSede = document.getElementById("sedeElegida").value;
-	    	window.location.href = "/aulas/cambiaSede?anyo=" + anyo + "&codSede=" + codSede;
+	    function cambioSede() {
+			var codSede = document.getElementById("sedeSelec").value;
+	    	window.location.href = "/aulas/preConsulta?sedeSelec=" + codSede;
 	    }
 	</script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -30,17 +25,16 @@
 	    </a>
 		<c:import url="navbar.jsp"/>
 	</nav>
-    <form action="/aulas/reserva">
+    <form action="/aulas/calendario">
 	    <div class="colorContraCabecera partir15 centrado">
 		    <div class="colorContraCabecera partir25 fl izqda">
-			    <span class="claspan partirNo ml-1 pt-2_1">Usuario:</span>
-		        <span class="claspan partirNo ml-1 pt-3_3">Sede:</span>
-		        <span class="claspan partirNo ml-1 pt-3">Tipos:</span>
-		        <span class="claspan partirNo ml-1 pt-3">Puestos:</span>
+			    <span class="claspan partirNo ml-1 pt-2_1">Sede:</span>
+		        <span class="claspan partirNo ml-1 pt-3_3">Aula:</span>
+		        <span class="claspan partirNo ml-1 pt-3">Año:</span>
+		        <span class="claspan partirNo ml-1 pt-3">Mes:</span>
 	    	</div>
 		    <div class="colorContraCabecera partir75 fl izqda">
-		        <input class="leerUsuario mt-1" name="usuario" value="${usuario}" readonly="readonly">
-	            <select class="listas mt-1" name="sedeSelec">
+	            <select class="listas mt-1" id="sedeSelec" name="sedeSelec" onchange="cambioSede()">
 	            	<c:forEach items="${sedes}" var="sede">
 						<c:choose>
 			                <c:when test="${sede.cod_sede eq codSede}">
@@ -52,23 +46,42 @@
 						</c:choose>
 					</c:forEach>
 	            </select>
-	            <select class="listas mt-1" name="tipoElegido">
-	            	<c:forEach items="${tipos}" var="tipo">
+	            <select class="listas mt-1" name="aulaSelec">
+	            	<c:forEach items="${aulas}" var="aula">
 						<c:choose>
-			                <c:when test="${tipo.cod_tipord eq codTipo}">
-		                		<option value="${tipo.cod_tipord}" selected>${tipo.tipo}</option>
+			                <c:when test="${aula.cod_aula eq codAula}">
+		                		<option value="${aula.cod_aula}" selected>${aula.nombre_aula}</option>
 		                	</c:when>
 			                <c:otherwise>
-		                		<option value="${tipo.cod_tipord}">${tipo.tipo}</option>
+		                		<option value="${aula.cod_aula}">${aula.nombre_aula}</option>
 		                	</c:otherwise>
 						</c:choose>
 					</c:forEach>
 	            </select>
-	            <input 	class="leerAnyo mt-1" type="text" name="numPuestos" placeholder="Num. Puestos" size=2 required>
+				<c:choose>
+	                <c:when test="${empty anyo}">
+			            <input 	class="leerAnyo mt-1" type="text" name="anoSelec" id="anoSelec" placeholder="Año" size=4 required>
+	               	</c:when>
+	                <c:otherwise>
+			            <input 	class="leerAnyo mt-1" type="text" name="anoSelec" id="anoSelec" value="${anyo}" size=4 required>
+		          	</c:otherwise>
+				</c:choose>
+				<select class="listas mt-1" name="mesSelec">
+	            	<c:forEach items="${meses}" var="mes">
+						<c:choose>
+			                <c:when test="${mes.codMes eq codMes}">
+		                		<option value="${mes.codMes}" selected>${mes.nombreMes}</option>
+		                	</c:when>
+			                <c:otherwise>
+		                		<option value="${mes.codMes}">${mes.nombreMes}</option>
+		                	</c:otherwise>
+						</c:choose>
+					</c:forEach>
+	            </select>
 	    	</div>
 	    	<div class="partirNo espacio"><p></p></div>
 		    <div class="colorContraCabecera paddingSup paddingInf">
-		            <button class="botonCons" type="submit">Ver Aulas</button>    
+		            <button class="botonCons" type="submit">Ver Calendario</button>    
 		    </div>
 		</div>
     </form>
